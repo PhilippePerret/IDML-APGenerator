@@ -1,0 +1,16 @@
+{
+  "name": "idml-apgenerator",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "build": "bun run main.ts",
+    "help": "bun run main.ts help"
+  }
+}
