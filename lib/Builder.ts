@@ -1,12 +1,12 @@
 import path from "path";
+import fs from "fs";
+
 import type { 
   MasterSpreadType, 
   SpreadType,
   StoryType,
   BookDataType 
 } from "./types/types";
-
-import fs from "fs";
 
 export class Builder {
 

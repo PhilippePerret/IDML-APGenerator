@@ -1,16 +1,19 @@
 {
   "name": "idml-apgenerator",
   "module": "index.ts",
-  "type": "module",
-  "private": true,
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
+  "private": true,
   "scripts": {
     "build": "bun run main.ts",
     "help": "bun run main.ts help"
+  },
+  "type": "module",
+  "dependencies": {
+    "fast-xml-parser": "^5.2.5"
   }
 }
