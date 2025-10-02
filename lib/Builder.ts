@@ -5,8 +5,11 @@ import type {
   MasterSpreadType, 
   SpreadType,
   StoryType,
-  BookDataType 
+  BookDataType, 
+  XMLRootType,
+  XMLObjet
 } from "./types/types";
+import { BuilderXML } from "./BuilderXML";
 
 export class Builder {
 
@@ -17,6 +20,7 @@ export class Builder {
   build(bookData: BookDataType){
     console.log("Je dois apprendre à construire l'archive IDML à partir de ", bookData)
     // On construit tous les fichiers/dossiers dans l'ordre
+    this.build_mainFolder(bookData);
     this.build_mimetype(bookData);
     this.build_meta_inf_folder(bookData);
     this.build_master_spread_folder(bookData); // maquettes maitresse
@@ -28,6 +32,15 @@ export class Builder {
   }
   
   /**
+   * Construction du dossier principal
+   */
+  build_mainFolder(bookData: BookDataType): void{
+    if (!fs.existsSync(bookData.folder)) {
+      fs.mkdirSync(bookData.folder);
+    }
+  }
+
+  /**
    * Construction du fichier mimetype (simple)
    */
   build_mimetype(bookData: BookDataType){
@@ -35,8 +48,26 @@ export class Builder {
     fs.writeFileSync(p, 'application/vnd.adobe.indesign-idml-package');
   }
   build_meta_inf_folder(bookData: BookDataType) {
+    // Construction du dossier
+    const metainfFolder = path.join(bookData.folder, 'META-INF');
+    if (!fs.existsSync(metainfFolder)) { fs.mkdirSync(metainfFolder); }
     // Construction du fichier container.xml
-    // Todo
+    const pth = path.join(metainfFolder, 'container.xml');
+    const root: XMLRootType = {
+      isPackage: false,
+      tag: 'container',
+      version: "1.0",
+      xmlns: "urn:oasis:names:tc:opendocument:xmlns:container"
+    };
+    const content: XMLObjet = {
+      child: {
+        tag: 'rootfiles',
+        children: [
+          {attrs: [['full-path', 'designmap.xml'], ['media-type', 'text/xml']]} as XMLObjet
+        ]
+      } as XMLObjet
+    };
+    new BuilderXML({path: pth, content: content, root: root}).output();
     // Construction du fichier metadata.xml
     // Todo
   }
@@ -73,8 +104,24 @@ export class Builder {
    * 
    */
   build_resources_folder(bookData: BookDataType){
+    // Dossier ressources
+    const folderResources = path.join(bookData.folder, 'Resources')
+    if (!fs.existsSync(folderResources)) { fs.mkdirSync(folderResources); }
+
+    let pth: string, content: XMLObjet, root: XMLRootType;
     // Fichier Fonts (Fontes utilisées)
-    // Todo
+    pth = path.join(folderResources, 'Fonts.xml')
+    root = {
+      isPackage: true,
+      tag: 'Fonts',
+      xmlns: 'http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging',
+      DOMVersion: '15.0'
+    }
+    // Pour l'instant, je fais 
+    content = { 
+      children: []
+    } 
+    
 
     // Fichier Graphics (images)
     // Todo

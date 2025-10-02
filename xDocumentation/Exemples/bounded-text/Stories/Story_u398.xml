@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
+	<Story Self="u398" AppliedTOCStyle="n" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/C=0 M=100 Y=0 K=0" FontStyle="Bold" PointSize="18">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>Lorem ipsum</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/C=100 M=0 Y=0 K=0" FontStyle="Bold" PointSize="18">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/C=100 M=90 Y=10 K=0" FontStyle="Bold" PointSize="18">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>dolor sit amet, </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/C=100 M=90 Y=10 K=0" FontStyle="Bold" PointSize="18" Capitalization="AllCaps">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>all caps</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/C=100 M=90 Y=10 K=0" FontStyle="Bold" PointSize="18">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/C=0 M=100 Y=0 K=0" PointSize="18">
+				<Properties>
+					<AppliedFont type="string">Pacifico</AppliedFont>
+				</Properties>
+				<Content>Anothe</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/C=0 M=100 Y=0 K=0" PointSize="18" Ligatures="false" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">Pacifico</AppliedFont>
+				</Properties>
+				<Content>r</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/C=0 M=100 Y=0 K=0" PointSize="18">
+				<Properties>
+					<AppliedFont type="string">Pacifico</AppliedFont>
+				</Properties>
+				<Content> font wit</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/C=0 M=100 Y=0 K=0" PointSize="18" Ligatures="false" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">Pacifico</AppliedFont>
+				</Properties>
+				<Content>h</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/C=0 M=100 Y=0 K=0" PointSize="18">
+				<Properties>
+					<AppliedFont type="string">Pacifico</AppliedFont>
+				</Properties>
+				<Content> ligature</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/C=0 M=100 Y=0 K=0" PointSize="18" Ligatures="false" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">Pacifico</AppliedFont>
+				</Properties>
+				<Content>s</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/C=0 M=100 Y=0 K=0" PointSize="18">
+				<Properties>
+					<AppliedFont type="string">Pacifico</AppliedFont>
+				</Properties>
+				<Content>,</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="18">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="18" Position="Superscript">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>superscript</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="18">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="18" Position="Subscript">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>subscript</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="18">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content> ut aliquip ex ea commodo consequat. </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/C=82 M=5 Y=100 K=0 3" FontStyle="Bold" PointSize="18">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>UPPER CASE irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

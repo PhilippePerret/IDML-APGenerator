@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Spread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
+	<Spread Self="ue5" FlattenerOverride="Default" AllowPageShuffle="true" ItemTransform="1 0 0 1 0 0" ShowMasterItems="true" PageCount="1" BindingLocation="0" PageTransitionType="None" PageTransitionDirection="NotApplicable" PageTransitionDuration="Medium">
+		<FlattenerPreference LineArtAndTextResolution="300" GradientAndMeshResolution="150" ClipComplexRegions="false" ConvertAllStrokesToOutlines="false" ConvertAllTextToOutlines="false">
+			<Properties>
+				<RasterVectorBalance type="double">50</RasterVectorBalance>
+			</Properties>
+		</FlattenerPreference>
+		<Page Self="uea" AppliedAlternateLayout="ub3" LayoutRule="UseMaster" SnapshotBlendingMode="IgnoreLayoutSnapshots" OptionalPage="false" GeometricBounds="0 0 600 800" ItemTransform="1 0 0 1 -400 -300" Name="1" AppliedTrapPreset="TrapPreset/$ID/kDefaultTrapStyleName" OverrideList="" AppliedMaster="ub8" MasterPageTransform="1 0 0 1 0 0" TabOrder="" GridStartingPoint="TopOutside" UseMasterGrid="true">
+			<Properties>
+				<Descriptor type="list">
+					<ListItem type="string"></ListItem>
+					<ListItem type="enumeration">Arabic</ListItem>
+					<ListItem type="boolean">true</ListItem>
+					<ListItem type="boolean">false</ListItem>
+					<ListItem type="long">1</ListItem>
+					<ListItem type="string"></ListItem>
+				</Descriptor>
+				<PageColor type="enumeration">UseMasterColor</PageColor>
+			</Properties>
+			<MarginPreference ColumnCount="1" ColumnGutter="12" Top="0" Bottom="0" Left="0" Right="0" ColumnDirection="Horizontal" ColumnsPositions="0 800" />
+			<GridDataInformation FontStyle="Regular" PointSize="12" CharacterAki="0" LineAki="9" HorizontalScale="100" VerticalScale="100" LineAlignment="LeftOrTopLineJustify" GridAlignment="AlignEmCenter" CharacterAlignment="AlignEmCenter">
+				<Properties>
+					<AppliedFont type="string">Minion Pro</AppliedFont>
+				</Properties>
+			</GridDataInformation>
+		</Page>
+		<Rectangle Self="ueb" ContentType="Unassigned" StoryTitle="$ID/" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" FillColor="Color/ucd" StrokeWeight="0" StrokeColor="Swatch/None" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub7" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Graphics Frame]" Visible="true" Name="Background &lt;BG&gt;" ItemTransform="1 0 0 1 -296 -186">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="-104 -114" LeftDirection="-104 -114" RightDirection="-104 -114" />
+							<PathPointType Anchor="-104 486" LeftDirection="-104 486" RightDirection="-104 486" />
+							<PathPointType Anchor="696 486" LeftDirection="696 486" RightDirection="696 486" />
+							<PathPointType Anchor="696 -114" LeftDirection="696 -114" RightDirection="696 -114" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+				</Properties>
+			</TextWrapPreference>
+			<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+			<FrameFittingOption AutoFit="false" LeftCrop="0" TopCrop="0" RightCrop="0" BottomCrop="0" FittingOnEmptyFrame="None" FittingAlignment="CenterAnchor" />
+			<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+				</Properties>
+			</ObjectExportOption>
+		</Rectangle>
+		<TextFrame Self="u1d8" ParentStory="u1db" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub7" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Text Frame]" Visible="true" Name="Bulleted List" ItemTransform="1 0 0 1 -110.08315589142939 116.30567310486845">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="27.88912604068301 -380.3056731048685" LeftDirection="27.88912604068301 -380.3056731048685" RightDirection="27.88912604068301 -380.3056731048685" />
+							<PathPointType Anchor="27.88912604068301 147.69432689513172" LeftDirection="27.88912604068301 147.69432689513172" RightDirection="27.88912604068301 147.69432689513172" />
+							<PathPointType Anchor="474.0831558914294 147.69432689513172" LeftDirection="474.0831558914294 147.69432689513172" RightDirection="474.0831558914294 147.69432689513172" />
+							<PathPointType Anchor="474.0831558914294 -380.3056731048685" LeftDirection="474.0831558914294 -380.3056731048685" RightDirection="474.0831558914294 -380.3056731048685" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<TextFramePreference TextColumnCount="1" TextColumnFixedWidth="446.19402985074635" TextColumnMaxWidth="0" ColumnRuleOverride="false" ColumnRuleOffset="0" ColumnRuleTopInset="0" ColumnRuleInsetChainOverride="true" ColumnRuleBottomInset="0" ColumnRuleStrokeWidth="1" ColumnRuleStrokeColor="Color/Black" ColumnRuleStrokeType="StrokeStyle/$ID/Solid" ColumnRuleStrokeTint="100" ColumnRuleOverprintOverride="false">
+				<Properties>
+					<InsetSpacing type="list">
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+						<ListItem type="unit">0</ListItem>
+					</InsetSpacing>
+				</Properties>
+			</TextFramePreference>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+				</Properties>
+			</TextWrapPreference>
+			<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+				</Properties>
+			</ObjectExportOption>
+		</TextFrame>
+		<Rectangle Self="u210" ContentType="GraphicType" StoryTitle="$ID/" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub7" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" Visible="true" Name="Linked Placeholder #1 &lt;PH_stub&gt;&lt;PLID_01&gt;" ItemTransform="1 0 0 1 135.93748916655477 518.1315190173011">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="-499.93748916655477 -499.9374891665548" LeftDirection="-499.93748916655477 -499.9374891665548" RightDirection="-499.93748916655477 -499.9374891665548" />
+							<PathPointType Anchor="-499.93748916655477 -254.13151901730103" LeftDirection="-499.93748916655477 -254.13151901730103" RightDirection="-499.93748916655477 -254.13151901730103" />
+							<PathPointType Anchor="-254.131519017301 -254.13151901730103" LeftDirection="-254.131519017301 -254.13151901730103" RightDirection="-254.131519017301 -254.13151901730103" />
+							<PathPointType Anchor="-254.131519017301 -499.9374891665548" LeftDirection="-254.131519017301 -499.9374891665548" RightDirection="-254.131519017301 -499.9374891665548" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+				</Properties>
+				<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+			</TextWrapPreference>
+			<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+			<FrameFittingOption FittingOnEmptyFrame="ContentToFrame" />
+			<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+				</Properties>
+			</ObjectExportOption>
+			<Image Self="u23f" Space="$ID/#Links_RGB" ActualPpi="72 72" EffectivePpi="293 293" ImageRenderingIntent="UseColorSettings" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$ID/Portable Network Graphics (PNG)" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.24583670506390373 0 0 0.24583670506390376 -499.93748916655477 -499.9374891665548" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" Visible="true" Name="$ID/">
+				<Properties>
+					<Profile type="string">$ID/None</Profile>
+					<Contents><![CDATA[iVBORw0KGgoAAAANSUhEUgAAA+gAAAPoCAIAAADCwUOzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAH
+NWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
+TXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRh
+LyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDggNzkuMTY0MDM2LCAyMDE5LzA4LzEz
+LTAxOjA2OjU3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3Jn
+LzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0i
+IiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJo
+dHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFk
+b2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpwaG90b3Nob3A9Imh0
+dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5v
+cmcvZGMvZWxlbWVudHMvMS4xLyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjEu
+MCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIwLTAzLTE5VDE0OjQ3OjQyKzA3OjAwIiB4
+bXA6TWV0YWRhdGFEYXRlPSIyMDIwLTAzLTE5VDE0OjQ3OjQyKzA3OjAwIiB4bXA6TW9kaWZ5RGF0
+ZT0iMjAyMC0wMy0xOVQxNDo0Nzo0MiswNzowMCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1
+NmZiN2U4Zi0wYjMzLWYwNGMtODZkMS1iZmVkNGNjYTAyZmUiIHhtcE1NOkRvY3VtZW50SUQ9ImFk
+b2JlOmRvY2lkOnBob3Rvc2hvcDo5YTcwMGQ4Ni1jZGY4LTNhNGEtYmZjMS1iZDYxODg0YjYzZDIi
+IHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowNDRmMTlmMi1kN2E5LTdiNGQtYjJm
+Mi02OWM1Mjc0ZTczZmEiIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9m
+aWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciPiA8eG1wTU06SGlz
+dG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0
+YW5jZUlEPSJ4bXAuaWlkOjA0NGYxOWYyLWQ3YTktN2I0ZC1iMmYyLTY5YzUyNzRlNzNmYSIgc3RF
+dnQ6d2hlbj0iMjAyMC0wMy0xOVQxNDo0Nzo0MiswNzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0i
+QWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJz
+YXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo1NmZiN2U4Zi0wYjMzLWYwNGMtODZkMS1i
+ZmVkNGNjYTAyZmUiIHN0RXZ0OndoZW49IjIwMjAtMDMtMTlUMTQ6NDc6NDIrMDc6MDAiIHN0RXZ0
+OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4wIChXaW5kb3dzKSIgc3RFdnQ6Y2hh
+bmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpUZXh0TGF5
+ZXJzPiA8cmRmOkJhZz4gPHJkZjpsaSBwaG90b3Nob3A6TGF5ZXJOYW1lPSJMSU5LRUQgUExBQ0VI
+T0xERVIgIzEiIHBob3Rvc2hvcDpMYXllclRleHQ9IkxJTktFRCBQTEFDRUhPTERFUiAjMSIvPiA8
+L3JkZjpCYWc+IDwvcGhvdG9zaG9wOlRleHRMYXllcnM+IDxwaG90b3Nob3A6RG9jdW1lbnRBbmNl
+c3RvcnM+IDxyZGY6QmFnPiA8cmRmOmxpPmFkb2JlOmRvY2lkOnBob3Rvc2hvcDo2ZGY3ZTQ1My1l
+OGM4LTU5NGUtYTg4NS1kNTVmZmUzMjY5ZDI8L3JkZjpsaT4gPC9yZGY6QmFnPiA8L3Bob3Rvc2hv
+cDpEb2N1bWVudEFuY2VzdG9ycz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94Onht
+cG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4/0R7ZAABIGUlEQVR4nO3db3DUdZ7g8UZQo7YGUJIB
+/8TIacA4Q3QGxcHNLRw1uMA5uXWtwZujvLlby3O2Zrf2ygd3z+bZPrlaH1zVslNOncVxOsyibs4B
+VpHDm0yB0cxAHA2QYTRmQDHBf9FWehTJPeg9liXpXzpJ//ukX69HMf2j+ysJybu7P7/vb9bo6GgK
+AACobhdUegEAAMDEhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7
+AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAAB
+CHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0A
+AAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACE
+OwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAA
+AQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMId
+AAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAA
+hDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4A
+AAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADC
+HQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCA
+AIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEO
+AAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAA
+wh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcA
+gACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADh
+DgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBA
+AMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAH
+AIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA
+4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMA
+QADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBw
+BwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAg
+AOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgD
+AEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCA
+cAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEA
+IADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4
+AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQ
+gHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwB
+ACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhA
+uAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAA
+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
+81Wj2rS3t5dzuj2VZ3fghAH3fNvtGzxjZhDuxNDQ0HDfffdVehUFyWaz+SZECzmjq66uLmEcKGF0
+vkQ7kFBS11xzTfkftGavjTohfzPJWltb161bV85HzDfgnrAZ5biXU3AhC2YMozIEkE6nv/vd70Z5
++763tzffTStXrizkHhYvXpwv/Q8ePLhq1aoprOro0aNV+37Fww8/XKINywvX0dEx/Rfk+vr6Jrsf
+/CWXXJJwa4m+ah999FHCraW4sE4UyX8zDQ0NU7jPavj2Lor29vYyV3sqlXr33XfH/XzC3Mu4G3BV
+84UsYFKEO9Wuubn5gQceiFLtqVTq1VdfzXdTgZevb2lpSafT454lNjw83N/fP+7L9sm9Vcubcxdi
+4cKF06+rKUy2JD9bmHDz/qlJXudVV11VigcNIflvZsGCBWVbSVVJp9Nr1qwp0TP/oaGh3bt357s1
+30WvXn755XEvlJFvV9zBwcGtW7fme5RKXeIKpkC4U71K+tuiRIaGhhLOA0v4/VS4119/fdxwb2xs
+zJf7OfmKnwpKfvs+k8kMDQ0V/S3+hOeWqdq+Vte4UxZnVWSuqeI6Ojra2tpK99JJNpudwssKkz3d
+dnh4uKaun8UMJtypRrltH1euXBliD5lz/epXv0q4tSgve/f09Kxfv37c36NLly7NtyNNKpV64403
+hHu1qaura25uTqiQQ4cOFTfcR0ZGkqOnZkdlJizIefPmlW0xVSXQG54w4wl3Sq65ubmQLYRzrrnm
+mkWLFsXty4STR4uot7d33DciEraSTKVSBw4cmM4lnCiRZcuWJZT0vn37pnZWQz7J36INDQ01ew5f
+wtkpOXGf0iT/EE5+urJnz56SvuIOTIpwp+TuvvvumXFu1oR6e3sLuXzJ9L366qvjhntuK8l8a8hk
+MvmKfwpco6dYli5dmnDB4NxXrVj792ez2X379iUccOuttxblgSLav39/wq3Nzc3h3gA8K/mH8Isv
+vvj888/nuzWTyezdu7f8p6UC47IdJBRNwvbtxTUwMDA0NDT288lbSaZSqT179hRrw7sjR45s3bq1
+RGdP1pT6+vrW1taEA3bs2JHNZovyWC+99FLyc8sCz5+eebq7u5NnoJctW1a2xZTZnXfembxhTldX
+l3/pUCWEOxTHyMhIwphK0eUbpk/ecTKTyTz77LPTf/RsNrt3796+vr7Nmzfv2rWrWFlZs7761a8m
+3Jp7yXP6jzI4OJjwwmoqlWptba3NOZmhoaE9e/YkHzOD9xOsq6tbv3598jFPP/10eRYDJDMqA8Vx
++PDhcj7cgQMHxn3zur6+vr29PWE38b6+vhdffHGaY9N79+49+/JkV1fXgQMHwu3/U1Xa2trO/Ssd
+q6ura9GiRdMZmMlmswnb4eW0t7dP+f7jymaznZ2dyW9ELF++PO6cTCFaWlpaW1sTht2Hh4e7u7tL
+8W987ty5HR0dYz//wQcfjPtzbPny5fk2Php35KyhoeGb3/zmtJYI1US4Q3EkD8hu3LhxCltSPPfc
+c/lOW0wYfV65cmXyZYCef/75efPmTbkCu7u7z7v/TCbT2dm5f//+9evXxz2xuLJWr169bdu2hANy
+t07tq5bNZrds2ZLcpq2trTVyLsq5cn8zE+4t+I1vfKM866mge+65Z8KzVJcuXVr0JzD19fXjPh/o
+7u4e9/i77rpr3PeFxp0eTKVSt956q9cUmEmEOxTB4OBgwsulzc3NU+utO+64IyEp3njjjXHvtr6+
+vqOjI+F8x1QqtW3btnfeeWcKJ5zt2rUr37OC4eHhxx9/vLW11dVMpqCtre21115LLqdt27Zls9nJ
+VsjQ0FBnZ+eEbfqtb31rUnc7AxT4N9Pe3l4LT2km/LmRyWT27Nlz7733lmc94+6pn06n801z5fs6
+JlxjFSIy4w5FkNxbUz6tbcmSJQm39vT05DvTdMWKFRNuXdfV1fWjH/0o38tUYw0NDf3oRz9Kfi0/
+lUpdeeWVBd4h57nnnnvS6XTyMZ2dnU8//XThZxh3d3c/9thjE7ZpR0dHTU23Z7PZ7u7uRx99dMK/
+mXQ6nXzeyEzS1taWfJZqT09P2c5SHfeHasIzqLfffnvcz9fCky5qinCH6cpms8l7Y095KKWuri55
+7DhhsL6jo2PCChwYGHj00Ud37dqVnO/9/f27du0qsHJWr16dfAz51NfXb9iwYcLDenp6/uqv/ir5
+q5bNZnt7e//6r/96wuntVCrV3NxcI7ME2Ww29838wx/+MPktqbM2bNgws6fbz1VXVzfhC+rlOUs1
+39ODG2+8Md8fGfeHYXNzs11rmWGMylArnnvuucKvAzWhb33rW2dfoTxy5EhCGy1fvnw6vzkWL16c
+8CL3/v378yVXY2Pjhg0bksemc7q6urq6uhoaGpYsWTJ//vy6urp58+adOHEilUodPXp0cHCw8M3p
+N2zYMIX/2SJ+aa655priXq6ozNra2t55550J39ZInfNVa2pqOvdcvVOnTh0/frzwa/Sm0+kHHnhg
+isv950r3T6woj37y5MnJXvS+vb19+jvox/r2bmpqWr58ecIGWaU7S/VcuZ8/Yy1cuHDczw8NDY37
+Y+qmm26a/mKGhoZ2796d79bPPvss4c/u379/3JmfVPwfVlSKcKdWTPhq8aSc+0L4yy+/nHDk4sWL
+p/NALS0tCddUGh4eHhwczPdecK45Cmn33F1NNmvOM+XKKe6XJrp169adOnWqwK1Fc1+1Ke9Dmk6n
+H3zwwWK9JFm6f2Llf/TcAopy1aFw395r1qw5fPhwwtP1zs7OUpyleq58sZvvZ11JB9yz2Wzhz4TP
+M/2fq3AeozIwLSMjIwm/mNPp9PRfsUsesU3+jdLW1rZ27dppLqAQxaocUqnU+vXrky/JVBS5aq+p
+0fbC1fL3c319/Zo1a5KPKcrlIBKM+2Mt4R+FAXdqh3CHaUmebk++jmmBki9meeDAgeTrH61atWrj
+xo3TX0aCWq6cUqirq9u0aVNJd1VvaGhQ7fn4fl6xYkXyWap9fX39/f0lenQD7pBAuMO07Nu3L+HW
+orxu2tjYmLBFTCaTOXLkSPI9tLW1PfzwwxOeqzoF6XR648aNNV45JbJu3bpxL0wzfcuXL//+97+v
+2sdKp9Pf+973fD+nUqkJz1LduXNniS6ZXFUD7lBthDtMXX9/f8IkaO7EwaI8UPKGkq+99tqE99DU
+1PTII48sX768KOvJaW1t/cEPfjD9WSDyWbFixV/+5V9OuLNn4dLpdEdHx7333uuVyLHa29sfeeQR
+VxDLaWpqSn7PZ3h4uLe3txQPXVUD7lBtnJwKU/f6668n3FrE62y3tbUl7F7X19c3MjIy4bliub3e
+brnllp07d07zfKnW1tYauSpNxTU2Nj700EO9vb179+6d5ldt7dq1d955p2Qfq729feXKlbWz7WOB
+Vq9efeDAgfKfpTrugHvC01cD7tQU4Q5TlM1mk3fzWLp0abEeq66uLnmPtgMHDhS4s1hLS0tLS0tv
+b+/LL788hf0u2tvbW1tb/UYss7a2tra2tqnle0NDwze/+c1SbwMSUXNz87Jly/zN5FNXV7dmzZrk
+De+fffbZ4l4pOd/VCRLmXgy4U1OEO0xR8tvEzc3Nxa2BW265JSHcDx48OKktgXMhODQ0dOjQod/8
+5jfJBd/c3HzttdcuXry4qanJ78IKOvtVGxgYOHr0aPKGQq2trddcc82iRYvMfuSk0+ncE84bb7xx
+3rx5vpkLsWLFildffTXh50NfX19xt3Wf7NyLAXdqzazR0dFKrwGovNxODueeFpY7FcyL69VsZGTk
+o48+Ou+TdXV1TjwFmJGEOwAABGBXGQAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAg
+AOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgD
+AEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCA
+cAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEA
+IADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4
+AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQ
+gHAHAIAAhDsAAAQwp9ILAJiu999//+DBg0eOHDl58uTvf//7Si9nRpkzZ868efNuuummZcuWXXfd
+dZVeDkBNmzU6OlrpNQBM0RdffPHcc891d3d/+eWXlV7LzNfa2vrtb3/7iiuuqPRCAGqUcAeiymaz
+P/7xj48fP17phdSQyy+//E//9E8bGxsrvRCAWiTcgZDOnDnz+OOPHz16NPefs2bNam5uvuGGG9Lp
+9AUXOHunaDKZzDvvvHPkyJHTp0/nPlNfX/+DH/wgnU5XdmEANciMOxDSK6+8crba58+fv3HjRhPY
+pfPRRx/93d/93ZtvvplKpUZGRn72s5/df//9lV4UQM3xuhQQz5dffrlnz57cx1dcccVDDz2k2ktq
+7ty5//E//sempqbcf/76178eHh6u7JIAapBwB+IZGBjIZDK5j+++++76+vrKrqcWzJ49+0/+5E9m
+zZqVSqVGR0dfffXVSq8IoOYIdyCet956K/fBxRdf/LWvfa2ia6khCxYsOPui+7Fjxyq7GIAaJNyB
+eEZGRnIfLFiwYM4c5+qUz9VXX5374JNPPqnsSgBqkHAH4vniiy9yH6j2MrvwwgtzH5w6daqyKwGo
+QcIdAAACEO4AABCAcAcAgACMhwIkyWQyhw8ffvfdd1Op1Ny5c1taWhoaGiq9KABqkXAHGN+ZM2de
+eOGFX/ziF6dPnz77yZ07dy5durSjo8Pm8QCUmXAHGMeXX375P//n/+zv7x970+HDh48fP/7QQw9d
+ddVV5V8YADXLjDvAOHbt2jVuted88sknW7ZsOfeVeAAoNeEOcL4PPvjgpZdeSj7m5MmTPT095VkP
+AKSEO8BYr7322pkzZyY8rLe3t/RrAYB/JNwBzjc0NFTIYe+8806pVwIAZwl3gPP9/ve/L+Sw06dP
+F/LCPAAUhV1lAM53+eWXF3JYOp2+4IISvvzxySefvPzyy0ePHs1kMnPnzl26dOntt99+0UUXle4R
+Aahmwh3gfDfccEN3d/eEhy1evLh0axgcHNyyZctnn32W+8/333//jTfe2Ldv35/+6Z9eeeWVpXtc
+AKqWURmA8918880TXl9p1qxZ3/zmN0u0gJMnTz7++ONnq/2sDz/88Mc//vHYzwNQC4Q7wPnmzJlz
+3333JY/B3Hnnndddd10pHv2LL7548skns9nsuLd++OGHf/d3fzc6OlqKhwagmgl3gHH8i3/xLzZu
+3HjhhReOe+vtt9++YcOGEj30z372sxMnTiQccOTIka6urhI9OgBVy4w7wPi+9rWvXX311Xv27Hn9
+9de/+OKLVCp1wQUXNDU1/eEf/mFLS0uJHrS3t/eVV16Z8LDdu3dff/31TU1NJVoGAFVIuAPkdeWV
+V37nO9/5kz/5kw8++OD06dPz58+/+OKLS/dwJ0+efOaZZwo58ssvv/zJT37y53/+55deemnp1gNA
+VTEqAzCB2bNnL1iwYOHChSWt9txo++eff17g8R999JFhd4CaItwBqsKEo+1jGXYHqCnCHaDyDh48
+WMho+1i7d+8eHBws+noAqELCHaDCTp48+fd///dT+7O5YXc7uwPUAuEOUEmTHW0fy7A7QI0Q7gCV
+NIXR9rEMuwPUAuEOUDFTHm0f6/nnnzfsDjCz2ccdIMlnn33W29v71ltvnT59esGCBW1tbQsXLizK
+PU9ntH2sM2fOPPnkk3/xF39hZ3eAmUq4A+R16NChp59++tNPPz37ma6urrvuuuuP/uiPLrhgWu9Y
+Tn+0fayRkZGf/vSn//7f//tZs2YV8W4BqBJGZQDG9+abbz7xxBPnVnsqlRodHf3FL36xc+fOad55
+UUbbx+rv7zfsDjBTCXeAcXzyySc/+clPvvzyy3Fv3b9//+uvvz7lOy/iaPtYht0BZirhDnC+M2fO
+bNu27ZNPPsl3wOjo6NNPP/3BBx9M4c6LO9o+Vm7Y3c7uADOPcAc43969e994443kY06dOvXkk0/m
+e0k+n1KMto+VG3a3szvADCPcAf6Z3/72t3v37i3kyOPHj0922P3ZZ58txWj7WIbdAWYe4Q7wTz75
+5JOf/vSnZ86cKfD4l156qfBh94MHD/b09Ex1aZNm2B1ghrEdJMA/mnC0fazR0dGnnnpq0aJF8+fP
+Tz4y32j7rFmzrr/++tbW1uuuuy6dTk9uxRO54IILRkdHi7g7ZHt7++23356752LdJwAFEu4A/+j/
+/J//M+Fo+1jZbPaJJ574/ve/P3v27HzHfPHFF0888cTY0fZFixb98R//8TXXXJNKpUZHR4eHh997
+773CX+8vxLFjx4p4b+W55+K66KKL5s6du2DBAk82gOiEO0AqlUr99re/ffHFF6f2Z99+++2dO3fe
+c889+Q549tln33333fM+ecstt3znO9+58MILP//885///OevvPLKpF7sZ1IuvfTSr3/96+3t7Zdf
+fnml1wIwRcIdIPXJJ59s27ZtOi9179+//4YbbrjlllvG3jTuaPsNN9xw//33z549+6233nryySc/
+/vjjKT80hfjss89+8Ytf/PKXv9y4cWNLS0ullwMwFd43BGpdbrQ9k8lM836eeuqpsTu7jzvafuGF
+F37nO9+ZPXt2f3//Y489ptrL5tSpU1u2bDl48GClFwIwFV5xB2rd1Ebbxxo77J5vtP3OO++sr69/
+//33z70466JFi+66666mpqZLL710+ovhrFOnTh0/fnzfvn25PXbOnDnzzDPPNDQ0XH311ZVeGsDk
+CHegpk1ntH2s84bdX3zxxbGj7alUqq2tLZVKPffcc9lsNveZu+66a926dc6eLIVLLrlk/vz5X/va
+1/bu3bt79+5UKvXFF190dnb+2Z/9WaWXBjA5fkkAtWv6o+1j7d+//+zO7rfddtvFF1983gGXXXbZ
+okWL3nvvvbOHtba2rl+/XrWX2urVq++4447cx8eOHbPJPRCO3xNAjSrWaPtYZ4fdr7rqqj/+4z8+
+79bcju+HDx8eHR1NpVKzZs1at25dEbdaJ8G3vvWtOXP+8a3mQ4cOVXYxAJMl3IEaVazR9rFyw+65
+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
+AIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA
+4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMA
+QADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBw
+BwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAg
+AOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgD
+AEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCA
+cAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEA
+IADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4
+AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQ
+gHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwB
+ACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhA
+uAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAA
+EIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDc
+AQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAI
+QLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4A
+ABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg
+3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAA
+CEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDu
+AAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAE
+INwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcA
+AAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ
+7gAAEIBwBwCAAIQ7AAAEINwBACCA/wfKF7kohK/raQAAAABJRU5ErkJggg==]]></Contents>
+					<GraphicBounds Left="0" Top="0" Right="999.8749783331094" Bottom="999.8749783331094" />
+				</Properties>
+				<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+					<Properties>
+						<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+					</Properties>
+					<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+				</TextWrapPreference>
+				<MetadataPacketPreference>
+					<Properties>
+						<Contents><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c148 79.164036, 2019/08/13-01:06:57        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/">
+         <xmp:CreatorTool>Adobe Photoshop 21.0 (Windows)</xmp:CreatorTool>
+         <xmp:CreateDate>2020-03-19T14:47:42+07:00</xmp:CreateDate>
+         <xmp:MetadataDate>2020-03-19T14:47:42+07:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2020-03-19T14:47:42+07:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:56fb7e8f-0b33-f04c-86d1-bfed4cca02fe</xmpMM:InstanceID>
+         <xmpMM:DocumentID>adobe:docid:photoshop:9a700d86-cdf8-3a4a-bfc1-bd61884b63d2</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:044f19f2-d7a9-7b4d-b2f2-69c5274e73fa</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>created</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:044f19f2-d7a9-7b4d-b2f2-69c5274e73fa</stEvt:instanceID>
+                  <stEvt:when>2020-03-19T14:47:42+07:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop 21.0 (Windows)</stEvt:softwareAgent>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:56fb7e8f-0b33-f04c-86d1-bfed4cca02fe</stEvt:instanceID>
+                  <stEvt:when>2020-03-19T14:47:42+07:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop 21.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <photoshop:ColorMode>3</photoshop:ColorMode>
+         <photoshop:ICCProfile>sRGB IEC61966-2.1</photoshop:ICCProfile>
+         <photoshop:TextLayers>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <photoshop:LayerName>LINKED PLACEHOLDER #1</photoshop:LayerName>
+                  <photoshop:LayerText>LINKED PLACEHOLDER #1</photoshop:LayerText>
+               </rdf:li>
+            </rdf:Bag>
+         </photoshop:TextLayers>
+         <photoshop:DocumentAncestors>
+            <rdf:Bag>
+               <rdf:li>adobe:docid:photoshop:6df7e453-e8c8-594e-a885-d55ffe3269d2</rdf:li>
+            </rdf:Bag>
+         </photoshop:DocumentAncestors>
+         <dc:format>image/png</dc:format>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>]]></Contents>
+					</Properties>
+				</MetadataPacketPreference>
+				<Link Self="u243" AssetURL="$ID/" AssetID="$ID/" RenditionData="Actual" LinkResourceURI="file:C:/Users/sioch/Desktop/idml%20samples/Images/ph%20linked-1.png" LinkResourceFormat="$ID/Portable Network Graphics (PNG)" StoredState="Embedded" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 132290776643702265 20392" LinkImportModificationTime="2020-03-19T14:47:44" LinkImportTime="2020-03-24T14:49:49" LinkResourceSize="0~4fa8" />
+				<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$ID/" Index="-1" />
+				<ImageIOPreference ApplyPhotoshopClippingPath="true" AllowAutoEmbedding="true" AlphaChannelName="$ID/" />
+			</Image>
+		</Rectangle>
+		<Rectangle Self="u189" ContentType="Unassigned" StoryTitle="$ID/" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" FillColor="Color/u280" StrokeWeight="0" StrokeColor="Swatch/None" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" ItemLayer="ub7" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Graphics Frame]" Visible="true" Name="Shape with Solid Color" ItemTransform="1 0 0 1 -562.7628141716982 -215.29931703274525">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType PathOpen="false">
+						<PathPointArray>
+							<PathPointType Anchor="198.7628141716982 -48.70068296725469" LeftDirection="198.7628141716982 -48.70068296725469" RightDirection="198.7628141716982 -48.70068296725469" />
+							<PathPointType Anchor="198.7628141716982 197.10528718199913" LeftDirection="198.7628141716982 197.10528718199913" RightDirection="198.7628141716982 197.10528718199913" />
+							<PathPointType Anchor="444.5687843209521 197.10528718199913" LeftDirection="444.5687843209521 197.10528718199913" RightDirection="444.5687843209521 197.10528718199913" />
+							<PathPointType Anchor="444.5687843209521 -48.70068296725469" LeftDirection="444.5687843209521 -48.70068296725469" RightDirection="444.5687843209521 -48.70068296725469" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+			<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+				<Properties>
+					<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+				</Properties>
+			</TextWrapPreference>
+			<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+			<FrameFittingOption AutoFit="false" LeftCrop="0" TopCrop="0" RightCrop="0" BottomCrop="0" FittingOnEmptyFrame="None" FittingAlignment="CenterAnchor" />
+			<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+				<Properties>
+					<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+					<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+				</Properties>
+			</ObjectExportOption>
+		</Rectangle>
+	</Spread>
+</idPkg:Spread>

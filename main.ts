@@ -16,6 +16,11 @@ switch (argv[2]) {
     // Par défaut, c'est la construction de l'archive qui est lancée
     const builder = await import("./lib/Builder");
     const ibuilder = new builder.Builder();
-    ibuilder.build();
+    ibuilder.build({
+      folder: '/Users/philippeperret/Documents/EssaiIDMLAPGenerator',
+      masterSpreads: [],
+      spreads: [],
+      stories: []
+    });
 
 }

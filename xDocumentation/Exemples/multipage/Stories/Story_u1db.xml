@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
+	<Story Self="u1db" AppliedTOCStyle="n" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" LeftIndent="18" FirstLineIndent="-18" BulletsAndNumberingListType="BulletList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="36">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>Lorem </Content>
+				<Br />
+				<Content>ipsum </Content>
+				<Br />
+				<Content>dolor </Content>
+				<Br />
+				<Content>sit amet</Content>
+				<Br />
+				<Content>consectetur </Content>
+				<Br />
+				<Content>adipiscing </Content>
+				<Br />
+				<Content>elit</Content>
+				<Br />
+				<Content>sed do eiusmod </Content>
+				<Br />
+				<Content>tempor incididunt </Content>
+				<Br />
+				<Content>dolore </Content>
+				<Br />
+				<Content>magna </Content>
+				<Br />
+				<Content>aliqua</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

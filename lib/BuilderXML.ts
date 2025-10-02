@@ -1,15 +1,112 @@
 import { stringWidth } from "bun";
+import fs from "fs";
+import type { XMLObjet, XMLRootType } from "./types/types";
 
 /**
  * Outil constructeur des fichiers XML
  */
 export class BuilderXML {
 
+  private CONST = {
+    version: "1.0",
+    encoding: "UTF-8",
+    standalone: "yes"
+  }
+
+  private path: string;
+  private content: XMLObjet;
+  private root: XMLRootType; 
+
   constructor(params: {
     path: string; // Chemin d'accès au fichier final
-    content: Record<string, any>; // Définition du contenu
+    content: XMLObjet; // Définition du contenu
+    root: XMLRootType;
   }){
+    this.path = params.path;
+    this.content = params.content;
+    this.root = this.prepareRoot(params.root);
+   }
+  
+  public output() {
+    this.prepareFile();
+    this.write(`<?xml version="${this.CONST.version}" encoding="${this.CONST.encoding}" standalone="${this.CONST.standalone}"?>`)
+    this.write(this.root.start as string);
+    // On ajoute tout le contenu
+    this.write(this.buildContent(this.content));
+    // On ferme le document
+    this.write(this.root.end as string);
+  }
 
+  private prepareRoot(root: XMLRootType): XMLRootType {
+    if (root.isPackage) {
+      Object.assign(root, {
+        start: `<idPkg:${root.tag} xmlns:idPkg="${root.xmlns}" DOMVersion="${root.DOMVersion}">`,
+        end: `</idPkg:${root.tag}>`
+      });
+    } else {
+      Object.assign(root, {
+        start: `<${root.tag} version="${root.version}" xmlns="${root.xmlns}">`,
+        end: `</${root.tag}>`
+      });
+    }
+    return root;
+  }
+
+  /**
+   * Construction du contenu du document
+   * -----------------------------------
+   * C'est la grande méthode construisant l'intégralité du contenu du
+   * document produit à partir de this.content.
+   * 
+   * Format de this.content
+   * C'est un objet de type XMLObjet, c'est-à-dire :
+   * - contenant  SOIT un child (balise unique) définit un XMLObjet avec tag, children ou chilf, attrs
+   *              SOIT un children (balises multiples) définissant des XMLObjet(s)
+   * 
+   * L
+   */
+  private buildContent(xmlObj: XMLObjet): string {
+    if (xmlObj.child) {
+      if (xmlObj.tag) {
+        const content = this.buildContent(xmlObj.child);
+        return BuilderXML.xmlTag(xmlObj.tag, content, xmlObj.attrs || [], xmlObj.ns);
+      } else {
+        // Pour un premier objet principal (juste child défini)
+        return this.buildContent(xmlObj.child);
+      }
+    } else if (xmlObj.children) {
+      if (xmlObj.tag) {
+        const childTag = xmlObj.tag.substring(0, xmlObj.tag?.length - 1);
+        const content = xmlObj.children
+          .map((xmlSubObj: XMLObjet) => {
+            Object.assign(xmlSubObj, { tag: childTag });
+            return this.buildContent(xmlSubObj)
+          })
+          .join("\n")
+        return BuilderXML.xmlTag(xmlObj.tag, content, xmlObj.attrs || [], xmlObj.ns);
+      } else {
+        throw new Error("Il faut impérativement définir la propriété tag d'un child d'objet XML.");
+      }
+    } else /* noeud sans enfant */ {
+      return BuilderXML.xmlTag(
+        xmlObj.tag as string, 
+        xmlObj.content || '', 
+        xmlObj.attrs || [], 
+        xmlObj.ns
+      );
+    }
+  }
+
+  private prepareFile(){
+    if (fs.existsSync(this.path)) { fs.unlinkSync(this.path); }
+  }
+  /**
+   * Écriture dans le fichier XML
+   * 
+   * @param content Texte/code à écrire dans le fichier
+   */
+  private write(content: string){
+    fs.writeFileSync(this.path, content + "\n", {encoding: 'utf-8', flag: 'a+'});
   }
 
   private static ESCAPED_STR: [string, string][] = [['&', '&amp;'], ['<', '&lt;'], ['>', '&gt;'], ['"', '&quot;'], ["'", '&apos;']];
@@ -21,7 +118,7 @@ export class BuilderXML {
    * @param spaceName Espace de nom ou vide
    * @returns 
    */
-  private static xmlTag(
+  public static xmlTag(
     tagName: string,
     content: string | number,
     attrs: Array<[string, string | number]>,

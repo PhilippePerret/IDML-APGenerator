@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
+	<Story Self="u21b" AppliedTOCStyle="n" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" LeftIndent="18" FirstLineIndent="-18" BulletsAndNumberingListType="NumberedList" NumberingContinue="false">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="36">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>Lorem </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" LeftIndent="18" FirstLineIndent="-18" BulletsAndNumberingListType="NumberedList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="36">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>ipsum </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" LeftIndent="18" FirstLineIndent="-18" BulletsAndNumberingListType="NumberedList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="36">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>dolor </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" LeftIndent="18" FirstLineIndent="-18" BulletsAndNumberingListType="NumberedList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="36">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>sit amet</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" LeftIndent="18" FirstLineIndent="-18" BulletsAndNumberingListType="NumberedList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="36">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>consectetur </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" LeftIndent="18" FirstLineIndent="-18" BulletsAndNumberingListType="NumberedList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="36">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>adipiscing </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" LeftIndent="18" FirstLineIndent="-18" BulletsAndNumberingListType="NumberedList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="36">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>elit</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" LeftIndent="18" FirstLineIndent="-18" BulletsAndNumberingListType="NumberedList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="36">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>sed do eiusmod </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" LeftIndent="18" FirstLineIndent="-18" BulletsAndNumberingListType="NumberedList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="36">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>tempor incididunt </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" LeftIndent="18" FirstLineIndent="-18" BulletsAndNumberingListType="NumberedList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="36">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>dolore </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" LeftIndent="18" FirstLineIndent="-18" BulletsAndNumberingListType="NumberedList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="36">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>magna </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" LeftIndent="18" FirstLineIndent="-18" BulletsAndNumberingListType="NumberedList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="36">
+				<Properties>
+					<AppliedFont type="string">Raleway</AppliedFont>
+				</Properties>
+				<Content>aliqua</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>
