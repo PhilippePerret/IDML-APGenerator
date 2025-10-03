@@ -17,12 +17,16 @@ export class DataPropsBuilder {
     for (const key in data_props) {
       this.fouilleContainer(data_props[key], `${key}`)
     }
-    const content = this.INCIPIT + 'export const AMBIGOUS_PROPS = ' +
-      JSON.stringify(AMBIGOUS_PROPS, null, 2) + ";\n" +
-      'export const PROP_TO_PATH = ' +
+    const content = this.INCIPIT + "\n\n" + 
+      this.AmbigousDescription + "\n\n" + 
+      'export const PREPARED_AMBIGOUS_PROPS = ' +
+      JSON.stringify(AMBIGOUS_PROPS, null, 2) + ";\n\n" +
+      this.xPathsDescription + "\n\n" +
+      'export const PREPARED_PROP_TO_PATH = ' +
       JSON.stringify(PROP_TO_PATH, null, 2) + ';';
     fs.writeFileSync(finalFilePath, content, 'utf-8');
   }
+
   private static fouilleContainer(container: RecType, path: string) {
 
     for (const key in container) {
@@ -32,19 +36,29 @@ export class DataPropsBuilder {
         // <= La valeur courante définit 'values' et 'default'
         // => C'est une valeur terminale
         let finalKey: string;
-        if (PROP_TO_PATH[key]) {
+        if (PROP_TO_PATH[key] || AMBIGOUS_PROPS[key]) {
           // Propriété ambigue
           if (undefined === AMBIGOUS_PROPS[key]) {
-            // Propriété ambigue non connue
+            // Nouvelle propriété ambigue
             Object.assign(AMBIGOUS_PROPS, { [key]: [] });
           }
-          const parent = path.split(':').pop();
+          // [ICI] (cf. ci-dessous)
+          const splitedPath = path.split(':');
+          let parent = splitedPath.pop();
+          if (parent === 'attrs') { parent = splitedPath.pop(); }
           finalKey = `${parent}:${key}`;
           AMBIGOUS_PROPS[key].push(finalKey)
         } else {
           finalKey = key;
         }
-        Object.assign(PROP_TO_PATH, { [finalKey]: finalPath });
+        // Verrou de protection
+        if (undefined === PROP_TO_PATH[finalKey]) {
+          // ok
+          Object.assign(PROP_TO_PATH, { [finalKey]: finalPath });
+        } else {
+          // ok clé existante !!! (si ça arrive il faut un autre calcul [ICI])
+          throw new Error("ERREUR FATALE SYSTÉMIQUE Deux clés se retrouvent avec le même path, dans PROP_TO_PATH… (" + finalKey + ")");
+        }
       } else {
         // => Ce n'est pas une valeur "terminale", c'est donc un
         //    "container" qu'on fouille.
@@ -63,5 +77,25 @@ export class DataPropsBuilder {
    *        (config.json) à true.
    */
 
-  `
+
+  `.trim();
+
+  static AmbigousDescription = `
+/**
+ * Table des propriétés ambigues, c'est-à-dire les propriétés qui 
+ * peuvent appartenir à deux choses différentes. Elles génères une
+ * erreur et demandent précision
+ */
+  `.trim();
+
+  static xPathsDescription = `
+ /**
+ * Grande table automatique qui donne le xpath d'une propriété dans
+ * la table DATA_PROPS. Par exemple, 'link_images' va retourner :
+ * 'preferences.data_merge_option.args.link_images'. Si la propriété
+ * est ambigues (deux ou plus xpath possibles), une erreur est 
+ * générée avant.
+ */ 
+  `.trim();
+
 }

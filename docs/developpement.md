@@ -8,7 +8,9 @@
 
 ## Fonctionnement divers
 
-### Modification des fichiers templates
+### Fonctionnement par modification de fichiers modèle
+
+Il y a tellement de propriétés pour que le fichier soit valide qu’on a décidé de fonctionner par fichiers modèles qui seront modifiés. Ils sont comme la « configuration d’usine » du document. La recette se contente donc de modifier au besoin les valeurs différentes.
 
 Pour accélérer la fabrication des fichiers, on prend les fichiers modèle du dossier `lib/assets/models/` et on les transforme sans les parser intégralement, en streaming, en faisant des recherches sur les balises et les attributs.
 
