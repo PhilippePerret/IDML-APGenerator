@@ -15,6 +15,7 @@
   "type": "module",
   "dependencies": {
     "fast-xml-parser": "^5.2.5",
-    "fontkit": "^2.0.4"
+    "fontkit": "^2.0.4",
+    "yaml": "^2.8.1"
   }
 }

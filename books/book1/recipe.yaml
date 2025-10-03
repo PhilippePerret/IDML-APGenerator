@@ -1,5 +1,6 @@
 ---
 id: book1 # l'identifiant unique du livre
+# folder: idml
 document: # Tout ce qui concerne le document
   height: 297 #mm
   width: 210 #mm
@@ -10,3 +11,11 @@ document: # Tout ce qui concerne le document
   Rmargin: 15 #mm
   Imargin: 15 #mm Marge intérieure (si double page)
   EMargin: 10 #mm Marge extérieure (si double page)
+fonts:
+  - familyName: Arial
+    folder: test/assets/fontes/Arial
+    fonts:
+      - {fname: 'Arial.ttf'}
+      - {fname: 'Arial Italic.ttf'}
+      - {fname: 'Arial Bold.ttf'}
+      - {fname: 'Arial Bold Italic.ttf'}

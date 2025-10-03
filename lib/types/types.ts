@@ -16,11 +16,25 @@ export interface StoryType {
   uuid: string;
 }
 
+export interface FontType {
+  fname: string; // Chemin d'accès absolu ou relatif par rapport au dossier de la famille
+  extraParams?: {[x: string]: string}; // Propriétés optionnelles
+}
+
+export interface FontFamilyType {
+  self?: string; // Identifiant défini au cours du travail
+  familyName: string;  
+  folder: string;   // chemin d'accès au dossier contenant les fontes
+  fonts: FontType[];
+}
 
 export interface BookDataType {
   // Dossier principal du livre (contenant au moins la recette)
-  folder: string;
+  bookFolder: string;
+  idmlFolder: string; // Dossier IDML pour construire l'archive (path absolue ou relative à l'endroit d'où est jouée la commande)
   masterSpreads: MasterSpreadType[];
+  fonts: FontFamilyType[]; 
+  graphic?: any; // je ne sais pas encore comment les définir
   spreads: SpreadType[];
   // Les textes
   stories: StoryType[];

@@ -1,6 +1,7 @@
 import { stringWidth } from "bun";
 import fs from "fs";
 import type { XMLObjet, XMLRootType } from "./types/types";
+import { throwError } from "./Messagerie";
 
 /**
  * Outil constructeur des fichiers XML
@@ -75,18 +76,27 @@ export class BuilderXML {
         return this.buildContent(xmlObj.child);
       }
     } else if (xmlObj.children) {
+      // Deux cas, avec des enfants :
+      // 1) l'objet a un tag et c'est vraiment une balise
+      // 2) l'objet n'a pas de tag et c'est juste une liste d'enfants avec
+      //    leurs propres tags
       if (xmlObj.tag) {
+        // Il faut ajouter le tag aux enfants (singulier du parent)
         const childTag = xmlObj.tag.substring(0, xmlObj.tag?.length - 1);
-        const content = xmlObj.children
-          .map((xmlSubObj: XMLObjet) => {
-            Object.assign(xmlSubObj, { tag: childTag });
-            return this.buildContent(xmlSubObj)
-          })
-          .join("\n")
-        return BuilderXML.xmlTag(xmlObj.tag, content, xmlObj.attrs || [], xmlObj.ns);
+        xmlObj.children.forEach(child => Object.assign(child, { tag: childTag }))
+      } 
+      const content = xmlObj.children
+        .map((xmlSubObj: XMLObjet) => this.buildContent(xmlSubObj))
+        .join("\n");
+
+      if (undefined === xmlObj.tag) {
+        // Enfants "orphelins"
+        return content;
       } else {
-        throw new Error("Il faut impérativement définir la propriété tag d'un child d'objet XML.");
+        // Enfants de parents
+        return BuilderXML.xmlTag(xmlObj.tag, content, xmlObj.attrs || [], xmlObj.ns);
       }
+
     } else /* noeud sans enfant */ {
       return BuilderXML.xmlTag(
         xmlObj.tag as string, 
@@ -127,7 +137,7 @@ export class BuilderXML {
     // Échappement du contenu
     content = ((c: string | number) => {
       if ('number' === typeof c) { return c ;}
-      if (c.startsWith('<') && c.endsWith('>') && (/^<([^ >]+).*>.*<\/\1>/.test(c)) && (/.*<([^ >]+).*>.*<\/\1>$/.test(c))) { return c /* tag(s) formatée(s) */}
+      if (c.startsWith('<') && c.endsWith('>') && (/^<([^ >]+).*>.*<\/\1>/m.test(c)) && (/.*<([^ >]+).*>.*<\/\1>$/m.test(c))) { return c /* tag(s) formatée(s) */}
       if (!/[&<>"']/.test(c)) return c;
       let bad: string, bon: string;
       for([bad, bon] of this.ESCAPED_STR){ c = c.replace(bad, bon) }

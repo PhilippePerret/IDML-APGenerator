@@ -1,0 +1,17 @@
+const ERRORS = {
+  'book-folder-unfound': 'Dossier du livre "_0_" introuvable.',
+  'recipe-unfound': 'Recette du livre introuvable dans "_0_"'
+}
+export function throwError(
+  errId: string, 
+  params: string[] | undefined = undefined
+){
+  let msg = (ERRORS as any)[errId];
+  if (params) {
+    for(var i = 0, len = params.length; i < len; ++i){
+      const tag = `_${i}_`;
+      msg = msg.replace(tag, params[i]);
+    }
+  }
+  throw new Error(msg);
+}
