@@ -1,6 +1,7 @@
 const ERRORS = {
   'book-folder-unfound': 'Dossier du livre "_0_" introuvable.',
-  'recipe-unfound': 'Recette du livre introuvable dans "_0_"'
+  'recipe-unfound': 'Recette du livre introuvable dans "_0_"',
+  'ambigous-prop': 'la propriété "_0_" est ambigue. Choisissez entre _1_.',
 }
 export function throwError(
   errId: string, 

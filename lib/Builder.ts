@@ -16,6 +16,7 @@ import { IDML } from "./IDML";
 import { FontClass } from "./FontClass";
 import { throwError } from "./Messagerie";
 import YAML from 'yaml'
+import { DataProps } from "./DATA_PROPS";
 
 export class Builder {
 
@@ -29,6 +30,9 @@ export class Builder {
     fs.existsSync(bookPath) || throwError('book-folder-unfound', [bookPath]);
     const recipePath = path.join(bookPath, 'recipe.yaml');
     fs.existsSync(recipePath) || throwError('recipe-unfound', [recipePath]);
+
+    // Initialisation des données propriétés
+    DataProps.init();
 
     const yamlcode = fs.readFileSync(recipePath, 'utf-8');
     const bookData = YAML.parse(yamlcode);
