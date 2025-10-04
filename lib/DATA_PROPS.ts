@@ -52,7 +52,7 @@ const DATA_PROPS: {[x: string]: any} = {
         GIFOptionsPalette: {values: ["AdaptivePalette"], default: "AdaptivePalette"},
         GIFOptionsInterlaced: {values: booleans, default: false},
         JPEGOptionsQuality: {values: ["High"], default: "High"},
-        JPEGOptionsFormat: {values: ["ProgressiveEncoding"], default: "ProgressiveEncoding"},
+        JPEGOptionsFormat: {values: ["ProgressiveEncoding", "BaselineEncoding"], default: "ProgressiveEncoding"},
         TocStyleName: {values: strings, default: "$ID/"},
         ExternalStyleSheets: {values: strings, default: ""},
         Javascripts: {values: strings, default: ""},
@@ -103,7 +103,7 @@ const DATA_PROPS: {[x: string]: any} = {
         GIFOptionsPalette: {values: ["AdaptivePalette"], default: "AdaptivePalette"},
         GIFOptionsInterlaced: { values: booleans, default: false },
         JPEGOptionsQuality: {values: ["High"], default: "High"},
-        JPEGOptionsFormat: {values: ["ProgressiveEncoding"], default: "ProgressiveEncoding"},
+        JPEGOptionsFormat: {values: ["BaselineEncoding", "ProgressiveEncoding"], default: "ProgressiveEncoding"},
         IgnoreObjectConversionSettings: {values: booleans, default: false},
         TocStyleName: {values: strings, default: "$ID/"},
         BreakDocument: {values: booleans, default: false},
@@ -148,7 +148,7 @@ const DATA_PROPS: {[x: string]: any} = {
         GIFOptionsPalette: {values: ["AdaptivePalette"], default: "AdaptivePalette"},
         GIFOptionsInterlaced: {values: booleans, default: false},
         JPEGOptionsQuality: {values: ["High"], default: "High"},
-        JPEGOptionsFormat: {values: ["ProgressiveEncoding"], default: "ProgressiveEncoding"},
+        JPEGOptionsFormat: {values: ["ProgressiveEncoding", "BaselineEncoding"], default: "ProgressiveEncoding"},
         Level: {values: integers, default: 5},
         IgnoreObjectConversionSettings: {values: booleans, default: false},
         ServerPath: {values: strings, default: ""},
@@ -209,6 +209,30 @@ const DATA_PROPS: {[x: string]: any} = {
         TransformParameters: {
           properties: {}
         }
+      }
+    },
+    XMLExportPreference: {
+      attrs: {
+        ViewAfterExport: {values: booleans, default: false},
+        ExportFromSelected: {values: booleans, default: false},
+        FileEncoding: {values: ["UTF8"], default: "UTF8"},
+        Ruby: {values: booleans, default: false},
+        ExcludeDtd: {values: booleans, default: true},
+        CopyOriginalImages: {values: booleans, default: false},
+        CopyOptimizedImages: {values: booleans, default: false},
+        CopyFormattedImages: {values: booleans, default: false},
+        ImageConversion: {values: ["Automatic"], default: "Automatic"},
+        GIFOptionsPalette: {values: ["AdaptivePalette"], default: "AdaptivePalette"},
+        GIFOptionsInterlaced: {values: booleans, default: false},
+        JPEGOptionsQuality: {values: ["High"], default: "High"},
+        JPEGOptionsFormat: {values: ["ProgressiveEncoding", "BaselineEncoding"], default: "BaselineEncoding"},
+        AllowTransform: {values: booleans, default: false},
+        CharacterReferences: {values: booleans, default: false},
+        ExportUntaggedTablesFormat: {values: ["CALS"], default: "CALS"}
+      },
+      properties: {
+        PreferredBrowser: {values: strings, default: "Nothing", attrs: {type: "enumeration"}},
+        TransformFilename: {values: strings, default: "StylesheetInXML", attrs: {type: "enumeration"}}
       }
     },
   }, // Preferences
