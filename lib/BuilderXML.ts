@@ -1,6 +1,5 @@
-import { stringWidth } from "bun";
 import fs from "fs";
-import type { XMLObjet, XMLRootType } from "./types/types";
+import type { RecType, XMLTag, XMLObjet, XMLRootType } from "./types/types";
 import { throwError } from "./Messagerie";
 
 /**
@@ -64,7 +63,7 @@ export class BuilderXML {
    * - contenant  SOIT un child (balise unique) définit un XMLObjet avec tag, children ou chilf, attrs
    *              SOIT un children (balises multiples) définissant des XMLObjet(s)
    * 
-   * L
+   * 
    */
   private buildContent(xmlObj: XMLObjet): string {
     if (xmlObj.child) {
@@ -81,10 +80,10 @@ export class BuilderXML {
       // 2) l'objet n'a pas de tag et c'est juste une liste d'enfants avec
       //    leurs propres tags
       if (xmlObj.tag) {
-        // Il faut ajouter le tag aux enfants (singulier du parent)
-        const childTag = xmlObj.tag.substring(0, xmlObj.tag?.length - 1);
-        xmlObj.children.forEach(child => Object.assign(child, { tag: childTag }))
-      } 
+        // Il faut ajouter le tag aux enfants (singulier du parent ou childTag défini)
+        let childTag = xmlObj.childTag || xmlObj.tag.substring(0, xmlObj.tag?.length - 1);
+        xmlObj.children.forEach(child => Object.assign(child, { tag: childTag }));
+     } 
       const content = xmlObj.children
         .map((xmlSubObj: XMLObjet) => this.buildContent(xmlSubObj))
         .join("\n");
@@ -96,11 +95,20 @@ export class BuilderXML {
         // Enfants de parents
         return BuilderXML.xmlTag(xmlObj.tag, content, xmlObj.attrs || [], xmlObj.ns);
       }
-
+    } else if (xmlObj.items) {
+      // Des éléments de même type. Cette propriété contient les 
+      // attributs et peut-être le contenu (text)
+      xmlObj.tag || throwError('xmltag-undef-tagname', [JSON.stringify(xmlObj)]);
+      const tagName = xmlObj.tag as string;
+      return xmlObj.items
+        .map((item: RecType) => {
+          return BuilderXML.xmlTag(tagName, item.text, item.attrs || [], item.ns);
+        })
+        .join("\n");
     } else /* noeud sans enfant */ {
       return BuilderXML.xmlTag(
         xmlObj.tag as string, 
-        xmlObj.content || '', 
+        xmlObj.text || '', 
         xmlObj.attrs || [], 
         xmlObj.ns
       );

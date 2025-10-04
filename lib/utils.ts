@@ -1,3 +1,4 @@
+import fs from "fs";
 import { Options } from "./Options";
 
 /**
@@ -10,4 +11,14 @@ import { Options } from "./Options";
  */
 export function option(opt: string) {
   return Options.getOption(opt);
+}
+
+
+/**
+ * Fonction qui teste l'antériorité de deux fichiers
+ * Si le PREMIER est plus vieux (créé avant) le SECOND, la fonction
+ * retourne TRUE, sinon FALSE
+ */
+export function isOlder(filepath1: string, filepath2: string): boolean {
+  return fs.statSync(filepath1).mtime < fs.statSync(filepath2).mtime;
 }

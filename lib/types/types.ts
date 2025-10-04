@@ -1,5 +1,4 @@
-import type { BlobOptions } from "buffer";
-
+export type RecType = Record<string, any>
 
 export interface MasterSpreadType {
   type: 'master-spread';
@@ -32,9 +31,12 @@ export interface BookDataType {
   // Dossier principal du livre (contenant au moins la recette)
   bookFolder: string;
   idmlFolder: string; // Dossier IDML pour construire l'archive (path absolue ou relative à l'endroit d'où est jouée la commande)
+  recipePath: string; 
   masterSpreads: MasterSpreadType[];
   fonts: FontFamilyType[]; 
   graphic?: any; // je ne sais pas encore comment les définir
+  preferences?: RecType;
+  styles?: RecType;
   spreads: SpreadType[];
   // Les textes
   stories: StoryType[];
@@ -51,13 +53,18 @@ export interface XMLRootType {
   end?: string; // fin du fichier, sera calculé le moment venu
 }
 
-export interface XMLObjet {
+export interface XMLTag {
   tag?: string;
-  content?: string | undefined;
+  text?: string; // value
+  attrs?: [string, any][];
+  ns?: string; // name space
+}
+
+export interface XMLObjet extends XMLTag {
+  childTag?: string;
   child?: XMLObjet;
   children?: XMLObjet[];
-  attrs?: [string, any][];
-  ns?: string; // name space (if any)
+  items?: RecType[]; // Liste d'attributs
 }
 
 // === FONTES ===

@@ -17,6 +17,7 @@ import { FontClass } from "./FontClass";
 import { throwError } from "./Messagerie";
 import YAML from 'yaml'
 import { DataProps } from "./DATA_PROPS";
+import { Styles } from "./Styles";
 
 export class Builder {
 
@@ -36,7 +37,10 @@ export class Builder {
 
     const yamlcode = fs.readFileSync(recipePath, 'utf-8');
     const bookData = YAML.parse(yamlcode);
-    Object.assign(bookData, {bookFolder: bookPath});
+    Object.assign(bookData, {
+      bookFolder: bookPath,
+      recipePath: recipePath, 
+    });
     this.defaultizeBookData(bookData);
     console.log("bookData = ", bookData);
     const builder = new Builder();
@@ -150,9 +154,26 @@ export class Builder {
    * 
    */
   build_resources_folder(bookData: BookDataType){
+
     // Dossier ressources
     const folderResources = path.join(bookData.idmlFolder, 'Resources')
-    if (!fs.existsSync(folderResources)) { fs.mkdirSync(folderResources); }
+ 
+    // Fonction interne pour la copie du modèle
+    // Si +affectIds+ est true, les __SELF__ dans le code seront 
+    // remplacés par des identifiants uniques
+    const copieModel = (filename: string, affectIds: boolean) => {
+      pth = path.join(folderResources, filename);
+      model = path.join(this.modelsFolder, filename);
+      if (affectIds) {
+        let code = fs.readFileSync(model, 'utf-8');
+        while (code.match(/__SELF__/)) { code = code.replace(/__SELF__/, IDML.generateId()); }
+        fs.writeFileSync(pth, code);
+      } else {
+        fs.copyFileSync(model, pth);
+      }
+    }
+ 
+   if (!fs.existsSync(folderResources)) { fs.mkdirSync(folderResources); }
 
     let pth: string, content: XMLObjet, root: XMLRootType, model: string;
     // Fichier Fonts (Fontes utilisées)
@@ -187,20 +208,35 @@ export class Builder {
     console.log("\nCONTENT = ", content);
     new BuilderXML({path: pth, content: content, root: root}).output();    
 
-    // Fichier Graphics (images)
+   // Fichier Graphics (images)
     // Si aucune donnée graphic n'est définie, on copie simplement le
     // document par défaut
     if (undefined === bookData.graphic) {
-      pth = path.join(folderResources, 'Graphic.xml');
-      model = path.join(this.modelsFolder, 'Graphic.xml');
-      fs.copyFileSync(model, pth);
+      copieModel('Graphic.xml', false);
+   } else {
+      // [N0001] Sinon, on modifie le document modèle en fonction des
+      // propriétés modifiées. On fonctionne par streaming, en 
+      // recherchant les balises (tag + attribut). On peut checker 
+      // les valeurs à l'aide des DATA_PROPS
+      throw new Error("La définition des Graphics n'est pas encore implémenté")
     }
 
     // Fichier Préférences
-    // Todo
+    // -------------------
+    if (undefined === bookData.preferences) {
+      copieModel('Preferences.xml', false);
+    } else {
+      // Lire la [N0001]
+      throw new Error("Il faut apprendre à définir les préférences");
+    }
 
     // Fichier Styles
-    // Todo
+    // --------------
+    if (undefined === bookData.styles) {
+      copieModel('Styles.xml', true);
+    } else {
+      Styles.buildResourceFile(bookData); 
+    }
   }
 
   /**

@@ -1,6 +1,8 @@
 const ERRORS = {
   'book-folder-unfound': 'Dossier du livre "_0_" introuvable.',
   'recipe-unfound': 'Recette du livre introuvable dans "_0_"',
+  // Builder XML
+  'xmltag-undef-tagname': 'Il est impératif de définir le tag (tag) dans _0_.',
   // Data Props
   'ambigous-prop': 'la propriété "_0_" est ambigue. Choisissez entre _1_.',
   'unknown-data-prop': 'La propriété "_0_" est inconnue….',
