@@ -38,10 +38,23 @@ export class DataPropsBuilder {
         let finalKey: string;
         if (PROP_TO_PATH[key] || AMBIGOUS_PROPS[key]) {
           // Propriété ambigue
-          if (undefined === AMBIGOUS_PROPS[key]) {
-            // Nouvelle propriété ambigue
+
+          if (PROP_TO_PATH[key]) {
+            // Dans le cas de la première ambiguïté trouvé,
+            // Il faut commencer par retirer la première propriété pour
+            //  lui mettre un autre identifiant
+            const firstPath = PROP_TO_PATH[key].split(':');
+            firstPath.pop(); // la key elle-même
+            let firstParent = firstPath.pop();
+            if (firstParent === 'attrs') { firstParent = firstPath.pop(); }
+            const firstFinalKey = `${firstParent}:${key}`;
+ 
             Object.assign(AMBIGOUS_PROPS, { [key]: [] });
+            AMBIGOUS_PROPS[key].push(firstFinalKey);
+            Object.assign(PROP_TO_PATH, {[firstFinalKey]: PROP_TO_PATH[key]});
+            delete PROP_TO_PATH[key];
           }
+         
           // [ICI] (cf. ci-dessous)
           const splitedPath = path.split(':');
           let parent = splitedPath.pop();

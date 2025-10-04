@@ -190,8 +190,28 @@ const DATA_PROPS: {[x: string]: any} = {
         DefaultImageTagColor: {values: strings, default: 'Violet', attrs: {type: 'enumeration'}},
 
       }
-    }
-  }
+    },
+    XMLImportPreference: {
+      attrs: {
+        CreateLinkToXML: {values: booleans, default: false},
+        RepeatTextElements: {values: booleans, default: true},
+        IgnoreUnmatchedIncoming: {values: booleans, default: false},
+        ImportTextIntoTables: {values: booleans, default: true},
+        IgnoreWhitespace: {values: booleans, default: false},
+        RemoveUnmatchedExisting: {values: booleans, default: false},
+        ImportToSelected: {values: booleans, default: true},
+        ImportStyle: {values: ["MergeImport"], default: "MergeImport"},
+        AllowTransform: {values: booleans, default: false},
+        ImportCALSTables: {values: booleans, default: true}
+      },
+      properties: {
+        TransformFilename: {values: strings, default: "StylesheetInXML", attrs: {type: 'enumeration'}},
+        TransformParameters: {
+          properties: {}
+        }
+      }
+    },
+  }, // Preferences
 }
 
 
