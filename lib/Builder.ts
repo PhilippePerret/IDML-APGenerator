@@ -15,9 +15,10 @@ import { BuilderXML } from "./BuilderXML";
 import { IDML } from "./IDML";
 import { FontClass } from "./FontClass";
 import { throwError } from "./Messagerie";
-import YAML from 'yaml'
+import YAML, { isPair } from 'yaml'
 import { DataProps } from "./DATA_PROPS";
 import { Styles } from "./Styles";
+import { isOlder } from "./utils";
 
 export class Builder {
 
@@ -39,7 +40,7 @@ export class Builder {
     const bookData = YAML.parse(yamlcode);
     Object.assign(bookData, {
       bookFolder: bookPath,
-      recipePath: recipePath, 
+      recipePath: recipePath,
     });
     this.defaultizeBookData(bookData);
     console.log("bookData = ", bookData);
@@ -57,6 +58,9 @@ export class Builder {
     bdata.masterSpreads || assign('masterSpreads', []);
     bdata.spreads || assign('spreads', []);
     bdata.stories || assign('stories', []);
+
+    assign('pageHeight', bdata.document.height || 297);
+    assign('pageWidth', bdata.document.width || 210);
   }
 
   /**
@@ -232,12 +236,19 @@ export class Builder {
 
     // Fichier Styles
     // --------------
-    if (undefined === bookData.styles) {
-      copieModel('Styles.xml', true);
+    // On ne le construit que s'il a besoin d'être actualisé, c'est
+    // à-dire si le fichier recette est plus vieux (créé avant) le
+    // dernier fichier des styles construits
+    if (fs.existsSync(Styles.filePath) && isOlder(bookData.recipePath, Styles.filePath)) {
+      // rien à faire, aucune modification
     } else {
-      Styles.buildResourceFile(bookData); 
+      // On fait une copie du fichier modèle
+      copieModel('Styles.xml', true);
+      // Mais on ne le modifie que si des styles ont été définis
+      bookData.styles || Styles.buildResourceFile(bookData);
     }
-  }
+
+ }// /build_resources_folder
 
   /**
    * Construction du dossier XML
@@ -258,5 +269,31 @@ export class Builder {
    */
   build_designmap_file(bookData: BookDataType) {
     // Todo
+    let pth: string, content: XMLObjet, root: XMLRootType, model: string;
+
+    pth = path.join(bookData.idmlFolder, 'designmap.xml');
+    root = {
+      isPackage: true,
+      tag: 'Document',
+      id: 'd',
+      DOMVersion: "15.0",
+      xmlns: 'http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging',
+      instTreatment: '<?aid style="50" type="document" readerVersion="6.0" featureSet="257" product="15.0(209)" ?>'
+    }
+    content = {
+      children: [] as XMLObjet[]
+    }
+    bookData.spreads.forEach(spread => {
+      (content.children as XMLObjet[]).push(
+        {attrs: [['src', `Spreads/Spread_${spread.uuid}.xml`]], tag:'idPkg:Spread'}
+      )
+    });
+    bookData.stories.forEach(story => {
+      (content.children as XMLObjet[]).push(
+        {attrs: [['src', `Stories/Story_${story.uuid}.xml`]], tag: 'idPkg:Story'}
+      )
+    })
+    new BuilderXML({path: pth, content: content, root: root}).output();
+
   }
 }

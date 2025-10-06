@@ -8,6 +8,7 @@ export interface MasterSpreadType {
 export interface SpreadType {
   type: 'spread';
   uuid: string;
+  src: string; 
 }
 
 export interface StoryType {
@@ -31,7 +32,8 @@ export interface BookDataType {
   // Dossier principal du livre (contenant au moins la recette)
   bookFolder: string;
   idmlFolder: string; // Dossier IDML pour construire l'archive (path absolue ou relative à l'endroit d'où est jouée la commande)
-  recipePath: string; 
+  recipePath: string;
+  document: RecType; // Toutes les informations sur le format du document, dimension, marges, etc.
   masterSpreads: MasterSpreadType[];
   fonts: FontFamilyType[]; 
   graphic?: any; // je ne sais pas encore comment les définir
@@ -40,6 +42,10 @@ export interface BookDataType {
   spreads: SpreadType[];
   // Les textes
   stories: StoryType[];
+  //
+  // --- Propriétés volatiles (i.e. ajoutées au runtime) ---
+  pageHeight: number;
+  pageWidth: number;
 }
 
 
@@ -51,12 +57,15 @@ export interface XMLRootType {
   xmlns: string; // si isPackage, l'attribut deviendra xmlns:idPkg
   start?: string; // root du fichier, sera calculé le moment venu 
   end?: string; // fin du fichier, sera calculé le moment venu
+  id?: string;
+  instTreatment?: string; // instruction de traitement (sous la déclaration <?xml)
 }
+export type AttrsType = [string, any][];
 
 export interface XMLTag {
   tag?: string;
   text?: string; // value
-  attrs?: [string, any][];
+  attrs?: AttrsType;
   ns?: string; // name space
 }
 

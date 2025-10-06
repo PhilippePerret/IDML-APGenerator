@@ -18,6 +18,7 @@
 				<RuleAboveGapColor type="object">Swatch/None</RuleAboveGapColor>
 				<RuleBelowGapColor type="object">Swatch/None</RuleBelowGapColor>
 				<UnderlineColor type="string">Text Color</UnderlineColor>
+				
 				<UnderlineGapColor type="object">Swatch/None</UnderlineGapColor>
 				<UnderlineType type="object">StrokeStyle/$ID/Solid</UnderlineType>
 				<StrikeThroughColor type="string">Text Color</StrikeThroughColor>

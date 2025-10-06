@@ -17,11 +17,61 @@ const strings = typeof String;
  * Elle permet principalement de valider les données utilisateur et de
  * savoir celles qu'il faut changer dans les fichiers modèles (fichiers
  * par défaut)
+ * 
+ * Mais aussi de comprendre la structure des fichiers
+ * 
+ * Valeurs spéciales
+ * -----------------
+ *  $ID/    Valeur InDesign indiquant une "Key String" (cf. manuel dév)
+ *  $DEF/   Valeur personnelle indiquant une valeur qui devra être calculée. Le
+ *          calcul dépend de la tag. Par exemple, ci-dessous  à [001], c'est la
+ *          valeur de Self qui devra être calculée.
  */
-const DATA_PROPS: {[x: string]: any} = {
+const DATA_PROPS: RecType = {
+  Story: {
+    Story: {
+      // On indique par '__' les propriétés qui ne sont pas des noeuds. On trouve les
+      // attributs (__attrs), les propriétés quand elles ne se trouve pas dans des
+      // balises <Properties>...</Properties> (__properties) ou encore les enfants
+      // (__children)
+      __attrs: {
+        Self: { values: strings, default: '$DEF/'}, // [001]
+        AppliedTOCStyle: {values: ['n', 'y'], default: 'n'},
+      },
+      __properties: {
+        StoryPreference: {
+          __attrs: {
+            OpticalMarginAlignment: {values: booleans, default: false},
+            OpticalMarginSize: {values: integers, default: 12},
+            FrameType: {values: ['TextFrameType'], default: 'TextFrameType'},
+            StoryOrientation: {values: ['Vertical', 'Horizontal'], default: 'Horizontal'},
+            StoryDirection: {values: ['LeftToRightDirection', 'RightToLeftDirection'], default: 'LeftToRightDirection'}
+          }
+        },
+        InCopyExportOption: {
+          __attrs: {
+            IncludeGraphicProxies: {values: booleans, default: true},
+            IncludeAllResources: {values: booleans, default: false}
+          }
+        }
+      },
+      __children: { // Ça signifie qu'il peut avoir plusieurs éléments composés comme ci-dessous
+        ParagraphStyleRange: {
+          __properties: {
+            CharacterStyleRange: {
+              Properties: {
+                AppliedFont: {__attrs: [['type', 'string']], text: 'Arial'}
+              },
+              Content: {text: 'Le texte du rang de caractère'}
+            }
+          }
+        }
+      }
+    }
+  },
   Preferences: {
     DataMergeOption: {
-      attrs: {
+      __attrs: {
         FittingOption: { values: ['Proportional'] /*todo*/, default: 'Proportional' },
         CenterImage: { values: booleans, default: false },
         LinkImages: { values: booleans, default: true },
@@ -31,7 +81,7 @@ const DATA_PROPS: {[x: string]: any} = {
       }
     },
     LayoutAdjustmentPreference: {
-      attrs: {
+      __attrs: {
         EnableLayoutAdjustment: {values: booleans, default: false},
         SnapZone: {values: integers, default: 2},
         AllowGraphicsToResize: {values: booleans, default: true},
@@ -41,7 +91,7 @@ const DATA_PROPS: {[x: string]: any} = {
       } 
     },
     EPubFixedLayoutExportPreference: {
-      attrs: {
+      __attrs: {
         Level: {values: integers, default: 5},
         EpubPublisher: {values: strings, default: ""},
         Id: {values: strings, default: "urn:uuid:29d919dd-24f5-4384-be78-b447c9dc299b"},
@@ -69,7 +119,7 @@ const DATA_PROPS: {[x: string]: any} = {
       }
     },
     EPubExportPreference: {
-      attrs: {
+      __attrs: {
         Level: {values: integers, default: 5},
         EpubTitle: {values: strings, default: ""},
         EpubCreator: {values: strings, default: ""},
@@ -130,7 +180,7 @@ const DATA_PROPS: {[x: string]: any} = {
       }
     },
     HTMLExportPreference: {
-      attrs: {
+      __attrs: {
         IncludeClassesInHTML: {values: booleans, default: true},
         UseSVGAs: {values: ["EmbedCode"], default: "EmbedCode"},
         ExportSelection: {values: booleans, default: false},
@@ -172,7 +222,7 @@ const DATA_PROPS: {[x: string]: any} = {
       }
     },
     XMLPreference: {
-      attrs: {
+      __attrs: {
         DeleteElementOnContentDeletion: {values: booleans, default: false},
         DefaultStoryTagName: {values: strings, default: 'Story'},
         DefaultTableTagName: {values: strings, default: 'Table'},
@@ -180,19 +230,19 @@ const DATA_PROPS: {[x: string]: any} = {
         DefaultImageTagName: {values: strings, default: 'Image'}
       },
       Properties: {
-        // Properties n'ayant pas de clé attrs:, il s'agit donc de 
+        // Properties n'ayant pas de clé __attrs:, il s'agit donc de 
         // noeud ci-dessous. C'est donc la valeur #text qui est en 
         // default et les attributs sont précisées dans la propriété
         // attrs (qui ne doit pas générer de xpath dans PATH_TO_PROP)
-        DefaultStoryTagColor: {values: strings, default: 'BrickRed', attrs: {type: 'enumeration'}},
-        DefaultTableTagColor: {values: strings, default: 'DarkBlue', attrs: {type: 'enumeration'}},
-        DefaultCellTagColor: {values: strings, default: 'GrassGreen', attrs: {type: 'enumeration'}},
-        DefaultImageTagColor: {values: strings, default: 'Violet', attrs: {type: 'enumeration'}},
+        DefaultStoryTagColor: {values: strings, default: 'BrickRed', __attrs: {type: 'enumeration'}},
+        DefaultTableTagColor: {values: strings, default: 'DarkBlue', __attrs: {type: 'enumeration'}},
+        DefaultCellTagColor: {values: strings, default: 'GrassGreen', __attrs: {type: 'enumeration'}},
+        DefaultImageTagColor: {values: strings, default: 'Violet', __attrs: {type: 'enumeration'}},
 
       }
     },
     XMLImportPreference: {
-      attrs: {
+      __attrs: {
         CreateLinkToXML: {values: booleans, default: false},
         RepeatTextElements: {values: booleans, default: true},
         IgnoreUnmatchedIncoming: {values: booleans, default: false},
@@ -204,15 +254,15 @@ const DATA_PROPS: {[x: string]: any} = {
         AllowTransform: {values: booleans, default: false},
         ImportCALSTables: {values: booleans, default: true}
       },
-      properties: {
-        TransformFilename: {values: strings, default: "StylesheetInXML", attrs: {type: 'enumeration'}},
+      __properties: {
+        TransformFilename: {values: strings, default: "StylesheetInXML", __attrs: {type: 'enumeration'}},
         TransformParameters: {
-          properties: {}
+          Properties: {}
         }
       }
     },
     XMLExportPreference: {
-      attrs: {
+      __attrs: {
         ViewAfterExport: {values: booleans, default: false},
         ExportFromSelected: {values: booleans, default: false},
         FileEncoding: {values: ["UTF8"], default: "UTF8"},
@@ -230,9 +280,9 @@ const DATA_PROPS: {[x: string]: any} = {
         CharacterReferences: {values: booleans, default: false},
         ExportUntaggedTablesFormat: {values: ["CALS"], default: "CALS"}
       },
-      properties: {
-        PreferredBrowser: {values: strings, default: "Nothing", attrs: {type: "enumeration"}},
-        TransformFilename: {values: strings, default: "StylesheetInXML", attrs: {type: "enumeration"}}
+      __properties: {
+        PreferredBrowser: {values: strings, default: "Nothing", __attrs: {type: "enumeration"}},
+        TransformFilename: {values: strings, default: "StylesheetInXML", __attrs: {type: "enumeration"}}
       }
     },
   }, // Preferences

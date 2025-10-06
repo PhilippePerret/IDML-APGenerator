@@ -19,3 +19,13 @@ fonts:
       - {fname: 'Arial Italic.ttf'}
       - {fname: 'Arial Bold.ttf'}
       - {fname: 'Arial Bold Italic.ttf'}
+spreads:
+  - PageCount: 3
+    origin: 'top-left'
+    elements:
+      - type: TextFrame
+        story: sto1
+        coor: ['top-left', 'bottom-right']
+stories:
+  - uuid: sto1
+    text: 

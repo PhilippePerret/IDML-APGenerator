@@ -30,6 +30,9 @@ export class BuilderXML {
   public output() {
     this.prepareFile();
     this.write(`<?xml version="${this.CONST.version}" encoding="${this.CONST.encoding}" standalone="${this.CONST.standalone}"?>`)
+    // S'il y a une instruction de traitement, comme le <?aid dans le
+    // fichier designmap.xml
+    if (this.root.instTreatment){ this.write(this.root.instTreatment) }
     this.write(this.root.start as string);
     // On ajoute tout le contenu
     this.write(this.buildContent(this.content));

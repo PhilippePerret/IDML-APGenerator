@@ -1,6 +1,11 @@
 const ERRORS = {
   'book-folder-unfound': 'Dossier du livre "_0_" introuvable.',
   'recipe-unfound': 'Recette du livre introuvable dans "_0_"',
+  // Recette
+  'undef-element-type-in-children': 'Type d’enfant non défini dans : _0_',
+  'unknown-element-type': 'Type d’élément inconnu : _0_',
+  // Element Text Frame
+  'story-undef-in-textframe': "La story (id) n'est pas définie dans le TextFrame _0_…",
   // Builder XML
   'xmltag-undef-tagname': 'Il est impératif de définir le tag (tag) dans _0_.',
   // Data Props
