@@ -1,5 +1,6 @@
 import path from "path";
 import fs from "fs";
+import { $ } from "bun";
 
 import type { 
   MasterSpreadType, 
@@ -19,6 +20,8 @@ import YAML, { isPair } from 'yaml'
 import { DataProps } from "./DATA_PROPS";
 import { Styles } from "./Styles";
 import { isOlder } from "./utils";
+import { Story } from "./elements/Story";
+import { Spread } from "./elements/Spread";
 
 export class Builder {
 
@@ -45,9 +48,27 @@ export class Builder {
     this.defaultizeBookData(bookData);
     console.log("bookData = ", bookData);
     const builder = new Builder();
-    builder.build(bookData);
+    let ok = builder.buildAllIdmlFiles(bookData);
+    if (ok) { ok = builder.generateArchiveIdml(bookData); }
+    if (ok) { ok = builder.openInFolder(bookData); }
 
     return true;
+  }
+  
+
+  private async generateArchiveIdml(bookData: BookDataType): Promise<boolean> {
+    const cmd = `
+    cd "${bookData.bookFolder}" && \
+    zip -X0 ./document.idml ./idml/mimetype && \
+    zip -Xr ./document.idml ./idml -x mimetype
+    `
+    const result = await $`${cmd}`;
+    console.log("Retour de command", result.text());
+    return true ; // Si ok
+  }
+
+  private openInFinder(bookData: BookDataType): boolean {
+    return true; // si ok
   }
 
   private static defaultizeBookData(bdata: BookDataType){
@@ -67,15 +88,15 @@ export class Builder {
    * Méthode principale appelée pour construire une archive IDML
    * permettant de produire un fichier pour Affinity Publisher.
    */
-  build(bookData: BookDataType){
-    console.log("Je dois apprendre à construire l'archive IDML à partir de ", bookData)
+  buildAllIdmlFiles(bookData: BookDataType){
+    console.log("Je dois continuer à apprendre à construire l'archive IDML à partir des données ", bookData)
     // On construit tous les fichiers/dossiers dans l'ordre
     this.build_mainFolder(bookData);
     this.build_mimetype(bookData);
     this.build_meta_inf_folder(bookData);
     this.build_master_spread_folder(bookData); // maquettes maitresse
     this.build_spreads_folder(bookData); // maquettes
-    this.build_stories_folder(bookData); // Les textes
+    this.build_stories_folder(bookData); // Seulement le dossier, les stories sont construites avec les spreads
     this.build_resources_folder(bookData);
     this.build_xml_folder(bookData);
     this.build_designmap_file(bookData);
@@ -83,6 +104,13 @@ export class Builder {
   
   private get assetsFolder(){ return path.join('.', 'lib', 'assets');}
   private get modelsFolder(){ return path.join(this.assetsFolder, 'models');}
+
+  /**
+   * 
+   * 
+   * ========= FONCTIONS DE CONSTRUCTION ================
+   * 
+   */
 
   /**
    * Construction du dossier principal
@@ -137,9 +165,9 @@ export class Builder {
   }
 
   build_spreads_folder(bookData: BookDataType){
-    bookData.spreads.forEach((spread: SpreadType) => {
-      // traiter la maquette
-    })
+    const theFolder = path.join(bookData.idmlFolder, 'Spreads');
+    if (!fs.existsSync(theFolder)) { fs.mkdirSync(theFolder); }
+    bookData.spreads.forEach(spread => new Spread(spread, bookData).buildFile()); 
   }
 
   /**
@@ -148,9 +176,9 @@ export class Builder {
    * @param bookData Données totales du livre
    */
   build_stories_folder(bookData: BookDataType){
-    bookData.stories.forEach((story: StoryType) => {
-      // Traitement du texte
-    })
+    const theFolder = path.join(bookData.idmlFolder, 'Stories');
+    if (!fs.existsSync(theFolder)) { fs.mkdirSync(theFolder); }
+    bookData.stories.forEach(story => new Story(story, bookData).buildFile);
   }
 
   /**
@@ -158,6 +186,11 @@ export class Builder {
    * 
    */
   build_resources_folder(bookData: BookDataType){
+
+
+    // Pour le moment, on essaie de faire sans (pour trouver le 
+    // fichier minimum)
+    return true;
 
     // Dossier ressources
     const folderResources = path.join(bookData.idmlFolder, 'Resources')
@@ -276,7 +309,7 @@ export class Builder {
       isPackage: true,
       tag: 'Document',
       id: 'd',
-      DOMVersion: "15.0",
+      DOMVersion: IDML.DOMVersion,
       xmlns: 'http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging',
       instTreatment: '<?aid style="50" type="document" readerVersion="6.0" featureSet="257" product="15.0(209)" ?>'
     }

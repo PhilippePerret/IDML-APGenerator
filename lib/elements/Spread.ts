@@ -1,8 +1,10 @@
+import path from "path";
 import { BuilderXML } from "../BuilderXML";
 import { IDML } from "../IDML";
 import { throwError } from "../Messagerie";
-import type { BookDataType, RecType, XMLObjet } from "../types/types";
+import type { BookDataType, RecType, XMLObjet, XMLRootType } from "../types/types";
 import { AbstractElementClass } from "./AbstractElementClass";
+import { Story } from "./Story";
 import { TextFrame } from "./TextFrame";
 
 /**
@@ -13,10 +15,34 @@ export class Spread extends AbstractElementClass {
   constructor(data: RecType, bookData: BookDataType){ super(data, bookData); }
 
   /**
+   * Construction du fichier Spread dans le dossier Spreads
+   */
+  buildFile(): boolean {
+    const root: XMLRootType = {
+      isPackage: true,
+      tag: 'Spread',
+      DOMVersion: IDML.DOMVersion,
+      xmlns: IDML.AIDHttpPackaging,
+    };
+
+    const content: XMLObjet = {
+      tag: 'Story',
+      text: this.XMLContent(),
+      attrs: [['Self', this.self], ['PageCount', this.pageCount]]
+    }
+
+    new BuilderXML({
+      path: path.join(this.bookData.idmlFolder, 'Spreads', `Spread_${this.self}.xml`),
+      content: content,
+      root: root
+    }).output();
+    return true
+  }
+  /**
    * Retourne le code XML complet à copier dans le document 
    * Spreads.xml du package IDML
    */
-  public toXml(){
+  public XMLContent(): string {
    const content = this.children.map((child: RecType)  => {
       child.type || throwError('undef-element-type-in-children', [JSON.stringify(child)]);
       // Construction de l'élément en fonction de son type
@@ -25,13 +51,16 @@ export class Spread extends AbstractElementClass {
         default: 
           throwError('unknown-element-type', [child.type]);
       }
-    }).join("\n");
+    })
+    
+    // On doit construire les stories et les ajouter
+    this.bookData.stories.forEach((story: RecType) => {
+      const istory = new Story(story, this.bookData);
+      istory.buildFile();
+      content.push(istory.toXml());
+    })
  
-    return BuilderXML.xmlTag(
-      'Spread',
-      content,
-      [['PageCount', this.pageCount]]
-    );
+    return content.join("\n");
   }
 
  private get pageCount(){

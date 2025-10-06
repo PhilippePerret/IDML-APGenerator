@@ -28,4 +28,4 @@ spreads:
         coor: ['top-left', 'bottom-right']
 stories:
   - uuid: sto1
-    text: 
+    text: {path: 'textes/premier_texte.md'}

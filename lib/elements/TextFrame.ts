@@ -28,6 +28,27 @@ export class TextFrame extends AbstractElementClass {
 
   buildThisContent(): string {
     const c: string[] = [];
+    // Position et taille
+    // ------------------
+    // Rappel : Anchor = Coordonnées 'Left Top' du point
+    //          LeftDirection = idem pour la poignée de Bézier gauche
+    //          RightDirection = idem pour la poignée de Bézier droite
+    const modele = '<PathPoint Anchor="_PT_" LeftDirection="_LD_" RightDirection="_RD_"/>';
+    // On fait les points en fonction de la définition des coordonnées
+    // du textframe. Ces coordonnées peuvent être définies par une 
+    // liste de points ou une paire de définitions
+    let points: any[];
+    switch(this.coordonates){
+      case ['top-left', 'bottom-righ']:
+        points = [[0, 0], [this.pageWidth, 0], [this.pageWidth, this.pageHeight], [0, this.pageHeight]];
+        break;
+      default: 
+        points = this.coordonates;
+    }
+    points.forEach((point: [number, number]) => {
+      const pt = point.join(' ')
+      c.push(modele.replace(/_(PT|LD|RD)_/g, pt)); // Pour le moment, pas de courbure
+    })
 
     // Finalisation
     return c.join("\n")
@@ -42,9 +63,13 @@ export class TextFrame extends AbstractElementClass {
   private get itemTransform(){
     switch(this.data.origin){
       case 'top-left':
-        return `1 0 0 1 -${this.bookData.pageHeight} -${this.bookData.pageWidth}`;
+        return `1 0 0 1 -${this.pageHeight} -${this.pageWidth}`;
       default:
         return '1 0 0 1 0 0'
     }
   }
+
+  private get coordonates(){return this.data.coor || this.data.coordonates || ['top-left', 'bottom-right'];}
+  private get pageWidth(){ return this.bookData.pageWidth;}
+  private get pageHeight(){ return this.bookData.pageHeight;}
 }
