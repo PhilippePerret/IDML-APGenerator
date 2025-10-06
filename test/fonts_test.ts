@@ -1,5 +1,5 @@
 import { describe, test, expect } from "bun:test";
-import { FontClass } from "../lib/FontClass";
+import { FontClass } from "../lib/elements/Fonts";
 import { IDML } from "../lib/IDML";
 
 

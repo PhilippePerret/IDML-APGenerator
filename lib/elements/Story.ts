@@ -9,6 +9,7 @@ export class Story extends AbstractElementClass {
   constructor(data: RecType, bookData: BookDataType){super(data, bookData);}
 
   buildFile(){
+    console.log("Construction d'une Story avec : ", this.data);
     const root: XMLRootType = {
       isPackage: true,
       tag: 'Story',
@@ -18,15 +19,22 @@ export class Story extends AbstractElementClass {
 
     const content: XMLObjet = {
       tag: 'Story',
-      text: `<Content>${this.text}</Content>`, // Pour le moment, un simple contenu simple…
+      text: `<Content>${this.formate(this.text)}</Content>`, // Pour le moment, un simple contenu simple…
       attrs: [['Self', this.self]]
     };
     
+    console.log("Données story définies, construction du fichier");
     new BuilderXML({
       path: path.join(this.bookData.idmlFolder, 'Stories', `Story_${this.self}.xml`),
       content: content,
       root: root
-    })
+    }).output();
+  }
+  /**
+   * Formatage du texte
+   */
+  private formate(str: string){
+    return str.replace(/\n/g, '&#xA;');
   }
   /**
    * Retourne le code String XML à inscrire dans la designmap.xml 

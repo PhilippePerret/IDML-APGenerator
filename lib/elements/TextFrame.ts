@@ -37,22 +37,24 @@ export class TextFrame extends AbstractElementClass {
     // On fait les points en fonction de la définition des coordonnées
     // du textframe. Ces coordonnées peuvent être définies par une 
     // liste de points ou une paire de définitions
-    let points: any[];
-    switch(this.coordonates){
-      case ['top-left', 'bottom-righ']:
-        points = [[0, 0], [this.pageWidth, 0], [this.pageWidth, this.pageHeight], [0, this.pageHeight]];
-        break;
-      default: 
-        points = this.coordonates;
+    let points: any[] = [];
+    if (this.coordonates[0] === 'top-left') {
+      points.push(...[[0, 0], [this.pageWidth, 0]]);
+    }
+    if (this.coordonates[1] === 'bottom-right') {
+      points.push(...[[this.pageWidth, this.pageHeight], [0, this.pageHeight]]);
+    }
+    if (points.length === 0){
+      points = this.coordonates;
     }
     points.forEach((point: [number, number]) => {
+      // console.log("point = ", point);
       const pt = point.join(' ')
       c.push(modele.replace(/_(PT|LD|RD)_/g, pt)); // Pour le moment, pas de courbure
     })
 
     // Finalisation
-    return c.join("\n")
-      .wrapIn('PathPointArray')
+    return c.join("\n").wrapIn('PathPointArray')
       .wrapIn('GeometryPath', [['PathOpen', 'false']])
       .wrapIn('PathGeometry')
   }

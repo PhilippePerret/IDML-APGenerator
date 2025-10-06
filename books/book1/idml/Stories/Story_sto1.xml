@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
+<Story Self="sto1"><Content># Premier texte&#xA;&#xA;Dans ce fichier, on met le tout premier texte pour produire un IDML le plus simple possible, pour pouvoir ensuite construire par rapport à ça.</Content></Story>
+</idPkg:Story>

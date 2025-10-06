@@ -147,12 +147,16 @@ export class BuilderXML {
   ): string {
     // Échappement du contenu
     content = ((c: string | number) => {
-      if ('number' === typeof c) { return c ;}
-      if (c.startsWith('<') && c.endsWith('>') && (/^<([^ >]+).*>.*<\/\1>/m.test(c)) && (/.*<([^ >]+).*>.*<\/\1>$/m.test(c))) { return c /* tag(s) formatée(s) */}
-      if (!/[&<>"']/.test(c)) return c;
-      let bad: string, bon: string;
-      for([bad, bon] of this.ESCAPED_STR){ c = c.replace(bad, bon) }
-      return c
+
+      // Pour le moment on ne traite pas encore car ça pose problème
+      return String(c);
+
+      // if ('number' === typeof c) { return c ;}
+      // if (c.startsWith('<') && c.endsWith('>') && (/^<([^ >]+).*>.*<\/\1>/m.test(c)) && (/.*<([^ >]+).*>.*<\/\1>$/m.test(c))) { return c /* tag(s) formatée(s) */}
+      // if (!/[&<>"']/.test(c)) return c;
+      // let bad: string, bon: string;
+      // for([bad, bon] of this.ESCAPED_STR){ c = c.replace(bad, bon) }
+      // return c
     })(content);
     // Traitement des attributs
     let attrsStr = attrs.map(([x, y]) => `${x}="${y}"`).join(' ');

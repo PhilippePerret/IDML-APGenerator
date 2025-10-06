@@ -30,6 +30,7 @@ export class DataPropsBuilder {
   private static fouilleContainer(container: RecType, path: string) {
 
     for (const key in container) {
+      if (String(key) === '0' ) { return ; /* ? */}
       const finalPath = `${path}:${key}`;
       const curValue = container[key];
       if (curValue.values && 'undefined' !== typeof curValue.default) {
@@ -46,7 +47,7 @@ export class DataPropsBuilder {
             const firstPath = PROP_TO_PATH[key].split(':');
             firstPath.pop(); // la key elle-même
             let firstParent = firstPath.pop();
-            if (firstParent === 'attrs') { firstParent = firstPath.pop(); }
+            if (firstParent === '__attrs' || firstParent === '__properties') { firstParent = firstPath.pop(); }
             const firstFinalKey = `${firstParent}:${key}`;
  
             Object.assign(AMBIGOUS_PROPS, { [key]: [] });
@@ -58,7 +59,7 @@ export class DataPropsBuilder {
           // [ICI] (cf. ci-dessous)
           const splitedPath = path.split(':');
           let parent = splitedPath.pop();
-          if (parent === 'attrs') { parent = splitedPath.pop(); }
+          if (parent === '__attrs' || parent === '__properties') { parent = splitedPath.pop(); }
           finalKey = `${parent}:${key}`;
           AMBIGOUS_PROPS[key].push(finalKey)
         } else {
@@ -75,7 +76,18 @@ export class DataPropsBuilder {
       } else {
         // => Ce n'est pas une valeur "terminale", c'est donc un
         //    "container" qu'on fouille.
-        this.fouilleContainer(curValue, finalPath);
+        // console.log("Fouille de (path: %s): ", finalPath, curValue);
+        // console.log("Fouille de path: %s", finalPath);
+        if (finalPath.endsWith(':0')) {
+          // Une valeur produisant un ':0' en fin de path est une 
+          // donnée terminale qui ne contient ni 'values' ni 'default'
+          // On n'en fait rien, on arrête la boucle ici
+          throw new Error("On ne devrait plus avoir cette erreur de fin de path = :0");
+        } else {
+          // Ce n'est pas une valeur terminale ni une valeur terminal
+          // qui ne définit pas son 'values' et son 'default'
+          this.fouilleContainer(curValue, finalPath);
+        }
       }
     }
   }

@@ -1,7 +1,7 @@
 import fs from "fs";
 const fontkit = require('fontkit') as any;
 import { execSync } from 'child_process';
-import { BuilderXML } from "./BuilderXML";
+import { BuilderXML } from "../BuilderXML";
 
 /**
  * FontClass

@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <idPkg:Fonts xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
-<FontFamily Self="di5" Name="Arial"><Font Self="di5Arial (TTF) Regular" FontFamily="Arial" Name="Arial (TTF) Regular" PostScriptName="ArialMT" Status="Installed" FontStyleName="Regular" FontType="OpenTypeCFF" WritingScript="0" FullName="Arial" FullNameNative="Arial" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 5.01.2x" TypekitID="$ID/"></Font>
-<Font Self="di5Arial (TTF) Italic" FontFamily="Arial" Name="Arial (TTF) Italic" PostScriptName="Arial-ItalicMT" Status="Installed" FontStyleName="Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Arial Italic" FullNameNative="Arial Italic" FontStyleNameNative="Italic" PlatformName="$ID/" Version="Version 5.00.2x" TypekitID="$ID/"></Font>
-<Font Self="di5Arial (TTF) Bold" FontFamily="Arial" Name="Arial (TTF) Bold" PostScriptName="Arial-BoldMT" Status="Installed" FontStyleName="Bold" FontType="OpenTypeCFF" WritingScript="0" FullName="Arial Bold" FullNameNative="Arial Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="Version 5.01.2x" TypekitID="$ID/"></Font>
-<Font Self="di5Arial (TTF) Bold Italic" FontFamily="Arial" Name="Arial (TTF) Bold Italic" PostScriptName="Arial-BoldItalicMT" Status="Installed" FontStyleName="Bold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Arial Bold Italic" FullNameNative="Arial Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="Version 5.00.2x" TypekitID="$ID/"></Font></FontFamily>
+<FontFamily Self="di2" Name="Arial"></FontFamily>
 </idPkg:Fonts>

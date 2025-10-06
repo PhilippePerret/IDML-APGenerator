@@ -1,8 +1,7 @@
 import path from "path";
-import fs from "fs";
-import type { BookDataType, RecType, XMLObjet, XMLRootType } from "./types/types";
-import { isOlder } from "./utils";
-import { IDML } from "./IDML";
+import type { BookDataType, XMLObjet, XMLRootType } from "../types/types";
+import { IDML } from "../IDML";
+import { BuilderXML } from "../BuilderXML";
 
 export class Styles {
   private static bookData?: BookDataType;
@@ -13,6 +12,17 @@ export class Styles {
   }
 
   /**
+   * Construction minimale du fichier des styles
+   */
+  public static buildMinimalFile(bookData: BookDataType){
+    new BuilderXML({
+      path: this.filePath,
+      content: {} as XMLObjet,
+      root: this.root
+    }).output();
+  }
+
+ /**
    * Construction du fichier Resources/Styles.xml
    */
   public static buildResourceFile(bookData: BookDataType){
@@ -30,13 +40,7 @@ export class Styles {
     // avec le fichier modèle.
     let content: XMLObjet, root: XMLRootType, model: string;
     
-    root = {
-      isPackage: true,
-      tag: 'Styles',
-      xmlns: 'http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging',
-      DOMVersion: '15.0'
-    }
-    content = {
+   content = {
       children: [
         {
           tag: 'RootCharacterStyleGroup',
@@ -498,7 +502,17 @@ properties: [
       ]
     } as XMLObjet;
   }
+  
 
+  private static get root(){
+    return {
+      isPackage: true,
+      tag: 'Styles',
+      xmlns: IDML.AIDHttpPackaging, 
+      DOMVersion: IDML.DOMVersion
+    }
+  }
+ 
   public static get filePath(){
     return this._filepath || (this._filepath = path.join((this.bookData as BookDataType).idmlFolder, 'Resources', 'Styles.xml'))
   }

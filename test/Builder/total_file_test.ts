@@ -1,7 +1,7 @@
 import { describe, test, expect } from "bun:test";
 import fs from "fs";
-import { Builder } from "../../lib/Builder";
 import path from "path";
+import { Builder } from "../../lib/Builder";
 
 function expectExists(pth: string){
   const ilexiste = fs.existsSync(pth);
@@ -13,7 +13,7 @@ function expectExists(pth: string){
 
 describe("Builder", () => {
 
-  test("permet de construire un livre complet", () => {
+  test("permet de construire un livre simple complet", async () => {
 
     const bookPath = 'books/book1';
     Builder.buildBook(bookPath);

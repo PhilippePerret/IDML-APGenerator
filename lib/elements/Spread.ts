@@ -26,7 +26,7 @@ export class Spread extends AbstractElementClass {
     };
 
     const content: XMLObjet = {
-      tag: 'Story',
+      tag: 'Spread',
       text: this.XMLContent(),
       attrs: [['Self', this.self], ['PageCount', this.pageCount]]
     }
@@ -53,13 +53,6 @@ export class Spread extends AbstractElementClass {
       }
     })
     
-    // On doit construire les stories et les ajouter
-    this.bookData.stories.forEach((story: RecType) => {
-      const istory = new Story(story, this.bookData);
-      istory.buildFile();
-      content.push(istory.toXml());
-    })
- 
     return content.join("\n");
   }
 

@@ -17,7 +17,7 @@ declare global {
 String.prototype.wrapIn = function(
   tagName: string,
   attrs?: AttrsType
-){
+): string {
   let attrsStr = '';
   if ( attrs) {
     attrsStr = ' ' + attrs.map(([k, v]) => `${k}="${v}"`).join(' ');

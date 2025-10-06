@@ -20,7 +20,8 @@ fonts:
       - {fname: 'Arial Bold.ttf'}
       - {fname: 'Arial Bold Italic.ttf'}
 spreads:
-  - PageCount: 3
+  - uuid: spr1
+    PageCount: 3
     origin: 'top-left'
     elements:
       - type: TextFrame
