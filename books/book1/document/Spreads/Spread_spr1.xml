@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <idPkg:Spread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
-<Spread Self="spr1" PageCount="3"><TextFrame Self="di1" ParentStory="sto1" ContentType="TextType" ItemTransform="1 0 0 1 0 0"><Properties>
+<Spread Self="spr1" PageCount="3"><TextFrame Self="di6" ParentStory="sto1" ContentType="TextType" ItemTransform="1 0 0 1 0 0"><Properties>
 <PathGeometry><GeometryPath PathOpen="false"><PathPointArray><PathPoint Anchor="0 0" LeftDirection="0 0" RightDirection="0 0"/>
 <PathPoint Anchor="210 0" LeftDirection="210 0" RightDirection="210 0"/>
 <PathPoint Anchor="210 297" LeftDirection="210 297" RightDirection="210 297"/>

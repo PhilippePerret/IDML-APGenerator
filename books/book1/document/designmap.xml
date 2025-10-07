@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="document" readerVersion="6.0" featureSet="257" product="15.0(209)" ?>
+<idPkg:Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
+<idPkg:BackingStory src="XML/BackingStory.xml"/>
+<idPkg:Tags src="XML/Tags.xml"/>
+<idPkg:Styles src="Resources/Styles.xml"/>
+<idPkg:Fonts src="Resources/Fonts.xml"/>
+<idPkg:Graphics src="Resources/Graphic.xml"/>
+<idPkg:Preferences src="Resources/Preferences.xml"/>
+<idPkg:Spread src="Spreads/Spread_spr1.xml"/>
+<idPkg:Story src="Stories/Story_sto1.xml"/>
+<idPkg:MasterSpread src="MasterSpreads/MasterSpread_mspr1.xml"/>
+</idPkg:Document>

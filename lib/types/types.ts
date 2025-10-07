@@ -32,7 +32,9 @@ export interface BookDataType {
   // Dossier principal du livre (contenant au moins la recette)
   bookFolder: string;
   idmlFolder: string; // Dossier IDML pour construire l'archive (path absolue ou relative à l'endroit d'où est jouée la commande)
+  idmlFolderName: string; // on peut aussi ne donner que le nom
   recipePath: string;
+  archName: string; // Nom du fichier IDML final (avec son extension)
   document: RecType; // Toutes les informations sur le format du document, dimension, marges, etc.
   masterSpreads: MasterSpreadType[];
   fonts: FontFamilyType[]; 
@@ -46,6 +48,7 @@ export interface BookDataType {
   // --- Propriétés volatiles (i.e. ajoutées au runtime) ---
   pageHeight: number;
   pageWidth: number;
+  archivePath: string;
 }
 
 

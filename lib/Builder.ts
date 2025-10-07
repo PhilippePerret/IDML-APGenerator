@@ -10,7 +10,8 @@ import type {
   XMLRootType,
   XMLObjet,
   FontFamilyType,
-  FontType
+  FontType,
+  RecType
 } from "./types/types";
 import { BuilderXML } from "./BuilderXML";
 import { IDML } from "./IDML";
@@ -18,10 +19,15 @@ import { FontClass } from "./elements/Fonts";
 import { throwError } from "./Messagerie";
 import { DataProps } from "./DATA_PROPS";
 import { Styles } from "./elements/Styles";
-import { isOlder } from "./utils";
 import { Story } from "./elements/Story";
 import { Spread } from "./elements/Spread";
-import { XMLValidator } from "fast-xml-parser";
+import { Preferences } from "./elements/Preferences";
+import { Graphic } from "./elements/Graphic";
+import { BackingStory } from "./elements/BackingStory";
+import { TagsFile } from "./elements/Tags";
+import { Metadata } from "./elements/Metadata";
+import { MasterSpread } from "./elements/MasterSpread";
+import { exec, execSync } from "child_process";
 
 export class Builder {
 
@@ -31,7 +37,7 @@ export class Builder {
    * 
    * @return True en cas de succès, False otherwise
    */
-  public static async buildBook(bookPath: string): Promise<boolean> {
+  public static async buildBook(bookPath: string, options?: RecType): Promise<boolean> {
     // console.log("Book path à l'entrée", bookPath);
     if (!path.isAbsolute(bookPath)){ bookPath = path.resolve(bookPath); }
     // console.log("Book path finale : ", bookPath);
@@ -51,9 +57,27 @@ export class Builder {
     this.defaultizeBookData(bookData);
     // console.log("bookData = ", bookData);
     const builder = new Builder();
-    let ok = builder.buildAllIdmlFiles(bookData);
-    console.log("ok après buildAllIdmlFiles", ok);
-    if (ok) { ok = await builder.generateArchiveIdml(bookData); }
+    // Si on doit forcer la reconstruction complète (option 
+    // force-rebuild), il faut déruire le dossier s'il existe
+    if (options && options.force_rebuild) {
+      builder.removeIdmlElements(bookData)
+    }
+
+    let ok = true;
+
+    /**
+     * Sauf si l'option rebuild est mise à false, on construit
+     * tous les fichiers IDML
+     */
+    if (!(options && options.rebuild === false)) {
+      console.log("Construction de tous les fichiers XML…");
+      ok = builder.buildAllIdmlFiles(bookData);
+      console.log("ok après buildAllIdmlFiles", ok);
+    }
+    if (ok) { 
+      console.log("Génération de l'archive")
+      ok = await builder.generateArchiveIdml(bookData); 
+    }
     console.log("OK après generateArchiveIdml", ok);
     if (ok) { ok = builder.openInFinder(bookData); }
     console.log("OK après openInFinder", ok);
@@ -69,10 +93,15 @@ export class Builder {
 
   private async generateArchiveIdml(bookData: BookDataType): Promise<boolean> {
     console.log("-> generateArchiveIdml ")
-    let result = await $`zip -X0 ../document.idml mimetype`.cwd(bookData.idmlFolder);
-    console.log("Retour de command", result.text());
-    result = await $`zip -Xr ../document.idml -x mimetype`.cwd(bookData.idmlFolder);
-    console.log("Retour de commande", result.text());
+    if (fs.existsSync(bookData.archivePath)) { fs.unlinkSync(bookData.archivePath);}
+    let cmd1 = `zip -X0 ../${bookData.archName} mimetype`;
+    let cmd2 = `zip -Xr ../${bookData.archName} . -x mimetype`
+    console.log("Command = '%s' dans ", cmd1, bookData.idmlFolder);
+    console.log("Command 2 = %s", cmd2);
+    let result = execSync(cmd1, {cwd: bookData.idmlFolder}); 
+    console.log("Résultat command 1", result.toString());
+    result = execSync(cmd2, {cwd: bookData.idmlFolder});
+    console.log("Résultat commande 2", result.toString());
     return true ; // Si ok
   }
 
@@ -84,15 +113,34 @@ export class Builder {
     function assign(prop: string, value: any) {
       Object.assign(bdata, {[prop]: value});
     }
-    bdata.idmlFolder || assign('idmlFolder', path.join(bdata.bookFolder, 'idml'));
+    bdata.idmlFolder || assign('idmlFolder', path.join(bdata.bookFolder, bdata.idmlFolderName || 'idml'));
     bdata.masterSpreads || assign('masterSpreads', []);
     bdata.spreads || assign('spreads', []);
     bdata.stories || assign('stories', []);
 
+    bdata.archName || assign('archName', 'document.idml')
+    assign('archivePath', path.join(bdata.idmlFolder, bdata.archName))
     assign('pageHeight', bdata.document.height || 297);
     assign('pageWidth', bdata.document.width || 210);
   }
 
+  /**
+   * Méthode appelée pour forcer la reconstruction en détruisant
+   * tous les éléments qui peuvent exister.
+   * 
+   * Cette méthode est appelée quand l'option force_rebuild est 
+   * envoyée à la méthode buildBook
+   */
+  removeIdmlElements(bookData: BookDataType){
+    if( fs.existsSync(bookData.idmlFolder)) {
+      fs.rmSync(bookData.idmlFolder, {recursive: true, force: true});
+      console.log("Dossier IDML entièrement détruit");
+    }
+    if (fs.existsSync(bookData.archivePath)) {
+      fs.unlinkSync(bookData.archivePath);
+      console.log("Ancienne archive idml détruite.");
+    }
+  }
   /**
    * Méthode principale appelée pour construire une archive IDML
    * permettant de produire un fichier pour Affinity Publisher.
@@ -143,6 +191,7 @@ export class Builder {
     // Construction du dossier
     const metainfFolder = path.join(bookData.idmlFolder, 'META-INF');
     if (!fs.existsSync(metainfFolder)) { fs.mkdirSync(metainfFolder); }
+
     // Construction du fichier container.xml
     const pth = path.join(metainfFolder, 'container.xml');
     const root: XMLRootType = {
@@ -162,16 +211,19 @@ export class Builder {
     new BuilderXML({path: pth, content: content, root: root}).output();
     
     // Construction du fichier metadata.xml
-    // Todo
+    new Metadata(bookData).build();
   }
 
   /**
    * Construction du dossier des maquettes maitresses
    */
   build_master_spread_folder(bookData: BookDataType){
+    const theFolder = path.join(bookData.idmlFolder, 'MasterSpreads');
+    if (!fs.existsSync(theFolder)) { fs.mkdirSync(theFolder); }
     // Construire chaque maquette maitresse
-    bookData.masterSpreads.forEach((masterSpread: MasterSpreadType) => {
+    bookData.masterSpreads.forEach((master) => {
       // Construire le fichier pour la maquette maitresse
+      new MasterSpread(master, bookData).buildFile();
     })
   }
 
@@ -200,26 +252,9 @@ export class Builder {
 
     // Dossier ressources
     const folderResources = path.join(bookData.idmlFolder, 'Resources')
- 
-    // Fonction interne pour la copie du modèle
-    // Si +affectIds+ est true, les __SELF__ dans le code seront 
-    // remplacés par des identifiants uniques
-    const copieModel = (filename: string, affectIds: boolean) => {
-      pth = path.join(folderResources, filename);
-      model = path.join(this.modelsFolder, filename);
-      if (affectIds) {
-        let code = fs.readFileSync(model, 'utf-8');
-        while (code.match(/__SELF__/)) { code = code.replace(/__SELF__/, IDML.generateId()); }
-        fs.writeFileSync(pth, code);
-      } else {
-        fs.copyFileSync(model, pth);
-      }
-    }
- 
-   if (!fs.existsSync(folderResources)) { fs.mkdirSync(folderResources); }
+    if (!fs.existsSync(folderResources)) { fs.mkdirSync(folderResources); }
 
     let pth: string, content: XMLObjet, root: XMLRootType, model: string;
-
 
     // Fichier Fonts (Fontes utilisées)
     pth = path.join(folderResources, 'Fonts.xml')
@@ -253,54 +288,20 @@ export class Builder {
     console.log("\nCONTENT = ", content);
     new BuilderXML({path: pth, content: content, root: root}).output();    
 
-   // Fichier Graphics (images)
-   // -------------------------
-    // Si aucune donnée graphic n'est définie, on n'a pas besoin de 
-    // de fichier (d'après Claude)
-    // document par défaut
-    if (undefined === bookData.graphic) {
-   } else {
-      // [N0001] Sinon, on modifie le document modèle en fonction des
-      // propriétés modifiées. On fonctionne par streaming, en 
-      // recherchant les balises (tag + attribut). On peut checker 
-      // les valeurs à l'aide des DATA_PROPS
-      copieModel('Graphic.xml', false);
-      // TODO 
-    }
+    // Fichier Graphic (images)
+    // -------------------------
+    new Graphic(bookData).build();
 
     // Fichier Préférences
     // -------------------
-    // D'après Claude, si on n'a pas de préférences, on n'a pas 
-    // besoin de ce fichier
-    if (undefined === bookData.preferences) {
-    } else {
-      // Lire la [N0001]
-      copieModel('Preferences.xml', false);
-      throw new Error("Il faut apprendre à définir les préférences");
-    }
+    new Preferences(bookData).build();
 
     // Fichier Styles
     // --------------
     // D'après Claude ce fichier est nécessaire, même vide.
     //
-    Styles.init(bookData);
-    // dernier fichier des styles construits
-    if (bookData.styles) {
-      if (fs.existsSync(Styles.filePath) && isOlder(bookData.recipePath, Styles.filePath)) {
-        // rien à faire, aucune modification
-      } else {
-        // Il faut refaire le fichier
-        // On fait une copie du fichier modèle
-        copieModel('Styles.xml', true);
-        // Mais on ne le modifie que si des styles ont été définis
-        Styles.buildResourceFile(bookData);
-      }
-    } else {
-      // Aucunes données style et le fichier existe : on le détruit
-      // pour le refaire
-      if (fs.existsSync(Styles.filePath)) { fs.unlinkSync(Styles.filePath); }
-      Styles.buildMinimalFile(bookData);
-   }
+    new Styles(bookData).build();
+ 
 
  }// /build_resources_folder
 
@@ -309,11 +310,14 @@ export class Builder {
    * 
    */
   build_xml_folder(bookData: BookDataType){
+    const folderXML = path.join(bookData.idmlFolder, 'XML') 
+    if (!fs.existsSync(folderXML)) { fs.mkdirSync(folderXML); }
+
     // Fichier BackingStory
-    // Todo
+    new BackingStory(bookData).build();
 
     // Fichier des tags (Tags)
-    // Todo
+    new TagsFile(bookData).build();
 
   }
 
@@ -339,8 +343,12 @@ export class Builder {
     content = {children: []};
     // Fichier des styles et fichier des fontes (toujours);
     (content.children as XMLObjet[]).push(...[
+        {attrs: [['src', 'XML/BackingStory.xml']], tag: 'idPkg:BackingStory'} as XMLObjet,
+        {attrs: [['src', 'XML/Tags.xml']], tag: 'idPkg:Tags'} as XMLObjet,
         {attrs: [['src', 'Resources/Styles.xml']], tag: 'idPkg:Styles'} as XMLObjet,
-        {attrs: [['src', 'Resources/Fonts.xml']], tag: 'idPkg:Fonts'} as XMLObjet
+        {attrs: [['src', 'Resources/Fonts.xml']], tag: 'idPkg:Fonts'} as XMLObjet,
+        {attrs: [['src', 'Resources/Graphic.xml']], tag: 'idPkg:Graphics'} as XMLObjet,
+        {attrs: [['src', 'Resources/Preferences.xml']], tag: 'idPkg:Preferences'} as XMLObjet
       ]
     );
     bookData.spreads.forEach(spread => {
@@ -352,7 +360,12 @@ export class Builder {
       (content.children as XMLObjet[]).push(
         {attrs: [['src', `Stories/Story_${story.uuid}.xml`]], tag: 'idPkg:Story'}
       )
-    })
+    });
+    bookData.masterSpreads.forEach(master => {
+      (content.children as XMLObjet[]).push(
+        {attrs: [['src', `MasterSpreads/MasterSpread_${master.uuid}.xml`]], tag: 'idPkg:MasterSpread'}
+      )
+    }),
     new BuilderXML({path: pth, content: content, root: root}).output();
 
   }

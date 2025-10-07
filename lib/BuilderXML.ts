@@ -14,12 +14,12 @@ export class BuilderXML {
   }
 
   private path: string;
-  private content: XMLObjet;
+  private content?: XMLObjet;
   private root: XMLRootType; 
 
   constructor(params: {
     path: string; // Chemin d'accès au fichier final
-    content: XMLObjet; // Définition du contenu
+    content?: XMLObjet; // Définition du contenu
     root: XMLRootType;
   }){
     this.path = params.path;
@@ -35,7 +35,7 @@ export class BuilderXML {
     if (this.root.instTreatment){ this.write(this.root.instTreatment) }
     this.write(this.root.start as string);
     // On ajoute tout le contenu
-    this.write(this.buildContent(this.content));
+    this.content && this.write(this.buildContent(this.content));
     // On ferme le document
     this.write(this.root.end as string);
   }
@@ -85,8 +85,8 @@ export class BuilderXML {
       if (xmlObj.tag) {
         // Il faut ajouter le tag aux enfants (singulier du parent ou childTag défini)
         let childTag = xmlObj.childTag || xmlObj.tag.substring(0, xmlObj.tag?.length - 1);
-        xmlObj.children.forEach(child => Object.assign(child, { tag: childTag }));
-     } 
+        xmlObj.children.forEach((child: XMLObjet) => Object.assign(child, { tag: childTag }));
+      } 
       const content = xmlObj.children
         .map((xmlSubObj: XMLObjet) => this.buildContent(xmlSubObj))
         .join("\n");
@@ -102,16 +102,16 @@ export class BuilderXML {
       // Des éléments de même type. Cette propriété contient les 
       // attributs et peut-être le contenu (text)
       xmlObj.tag || throwError('xmltag-undef-tagname', [JSON.stringify(xmlObj)]);
-      const tagName = xmlObj.tag as string;
-      return xmlObj.items
+      const content = xmlObj.items
         .map((item: RecType) => {
-          return BuilderXML.xmlTag(tagName, item.text, item.attrs || [], item.ns);
+          return BuilderXML.xmlTag(item.tag, item.text, item.attrs || [], item.ns);
         })
         .join("\n");
+      return BuilderXML.xmlTag(xmlObj.tag as string,content, xmlObj.attrs || [], xmlObj.ns);
     } else /* noeud sans enfant */ {
       return BuilderXML.xmlTag(
         xmlObj.tag as string, 
-        xmlObj.text || '', 
+        xmlObj.text, 
         xmlObj.attrs || [], 
         xmlObj.ns
       );
@@ -141,13 +141,14 @@ export class BuilderXML {
    */
   public static xmlTag(
     tagName: string,
-    content: string | number,
+    content: string | number | undefined,
     attrs: Array<[string, string | number]>,
     spaceName: string | undefined = undefined
   ): string {
     // Échappement du contenu
-    content = ((c: string | number) => {
+    content = ((c: string | number | undefined) => {
 
+      if (undefined === c) { return c; }
       // Pour le moment on ne traite pas encore car ça pose problème
       return String(c);
 
@@ -164,6 +165,12 @@ export class BuilderXML {
     // Traitement de l'espace de nom
     if (spaceName) { tagName = `${spaceName}:${tagName}`}
     // La chaine retourné
-    return `<${tagName}${attrsStr}>${content}</${tagName}>`
+    if (content) {
+      return `<${tagName}${attrsStr}>${content}</${tagName}>`;
+    } else {
+      
+      return `<${tagName}${attrsStr}/>`;
+
+    }
   }
 }

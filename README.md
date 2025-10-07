@@ -55,3 +55,14 @@ Le fichier utilisateur doit donc être exprimée dans un langage simplifié et t
 * **`formater.imdl.apg.ts`**. Fichier qui interface le fichier de contenu et l’application pour définir les formats. Par exemple, si une balise `todo` est définie et qu’on rencontre `todo(faire ceci et cela)` dans le contenu, c’est ce fichier qui définit la fonction qui va transformer cette balise en code IDML.
 * **`parser.imdl.apg.ts`**. Fichier qui peut servir d’interface entre l’application et le contenu pour adapter ce contenu aux attentes de l’application. Grâce à ce fichier, tout type de contenu peut être utiliser pour nourir le contenu du fichier final.
 * **`references.idml.apg.json`**. Fichier contenant les références (livres, films, peoople, etc.) qui sont utilisées dans le document.
+
+## Annexe
+
+### Terminologie (anglais/français)
+
+| Anglais       |      | Français              |
+| ------------- | ---- | --------------------- |
+| Spread        |      | Planche               |
+| Master spread |      | Maquette (de planche) |
+|               |      |                       |
+

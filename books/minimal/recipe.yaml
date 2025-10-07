@@ -1,7 +1,7 @@
 ---
-id: book1 # l'identifiant unique du livre
-archName: 'document.idml'
-idmlFolderName: 'document'
+id: minimal # l'identifiant unique du livre
+idmlFolderName: 'idml'
+archName: 'text.idml'
 # folder: idml
 document: # Tout ce qui concerne le document
   height: 297 #mm

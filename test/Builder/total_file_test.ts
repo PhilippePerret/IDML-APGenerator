@@ -13,10 +13,23 @@ function expectExists(pth: string){
 
 describe("Builder", () => {
 
+  test.only("permet de trouver le contenu minimal", async () => {
+    /**
+     * Ce test, en fait, permet de trouver le contenu minimal d'un
+     * package IDML en procédant à l'envers : on part d'un package
+     * qui fonctionne et on retire les éléments petit à petit.
+     */
+    const bookPath = 'books/minimal';
+    Builder.buildBook(bookPath, {rebuild: false});
+
+    const imdlFolder = path.join(bookPath, 'text')
+    expectExists(imdlFolder);
+  })
+
   test("permet de construire un livre simple complet", async () => {
 
     const bookPath = 'books/book1';
-    Builder.buildBook(bookPath);
+    Builder.buildBook(bookPath, {force_rebuild: true});
     
     const imdlFolder = path.join(bookPath,'idml')
     expectExists(imdlFolder);
