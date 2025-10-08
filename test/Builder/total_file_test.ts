@@ -2,6 +2,7 @@ import { describe, test, expect } from "bun:test";
 import fs from "fs";
 import path from "path";
 import { Builder } from "../../lib/Builder";
+import { execSync } from "child_process";
 
 function expectExists(pth: string){
   const ilexiste = fs.existsSync(pth);
@@ -19,11 +20,17 @@ describe("Builder", () => {
      * package IDML en procédant à l'envers : on part d'un package
      * qui fonctionne et on retire les éléments petit à petit.
      */
+    console.log("Je commence à ", new Date());
     const bookPath = 'books/minimal';
-    Builder.buildBook(bookPath, {rebuild: false});
+    await Builder.buildBook(bookPath, {rebuild: false});
+    console.log("Je finis la construction à ", new Date());
 
-    const imdlFolder = path.join(bookPath, 'text')
-    expectExists(imdlFolder);
+    const imdlfile = path.join(bookPath, 'text.idml');
+    expectExists(imdlfile);
+
+    // On essaie de l'ouvrir tout de suite dans AP
+    execSync(`open "${imdlfile}"`);
+
   })
 
   test("permet de construire un livre simple complet", async () => {

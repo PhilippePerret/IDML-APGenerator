@@ -92,16 +92,15 @@ export class Builder {
   
 
   private async generateArchiveIdml(bookData: BookDataType): Promise<boolean> {
-    console.log("-> generateArchiveIdml ")
+    // On commence toujours par détruire celle qui existe peut-être
     if (fs.existsSync(bookData.archivePath)) { fs.unlinkSync(bookData.archivePath);}
+    // console.log("Est-ce que le fichier '%s' existe ? ",bookData.archivePath, fs.existsSync(bookData.archivePath));
     let cmd1 = `zip -X0 ../${bookData.archName} mimetype`;
     let cmd2 = `zip -Xr ../${bookData.archName} . -x mimetype`
-    console.log("Command = '%s' dans ", cmd1, bookData.idmlFolder);
-    console.log("Command 2 = %s", cmd2);
     let result = execSync(cmd1, {cwd: bookData.idmlFolder}); 
-    console.log("Résultat command 1", result.toString());
+    // console.log("Résultat command 1", result.toString());
     result = execSync(cmd2, {cwd: bookData.idmlFolder});
-    console.log("Résultat commande 2", result.toString());
+    // console.log("Résultat commande 2", result.toString());
     return true ; // Si ok
   }
 
@@ -119,7 +118,7 @@ export class Builder {
     bdata.stories || assign('stories', []);
 
     bdata.archName || assign('archName', 'document.idml')
-    assign('archivePath', path.join(bdata.idmlFolder, bdata.archName))
+    assign('archivePath', path.join(bdata.bookFolder, bdata.archName))
     assign('pageHeight', bdata.document.height || 297);
     assign('pageWidth', bdata.document.width || 210);
   }
