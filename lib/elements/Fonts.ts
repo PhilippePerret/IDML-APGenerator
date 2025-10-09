@@ -1,8 +1,50 @@
 import fs from "fs";
+import path from "path";
 const fontkit = require('fontkit') as any;
 import { execSync } from 'child_process';
 import { BuilderXML } from "../BuilderXML";
+import { AbstractFileClass } from "./AbstractFileClass";
+import type { FontFamilyType, FontType, XMLObjet } from "../types/types";
+import { IDML } from "../IDML";
 
+export class Font extends AbstractFileClass {
+  protected Name = 'Fonts';
+  protected folder = 'Resources';
+  protected override bookProperty: string = 'fonts';
+
+  /**
+   * Pas besoin de fichier si aucune donnée fonte
+   */
+  protected override buildMinimalFile(content?: XMLObjet): void {
+    return;
+  }
+  protected override buildFile(): void {
+    throw new Error("Je dois apprendre à créer le fichier fontes");
+    const fontData = this.bookData.fonts;
+    const content = { 
+      children: []
+    } as XMLObjet;
+    fontData.forEach((family: FontFamilyType) => {
+      family.self = IDML.generateId();
+      // On fabrique toutes les tags des différentes fontes de
+      // la famille courante.
+      const fontTags = family.fonts.map((font: FontType) => {
+        return new FontClass(
+          path.join(family.folder, font.fname),
+          family.self as string,
+          font.extraParams
+        ).asXmlTag();
+      }).join("\n");
+      (content.children as any).push({
+        tag: 'FontFamily',
+        content: fontTags,
+        attrs: [['Self', family.self], ['Name', family.familyName]]
+      })
+    })
+    console.log("\nCONTENT = ", content);
+    new BuilderXML({path: this.filePath, content: content, root: this.root}).output();    
+  }
+}
 /**
  * FontClass
  * 

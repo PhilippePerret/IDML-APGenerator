@@ -11,7 +11,7 @@ export abstract class AbstractFileClass {
   protected abstract folder: string;
 
   constructor(
-    private bookData: BookDataType
+    protected bookData: BookDataType
   ) { }
 
   public build(){
@@ -40,7 +40,7 @@ export abstract class AbstractFileClass {
     throw new Error(`Je dois apprendre à fabriquer le fichier ${this.Name}`);
   }
 
-  private get root(){
+  protected get root(){
     return {
       isPackage: true,
       tag: this.Name,

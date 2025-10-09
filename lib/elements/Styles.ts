@@ -8,38 +8,10 @@ export class Styles extends AbstractFileClass {
   protected bookProperty = 'styles';
 
   /**
-   * Construction minimale du fichier des styles
-   * 
-   * Note : l'argument sert seulement pour la méthode abstraite,
-   * qui le reçoit justement de cette override de fonction.
+   * Pas besoin de fichier si aucune donnée styles n'est définie
    */
   protected override buildMinimalFile(contentNone?: XMLObjet) {
-    const content: XMLObjet = {
-      children: [
-        {
-          tag: 'RootCharacterStyleGroup',
-          attrs: [['Self', IDML.generateId()]],
-          items: [
-            { tag: 'CharacterStyle', attrs: [['Self', "CharacterStyle/$ID/[No character style"], ['StyleUniqueId', "3295eefb-54fd-4e4d-a7c1-a4481c517dc3"]] }
-          ]
-        } as XMLObjet,
-        {
-          tag: 'RootParagraphStyleGroup',
-          attrs: [['Self', IDML.generateId()]],
-          items: [
-            {
-              tag: 'ParagraphStyle',
-              attrs: [
-                ['Self', "ParagraphStyle/$ID/[No paragraph style]"],
-                ['Name', "$ID/[No paragraph style]"],
-                ['StyleUniqueId', "7173ae8f-0f4a-4533-80bf-85e3b1b6fede"]
-              ]
-            } as XMLObjet
-          ]
-        } as XMLObjet,
-      ]
-    }
-    super.buildMinimalFile(content);
+    return ;
   }
 }
 

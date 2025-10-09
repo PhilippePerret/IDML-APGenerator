@@ -1,21 +1,17 @@
 import path from "path";
 import fs from "fs";
-import { $ } from "bun";
 import YAML from 'yaml';
 
 import './utils_string';
 import type { 
-  MasterSpreadType, 
   BookDataType, 
   XMLRootType,
   XMLObjet,
-  FontFamilyType,
-  FontType,
   RecType
 } from "./types/types";
 import { BuilderXML } from "./BuilderXML";
 import { IDML } from "./IDML";
-import { FontClass } from "./elements/Fonts";
+import { Font, FontClass } from "./elements/Fonts";
 import { throwError } from "./Messagerie";
 import { DataProps } from "./DATA_PROPS";
 import { Styles } from "./elements/Styles";
@@ -115,7 +111,6 @@ export class Builder {
     bdata.idmlFolder || assign('idmlFolder', path.join(bdata.bookFolder, bdata.idmlFolderName || 'idml'));
     bdata.spreads || assign('spreads', []);
     bdata.stories || assign('stories', []);
-    bdata.fonts   || assign('fonts', [])
 
     bdata.archName || assign('archName', 'document.idml')
     assign('archivePath', path.join(bdata.bookFolder, bdata.archName));
@@ -221,11 +216,11 @@ export class Builder {
       } as XMLObjet
     };
     new BuilderXML({path: pth, content: content, root: root}).output();
-    execSync(`xmllint --format --output "${pth}" "${pth}"`);
     
-    // Construction du fichier metadata.xml
+    // Construction du fichier metadata.xml (si nécessaire)
     new Metadata(bookData).build();
   }
+
 
   /**
    * Construction du dossier des maquettes maitresses
@@ -271,37 +266,8 @@ export class Builder {
 
     let pth: string, content: XMLObjet, root: XMLRootType, model: string;
 
-    // Fichier Fonts (Fontes utilisées)
-    pth = path.join(folderResources, 'Fonts.xml')
-    root = {
-      isPackage: true,
-      tag: 'Fonts',
-      xmlns: 'http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging',
-      DOMVersion: '15.0'
-    }
-    const fontData = bookData.fonts;
-    content = { 
-      children: []
-    } as XMLObjet;
-    fontData.forEach((family: FontFamilyType) => {
-      family.self = IDML.generateId();
-      // On fabrique toutes les tags des différentes fontes de
-      // la famille courante.
-      const fontTags = family.fonts.map((font: FontType) => {
-        return new FontClass(
-          path.join(family.folder, font.fname),
-          family.self as string,
-          font.extraParams
-        ).asXmlTag();
-      }).join("\n");
-      (content.children as any).push({
-        tag: 'FontFamily',
-        content: fontTags,
-        attrs: [['Self', family.self], ['Name', family.familyName]]
-      })
-    })
-    console.log("\nCONTENT = ", content);
-    new BuilderXML({path: pth, content: content, root: root}).output();    
+    // Construction (seulement au besoin) du fichier Resources/Fonts.xml
+    new Font(bookData).build();
 
     // Fichier Graphic (images)
     // -------------------------
@@ -328,10 +294,10 @@ export class Builder {
     const folderXML = path.join(bookData.idmlFolder, 'XML') 
     if (!fs.existsSync(folderXML)) { fs.mkdirSync(folderXML); }
 
-    // Fichier BackingStory
+    // Fichier BackingStory (optionnel)
     new BackingStory(bookData).build();
 
-    // Fichier des tags (Tags)
+    // Fichier des tags (optionnel) 
     new TagsFile(bookData).build();
 
   }
