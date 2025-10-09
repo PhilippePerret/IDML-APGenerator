@@ -49,13 +49,13 @@ export class Builder {
     await DataProps.init();
 
     const yamlcode = fs.readFileSync(recipePath, 'utf-8');
-    const bookData = YAML.parse(yamlcode);
+    const bookData = YAML.parse(yamlcode) || {};
     Object.assign(bookData, {
       bookFolder: bookPath,
       recipePath: recipePath,
     });
     this.defaultizeBookData(bookData);
-    // console.log("bookData = ", bookData);
+    console.log("bookData (defaultised) = ", bookData);
     const builder = new Builder();
     // Si on doit forcer la reconstruction complète (option 
     // force-rebuild), il faut déruire le dossier s'il existe
@@ -113,14 +113,27 @@ export class Builder {
       Object.assign(bdata, {[prop]: value});
     }
     bdata.idmlFolder || assign('idmlFolder', path.join(bdata.bookFolder, bdata.idmlFolderName || 'idml'));
-    bdata.masterSpreads || assign('masterSpreads', []);
     bdata.spreads || assign('spreads', []);
     bdata.stories || assign('stories', []);
+    bdata.fonts   || assign('fonts', [])
 
     bdata.archName || assign('archName', 'document.idml')
-    assign('archivePath', path.join(bdata.bookFolder, bdata.archName))
-    assign('pageHeight', bdata.document.height || 297);
-    assign('pageWidth', bdata.document.width || 210);
+    assign('archivePath', path.join(bdata.bookFolder, bdata.archName));
+    // Document par défaut
+    const doc = bdata.document || {};
+    bdata.document || assign('document', {
+      width: doc.width || 595,
+      height: doc.height || 842,
+      bleed: doc.bleed || 8.5,      // 3 mm
+      Tmargin: doc.Tmargin || 56.7, // 20 mm
+      Bmargin: doc.Bmargin || 56.7,
+      Lmargin: doc.Lmargin || 42.5, // 15 mm
+      Rmargin: doc.Rmargin || 42.5,
+      Imargin: doc.Imargin || 42.5,
+      Emargin: doc.Emargin || 28.3
+    });
+    assign('pageHeight', bdata.document.height);
+    assign('pageWidth', bdata.document.width);
   }
 
   /**
@@ -187,11 +200,11 @@ export class Builder {
     fs.writeFileSync(p, 'application/vnd.adobe.indesign-idml-package');
   }
   build_meta_inf_folder(bookData: BookDataType) {
-    // Construction du dossier
+    // Construction du dossier META-INF (toujours)
     const metainfFolder = path.join(bookData.idmlFolder, 'META-INF');
     if (!fs.existsSync(metainfFolder)) { fs.mkdirSync(metainfFolder); }
 
-    // Construction du fichier container.xml
+    // Construction du fichier container.xml (toujours)
     const pth = path.join(metainfFolder, 'container.xml');
     const root: XMLRootType = {
       isPackage: false,
@@ -217,6 +230,8 @@ export class Builder {
    * Construction du dossier des maquettes maitresses
    */
   build_master_spread_folder(bookData: BookDataType){
+    // Si aucune maquelle n'est définie, on n'en a pas besoin
+    if (undefined === bookData.masterSpreads) { return; }
     const theFolder = path.join(bookData.idmlFolder, 'MasterSpreads');
     if (!fs.existsSync(theFolder)) { fs.mkdirSync(theFolder); }
     // Construire chaque maquette maitresse
@@ -360,12 +375,13 @@ export class Builder {
         {attrs: [['src', `Stories/Story_${story.uuid}.xml`]], tag: 'idPkg:Story'}
       )
     });
-    bookData.masterSpreads.forEach(master => {
-      (content.children as XMLObjet[]).push(
-        {attrs: [['src', `MasterSpreads/MasterSpread_${master.uuid}.xml`]], tag: 'idPkg:MasterSpread'}
-      )
-    }),
-    new BuilderXML({path: pth, content: content, root: root}).output();
-
+    if (bookData.masterSpreads) {
+      bookData.masterSpreads.forEach(master => {
+        (content.children as XMLObjet[]).push(
+          { attrs: [['src', `MasterSpreads/MasterSpread_${master.uuid}.xml`]], tag: 'idPkg:MasterSpread' }
+        )
+      }),
+        new BuilderXML({ path: pth, content: content, root: root }).output();
+    }
   }
 }

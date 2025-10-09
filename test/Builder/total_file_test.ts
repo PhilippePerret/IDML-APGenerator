@@ -15,6 +15,14 @@ function expectExists(pth: string){
 
 describe("Builder", () => {
 
+  test.only("peut produire une archive minimale", async () => {
+
+    const bookPath = 'books/minimal-prod';
+    await Builder.buildBook(bookPath, {force_rebuild: true});
+    const imdlfile = path.join(bookPath, 'minprod.idml');
+    expectExists(imdlfile);
+  });
+
   test("permet de tester le contenu minimal", async () => {
     /**
      * Ce test s'assure que la production de l'archive IDML du dossier 

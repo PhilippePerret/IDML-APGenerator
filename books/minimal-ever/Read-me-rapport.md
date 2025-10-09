@@ -329,4 +329,4 @@ En fait, la police n’est définie null part et elle reste introuvable…
 
 ## Conclusion
 
-J’ai obtenu une version 
+J’ai obtenu une version minimale. Elle est placée dans `minimal-ever` qui est testée. Ne pas la toucher.
