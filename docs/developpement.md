@@ -81,3 +81,10 @@ Quelques termes utiles à connaitre en anglais pour bien lire la documentation.
 |               |      |                |
 |               |      |                |
 
+### IDML
+
+Cette section comprend un résumé des généralités relevées dans le document des spécificités IDML.
+
+#### Story
+
+Pour apparaitre sur le document, une « story », donc **un texte** doit appartenir à un `<TextFrame>` (bloc de texte) ou un `<TextPath>` (chemin de texte) contenu par un `<Spread>` (planche).

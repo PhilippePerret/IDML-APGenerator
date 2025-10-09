@@ -1,0 +1,39 @@
+---
+id: minimal # l'identifiant unique du livre
+idmlFolderName: 'idml'
+archName: 'minimal.idml'
+# folder: idml
+document: # Tout ce qui concerne le document
+  height: 297 #mm
+  width: 210 #mm
+  bleed: 3 #mm fond perdu
+  Tmargin: 20 #mm
+  Bmargin: 20 #mm
+  Lmargin: 15 #mm
+  Rmargin: 15 #mm
+  Imargin: 15 #mm Marge intérieure (si double page)
+  EMargin: 10 #mm Marge extérieure (si double page)
+fonts:
+  - familyName: Arial
+    folder: test/assets/fontes/Arial
+    fonts:
+      - {fname: 'Arial.ttf'}
+      - {fname: 'Arial Italic.ttf'}
+      - {fname: 'Arial Bold.ttf'}
+      - {fname: 'Arial Bold Italic.ttf'}
+masterSpreads:
+  - uuid: mspr1
+    PageCount: 1
+    origin: 'top-left'
+
+spreads:
+  - uuid: spr1
+    PageCount: 3
+    origin: 'top-left'
+    elements:
+      - type: TextFrame
+        story: sto1
+        coor: ['top-left', 'bottom-right']
+stories:
+  - uuid: sto1
+    text: {path: 'textes/premier_texte.md'}

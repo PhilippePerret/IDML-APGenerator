@@ -168,7 +168,7 @@ Le code minimal de `designmap.xml` est donc :
 <Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
 	<idPkg:Graphic src="Resources/Graphic.xml" />
 	<idPkg:Spread src="Spreads/Spread_ueb.xml" />
-	<idPkg:Story src="Stories/Story_u39c.xml" />
+	<idPkg:Story src="Stories/Story_u373.xml" />
 </Document>
 
 ~~~
@@ -177,5 +177,156 @@ Le code minimal de `designmap.xml` est donc :
 
 ## Réduction de la planche (spread)
 
+### Réduction des attributs du Spread
+
+En fait, on peut supprimer TOUS les attributs sans aucune conséquence. Même `Self`, `PageCount` et `ItemTransform`. Donc la balise `Spread` peut se résumer à :
+
+~~~xml
+<Spread>
+  ...
+</Spread>
+~~~
+
+### Réduction de la page
+
 * On peut supprimer toute la partie `<Page>`, mais ça fait que les éléments ne sont plus placés pareil, ils débordent (marge gauche). Cette propriété sert donc à définir ce qu’est la « page » dans la planche.
 
+  En fait, ce qui se passe vraiment, ce que : comme la `<Page>` ne définit plus les dimensions de la planche, cette planche prend des dimensions par défaut et les frames de texte se placent dessus. Comme le fichier IDML pris en exemple avaient une plance large, ça joue. 
+
+  Je vais donc quand même garder la balise page, mais en essayant d’en garder le strict minimum. Et le minimum revient à définir : 
+
+  ~~~xml
+  <Page Self="uf0" GeometricBounds="0 0 600 800" ItemTransform="1 0 0 1 -400 -300"></Page>
+  ~~~
+
+  `GeometricBounds` définit `x y h w`, c’est-à-dire le point gauche (par rapport à quoi ?), le point haut (idem), la HAUTEUR et la LARGEUR.
+
+  `ItemTransform` définit la matrice de transformation (qui va correspondre, ici, à définir l’origine des coordonnées), en sachant que pour les pages, seules les translations sont possibles (pas de rotation) donc seuls les deux derniers paramètres sont utiles, correspondant à : décalage horizontal, décalage vertical.
+
+  C’est-à-dire que les coordonnées (si j’ai bien compris), puisqu’on part du milieu vertical de la reliure (est-elle toujours au milieu ?), vont avoir un 0, 0 se trouvant tout en haut à gauche.
+
+### Réduction des blocs de texte
+
+* Je garde uniquement un `<TextFrame>`, le premier, qui correspond au bloc de texte tout en bas.
+* Si je supprime sa Property `PathGeometry`, il n’y a plus rien sur la planche.
+
+### Réduction des élément du textframe
+
+* Donc je suis obligé de garder la définition de `Property > PathGeometry`
+
+* En revanche, pour les `<PathPointType>` je peux garder uniquement la définition de `Anchor` (et donc supprimer la définition des positions des poignées de Béziers).
+
+* Pour la balise `<TextFrame>` elle-même j’ai juste à garder : 
+
+  ~~~xml
+  <TextFrame Self="u370" ParentStory="u373" ItemTransform="1 0 0 1 -300 200">
+  ~~~
+
+  Ces trois attributs sont indispensable.
+
+* Je peux supprimer le `<TextFramePreference>` sans conséquence.
+
+* Retrait du `<TextWrapPreference>` sans conséquence.
+
+* Retrait du `<ObjectExportOption>` sans conséquence. 
+
+## Conclusion pour la Spread
+
+Donc, une planche, dans sa version minimale, peut se contenter de : 
+
+~~~xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Spread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
+	<Spread>
+	 	<Page 
+          Self="uf0" 
+          GeometricBounds="0 0 600 800" 
+          ItemTransform="1 0 0 1 -400 -300">
+    </Page>
+	  <TextFrame 
+               Self="u370" 
+               ParentStory="u373" 
+               ItemTransform="1 0 0 1 -300 200">
+			<Properties>
+				<PathGeometry>
+					<GeometryPathType>
+						<PathPointArray>
+							<PathPointType Anchor="-100 31" />
+							<PathPointType Anchor="-100 78" />
+							<PathPointType Anchor="620 78" />
+							<PathPointType Anchor="620 31" />
+						</PathPointArray>
+					</GeometryPathType>
+				</PathGeometry>
+			</Properties>
+		</TextFrame>
+	</Spread>
+</idPkg:Spread>
+~~~
+
+> Note : J’ai supprimé les deux fichiers storie inutilisés, ainsi que leur déclaration dans la map. La map se résumé maintenant à : 
+>
+> ~~~xml
+> <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+> <Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging">
+> 	<idPkg:Graphic src="Resources/Graphic.xml" />
+> 	<idPkg:Spread src="Spreads/Spread_ueb.xml" />
+> 	<idPkg:Story src="Stories/Story_u373.xml" />
+> </Document>
+> 
+> ~~~
+
+
+
+## Réduction maximale de la Story
+
+* Suppression de tous les attributs de la balise `<Story>` sauf `Self` (indispensable pour y faire référence dans le textframe du spread.
+* Suppression du nœud `<StoryPreference>`.
+* Suppression du nœud `<InCopyExportOption>`.
+* Suppression des attributs de la balise `<ParagraphStyleRange>`. Le texte apparait encore, mais il n’est plus formaté (bien sûr).
+* Suppression des attributs de la balise `<CharacterStyleRange>`. Le texte est là, mais sans plus aucun style (à part la couleur définie).
+* Suppression de la définition explicite de la fonte à utiliser, avec la balise `<Properties><AppliedFont>`. C’est la fonte par défaut qui s’applique.
+* Suppression complète des balises `<ParagraphStyleRange>` et `<CharacterStyleRange>` sans conséquence sur l’affichage.
+
+Donc, au minimum, on peut avoir : 
+
+~~~xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
+	<Story Self="u373">
+		<Content>Salut le monde !</Content>
+	</Story>
+</idPkg:Story>
+
+~~~
+
+## Réduction maximale des métadonnées
+
+Pour finir, je m’attaque au fichier `META-INF/metadata.xml`
+
+* retrait du nœud `<dc:format>` sans conséquence
+* retrait du nœud `<xmp:CreateDate>` sans conséquence
+* retrait du nœud `<xmp:MetadataDate>` sans conséquence
+* retrait du nœud `<xmp:ModifyDate>` sans conséquence
+* retrait du nœud `<xmp:CreatorTool>` sans conséquence
+* retrait du nœud `<xmpMM:InstanceID>` idem
+* retrait du nœud `<xmpMM:OriginalDocumentID>` idem
+* retrait du nœud conséquent `<xmpMM:History>` sans conséquence
+* retrait du nœud `<xmpMM:DocumentID>` sans conséquence
+* retrait du nœud `<xmpMM:RenditionClass>` idem
+* retrait du nœud très conséquen `<rdf:Description ...>` sans conséquence
+* retrait du nœud parent `<rdf:RDF ...` sans conséquence
+* retrait de son parent `<x:xmpmeta ...>` sans conséquence
+* retrait de son parent (root) `<?xpacket ...>` sans conséquence
+
+En fait, ce document n’a même pas besoin d’exister… Noter que ce document est le seul (?) à ne pas avoir besoin d’être référencé dans la map.
+
+## Finalisation
+
+Pour en finir avec cette minimalisation, je vais essayer de supprimer l’appel à la police Minion introuvable sur mon ordinateur.
+
+En fait, la police n’est définie null part et elle reste introuvable…
+
+## Conclusion
+
+J’ai obtenu une version 

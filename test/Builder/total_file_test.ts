@@ -1,5 +1,6 @@
 import { describe, test, expect } from "bun:test";
 import fs from "fs";
+import { createHash } from 'crypto';
 import path from "path";
 import { Builder } from "../../lib/Builder";
 import { execSync } from "child_process";
@@ -14,7 +15,28 @@ function expectExists(pth: string){
 
 describe("Builder", () => {
 
-  test.only("permet de trouver le contenu minimal", async () => {
+  test("permet de tester le contenu minimal", async () => {
+    /**
+     * Ce test s'assure que la production de l'archive IDML du dossier 
+     * minimal fonctionne 
+     */
+    const bookPath = 'books/minimal-ever';
+    await Builder.buildBook(bookPath, {rebuild: false});
+    const imdlfile = path.join(bookPath, 'minimal.idml');
+    expectExists(imdlfile);
+
+    // Checksum
+    const expected = '0aa7e6992ea25c1ceb2ba4a363df2532';
+    const hash = createHash('md5');
+    const data = fs.readFileSync(imdlfile);
+    hash.update(data);
+    const checksum = hash.digest('hex');
+    expect(checksum).toBe(expected);
+    // Pour corriger le checksum
+    // console.log('Checksum : ' + checksum);
+  });
+
+  test("permet de trouver le contenu minimal", async () => {
     /**
      * Ce test, en fait, permet de trouver le contenu minimal d'un
      * package IDML en procédant à l'envers : on part d'un package
