@@ -221,6 +221,7 @@ export class Builder {
       } as XMLObjet
     };
     new BuilderXML({path: pth, content: content, root: root}).output();
+    execSync(`xmllint --format --output "${pth}" "${pth}"`);
     
     // Construction du fichier metadata.xml
     new Metadata(bookData).build();

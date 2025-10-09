@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <idPkg:Styles xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
-<RootCharacterStyleGroup Self="di6"><CharacterStyle Self="CharacterStyle/$ID/[No character style" StyleUniqueId="3295eefb-54fd-4e4d-a7c1-a4481c517dc3"/></RootCharacterStyleGroup>
-<RootParagraphStyleGroup Self="di7"><ParagraphStyle Self="ParagraphStyle/$ID/[No paragraph style]" Name="$ID/[No paragraph style]" StyleUniqueId="7173ae8f-0f4a-4533-80bf-85e3b1b6fede"/></RootParagraphStyleGroup>
+  <RootCharacterStyleGroup Self="di6">
+    <CharacterStyle Self="CharacterStyle/$ID/[No character style" StyleUniqueId="3295eefb-54fd-4e4d-a7c1-a4481c517dc3"/>
+  </RootCharacterStyleGroup>
+  <RootParagraphStyleGroup Self="di7">
+    <ParagraphStyle Self="ParagraphStyle/$ID/[No paragraph style]" Name="$ID/[No paragraph style]" StyleUniqueId="7173ae8f-0f4a-4533-80bf-85e3b1b6fede"/>
+  </RootParagraphStyleGroup>
 </idPkg:Styles>

@@ -1,6 +1,7 @@
 import fs from "fs";
 import type { RecType, XMLTag, XMLObjet, XMLRootType } from "./types/types";
 import { throwError } from "./Messagerie";
+import { execSync } from "child_process";
 
 /**
  * Outil constructeur des fichiers XML
@@ -15,7 +16,17 @@ export class BuilderXML {
 
   private path: string;
   private content?: XMLObjet;
-  private root: XMLRootType; 
+  private root: XMLRootType;
+
+
+  /**
+   * Fonction qui formate correctement le fichier XML +path+
+   * 
+   * @param pth Chemin d'accès au fichier à bien formater
+   */
+  public static wellFormat(pth: string) {
+    execSync(`xmllint --format --output "${pth}" "${pth}"`);
+  }
 
   constructor(params: {
     path: string; // Chemin d'accès au fichier final
@@ -38,6 +49,10 @@ export class BuilderXML {
     this.content && this.write(this.buildContent(this.content));
     // On ferme le document
     this.write(this.root.end as string);
+    // Par défaut, on le formate bien, avec une belle identation, et
+    // à l'avenir, si vraiment c'est nécessaire, on pourra avoir une
+    // option qui l'empêche
+    BuilderXML.wellFormat(this.path);
   }
 
   private prepareRoot(root: XMLRootType): XMLRootType {

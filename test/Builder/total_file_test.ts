@@ -16,11 +16,16 @@ function expectExists(pth: string){
 describe("Builder", () => {
 
   test.only("peut produire une archive minimale", async () => {
-
+    /**
+     * Teste une archive minimale, c'est-à-dire avec une recette
+     * absolument vide qui prendra donc toutes les valeurs par
+     * défaut (dossier 'minimal-prod' des assets)
+     */
     const bookPath = 'books/minimal-prod';
-    await Builder.buildBook(bookPath, {force_rebuild: true});
-    const imdlfile = path.join(bookPath, 'minprod.idml');
+    await Builder.buildBook(bookPath, { force_rebuild: true });
+    const imdlfile = path.join(bookPath, 'document.idml');
     expectExists(imdlfile);
+    expect(false).toBeTrue(); // tant que l'archive ne s'ouvre pas
   });
 
   test("permet de tester le contenu minimal", async () => {
