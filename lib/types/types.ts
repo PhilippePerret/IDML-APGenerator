@@ -9,7 +9,13 @@ export interface MasterSpreadType {
 export interface SpreadType {
   type: 'spread';
   uuid: string;
-  src: string; 
+  src: string;
+  pageCount: number; 
+  children: {
+    type: string, // TextFrame, Textpath, Rectangle, etc.
+    story: string,
+    bounds: {x: number, y: number, w: number, h: number},
+  }[]; // TODO DÉVELOPPER !
 }
 
 export interface StoryType {
@@ -48,12 +54,15 @@ export interface BookDataType {
   styles?: RecType;
   spreads: SpreadType[];
   stories: StoryType[];
+  backingStories?: StoryType[];
   story?: string;
   texte?: string;
   text?: string;
   // Les textes
   textes?: StoryType[];
   texts?: StoryType[];
+  // Assets
+  tags?: RecType[];
   //
   // --- Propriétés volatiles (i.e. ajoutées au runtime) ---
   pageHeight: number;
@@ -67,7 +76,8 @@ export interface XMLRootType {
   tag: string; 
   DOMVersion?: string;
   version?: string;
-  xmlns: string; // si isPackage, l'attribut deviendra xmlns:idPkg
+  xmlns?: string; // si isPackage, l'attribut deviendra xmlns:idPkg
+  xmlns_idPkg?: string; // Bizarre, pour la map, c'est la balise sans idPkg, mais l'espace de nom avec…
   start?: string; // root du fichier, sera calculé le moment venu 
   end?: string; // fin du fichier, sera calculé le moment venu
   id?: string;

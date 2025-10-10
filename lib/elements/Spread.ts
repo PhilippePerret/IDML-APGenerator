@@ -2,7 +2,7 @@ import path from "path";
 import { BuilderXML } from "../BuilderXML";
 import { IDML } from "../IDML";
 import { throwError } from "../Messagerie";
-import type { BookDataType, RecType, XMLObjet, XMLRootType } from "../types/types";
+import type { BookDataType, RecType, SpreadType, StoryType, XMLObjet, XMLRootType } from "../types/types";
 import { AbstractElementClass } from "./AbstractElementClass";
 import { Story } from "./Story";
 import { TextFrame } from "./TextFrame";
@@ -12,6 +12,15 @@ import { TextFrame } from "./TextFrame";
  */
 export class Spread extends AbstractElementClass {
 
+  public static spreadForStory(story: StoryType, bdata: BookDataType): SpreadType {
+    return {
+      uuid: IDML.generateId(),
+      pageCount: 1,
+      children: [
+        {type: 'TextFrame', story: story.uuid, bounds: {x: 0, y: 0, w: bdata.pageWidth, h: bdata.pageHeight}}
+      ]
+    } as SpreadType;
+  }
   constructor(data: RecType, bookData: BookDataType){ super(data, bookData); }
 
   /**

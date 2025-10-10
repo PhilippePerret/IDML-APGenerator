@@ -12,6 +12,7 @@ export abstract class AbstractElementClass {
     uuid = this.data.uuid || this.data.id || this.data.Self || IDML.generateId();
     return uuid;
   }
+  public getSelf(){ return this.self;}
   protected get children() {
     return this.data.children || this.data.elements || [];
   }

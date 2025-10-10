@@ -1,10 +1,9 @@
 import path from "path";
 import fs from "fs";
-import type { BookDataType, RecType, StoryType, XMLObjet, XMLRootType } from "../types/types";
+import type { BookDataType, StoryType, XMLObjet, XMLRootType } from "../types/types";
 import { AbstractElementClass } from "./AbstractElementClass";
 import { BuilderXML } from "../BuilderXML";
 import { IDML } from "../IDML";
-import { AbstractFileClass } from "./AbstractFileClass";
 import { throwError } from "../Messagerie";
 import { MainFormatter } from "../formatters/Formatter";
 
@@ -127,9 +126,7 @@ export class Story extends AbstractElementClass {
    */
   private formate(str: string){
     const formatter = new MainFormatter(this.text, this.format, this.bookData);
-
     return formatter.output();
-    return str.replace(/\n/g, '&#xA;');
   }
 
   private get text(): string{

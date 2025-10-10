@@ -120,7 +120,6 @@ export class Builder {
       Object.assign(bdata, {[prop]: value});
     }
     bdata.idmlFolder || assign('idmlFolder', path.join(bdata.bookFolder, bdata.idmlFolderName || 'idml'));
-    bdata.spreads || assign('spreads', []);
 
     // Définition des textes 
     // ---------------------
@@ -128,6 +127,15 @@ export class Builder {
     // propriété 'textes', soit on prend les fichiers (en général un 
     // seul dans ce cas-là) dans le dossier 'Texte
     bdata.stories || assign('stories', Story.getStories(bdata));
+
+    // définition des planches (Spreads)
+    // ---------------------------------
+    // Soit elles sont définies, soit il faut juste en faire pour
+    // les textes existants (une planche par story);
+    bdata.spreads || assign('spreads', []);
+    if (bdata.spreads.length === 0) {
+      bdata.spreads = bdata.stories.map(story => Spread.spreadForStory(story, bdata));
+    }
 
     bdata.archName || assign('archName', 'document.idml')
     assign('archivePath', path.join(bdata.bookFolder, bdata.archName));
@@ -268,7 +276,14 @@ export class Builder {
   build_stories_folder(bookData: BookDataType){
     const theFolder = path.join(bookData.idmlFolder, 'Stories');
     if (!fs.existsSync(theFolder)) { fs.mkdirSync(theFolder); }
-    bookData.stories.forEach(story => new Story(story, bookData).buildFile());
+    bookData.stories.forEach(story => {
+      const instance = new Story(story, bookData);
+      instance.buildFile();
+      Object.assign(story, {
+        uuid: instance.getSelf(),
+        instance: instance
+      });
+    });
   }
 
   /**
@@ -321,7 +336,7 @@ export class Builder {
 
   /**
    * 
-   * Construction du fichier principal designmap
+   * Construction du fichier map principal designmap
    * 
    */
   build_designmap_file(bookData: BookDataType) {
@@ -330,43 +345,54 @@ export class Builder {
 
     pth = path.join(bookData.idmlFolder, 'designmap.xml');
     root = {
-      isPackage: true,
+      isPackage: false,
       tag: 'Document',
       id: 'd',
       DOMVersion: IDML.DOMVersion,
-      xmlns: 'http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging',
-      instTreatment: '<?aid style="50" type="document" readerVersion="6.0" featureSet="257" product="15.0(209)" ?>'
+      xmlns_idPkg: 'http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging'
     }
 
     // Tous les éléments à mettre dans le fichier
-    content = {children: []};
-    // Fichier des styles et fichier des fontes (toujours);
-    (content.children as XMLObjet[]).push(...[
-        {attrs: [['src', 'XML/BackingStory.xml']], tag: 'idPkg:BackingStory'} as XMLObjet,
-        {attrs: [['src', 'XML/Tags.xml']], tag: 'idPkg:Tags'} as XMLObjet,
-        {attrs: [['src', 'Resources/Styles.xml']], tag: 'idPkg:Styles'} as XMLObjet,
-        {attrs: [['src', 'Resources/Fonts.xml']], tag: 'idPkg:Fonts'} as XMLObjet,
-        {attrs: [['src', 'Resources/Graphic.xml']], tag: 'idPkg:Graphics'} as XMLObjet,
-        {attrs: [['src', 'Resources/Preferences.xml']], tag: 'idPkg:Preferences'} as XMLObjet
-      ]
-    );
+    content = {children: [] as XMLObjet[]} as XMLObjet;
+
+    function addChild(child: XMLObjet){
+      (content.children as any).push(child);
+    }
+    // Le seul fichier obligatoire (mais je ne crois même pas qu'il est
+    // obligatoire dans la map)
+    addChild({attrs: [['src', 'Resources/Graphic.xml']], tag: 'idPkg:Graphics'});
+
+    if (bookData.backingStories) {
+      addChild({attrs: [['src', 'XML/BackingStory.xml']], tag: 'idPkg:BackingStory'}); 
+    }
+    if (bookData.tags){
+      addChild({attrs: [['src', 'XML/Tags.xml']], tag: 'idPkg:Tags'});
+    }
+    if (bookData.styles) {
+      addChild({attrs: [['src', 'Resources/Styles.xml']], tag: 'idPkg:Styles'});
+    }
+    if (bookData.styles) {
+      addChild({attrs: [['src', 'Resources/Fonts.xml']], tag: 'idPkg:Fonts'})
+    }
+    if (bookData.preferences){
+      addChild({attrs: [['src', 'Resources/Preferences.xml']], tag: 'idPkg:Preferences'})
+    }
+    
     bookData.spreads.forEach(spread => {
-      (content.children as XMLObjet[]).push(
-        {attrs: [['src', `Spreads/Spread_${spread.uuid}.xml`]], tag:'idPkg:Spread'}
-      )
+      addChild({attrs: [['src', `Spreads/Spread_${spread.uuid}.xml`]], tag:'idPkg:Spread'})
     });
+
     bookData.stories.forEach(story => {
-      (content.children as XMLObjet[]).push(
-        {attrs: [['src', `Stories/Story_${story.uuid}.xml`]], tag: 'idPkg:Story'}
-      )
+      addChild({attrs: [['src', `Stories/Story_${story.uuid}.xml`]], tag: 'idPkg:Story'});
     });
+
     if (bookData.masterSpreads) {
       bookData.masterSpreads.forEach(master => {
-        (content.children as XMLObjet[]).push(
-          { attrs: [['src', `MasterSpreads/MasterSpread_${master.uuid}.xml`]], tag: 'idPkg:MasterSpread' }
-        )
-      }),
-        new BuilderXML({ path: pth, content: content, root: root }).output();
+        addChild({ attrs: [['src', `MasterSpreads/MasterSpread_${master.uuid}.xml`]], tag: 'idPkg:MasterSpread'});
+      })
     }
+
+    // On construit le fichier de la map
+    new BuilderXML({ path: pth, content: content, root: root }).output();
   }
 }

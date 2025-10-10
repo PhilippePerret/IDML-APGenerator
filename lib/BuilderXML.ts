@@ -62,8 +62,10 @@ export class BuilderXML {
         end: `</idPkg:${root.tag}>`
       });
     } else {
+      const propNamespace = root.xmlns_idPkg ? 'xmlns:idPkg' : 'xmlns';
+      const namespace = root.xmlns_idPkg ? root.xmlns_idPkg : root.xmlns;
       Object.assign(root, {
-        start: `<${root.tag} version="${root.version}" xmlns="${root.xmlns}">`,
+        start: `<${root.tag} version="${root.version}" ${propNamespace}="${namespace}">`,
         end: `</${root.tag}>`
       });
     }
