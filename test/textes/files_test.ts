@@ -97,15 +97,6 @@ describe("Les/Le fichier/s texte peut", () => {
     expect(story.format).toBe(format);
   }
 
-  test("peut être défini dans la donnée :story", async () => {
-    const bpath = 'books/book_texte_by_story';
-    let bdata = await Builder.buildBook(bpath, {only_return_data: true});
-    bdata = bdata as BookDataType;
-    const story = (bdata.stories as any)[0];
-    const spath = path.join(path.resolve(bpath), 'story.txt');
-    expectStory(story, ['story.txt', 'txt', 'text', spath])
-    
-  })
   test.only("peut être défini dans la donnée :textes", async () => {
     let spath;
     const bpath = 'books/book_texte_by_textes';
@@ -118,18 +109,44 @@ describe("Les/Le fichier/s texte peut", () => {
     expectStory(bdata.stories[1] as any, ['monfichier.rtf', 'rtf', 'rtf', spath]);
 
   })
-  test("peut être défini dans la donnée :texte", async () => {
-
-  })
-  test("peut être défini dans la donnée :textes", async () => {
-
-  })
-  test("peut être défini dans la donnée :text", async () => {
-
-  })
-  test("peut être défini dans la donnée :texts", async () => {
-
+  
+  test.only("peut être défini dans la donnée :texts", async () => {
+    let spath;
+    const bpath = 'books/book_texte_by_texts';
+    let bdata = await Builder.buildBook(bpath, {only_return_data: true});
+    bdata = bdata as BookDataType;
+    expect(bdata.stories.length).toBe(2);
+    spath = path.join(path.resolve(bpath), 'tstory.txt');
+    expectStory(bdata.stories[0] as any, ['tstory.txt', 'txt', 'text', spath]);
+    spath = path.join(path.resolve(bpath), 'txt', 'monfichier.rtf');
+    expectStory(bdata.stories[1] as any, ['monfichier.rtf', 'rtf', 'rtf', spath]);
   })
  
+  test("peut être défini dans la donnée :story", async () => {
+    const bpath = 'books/book_texte_by_story';
+    let bdata = await Builder.buildBook(bpath, {only_return_data: true});
+    bdata = bdata as BookDataType;
+    const story = (bdata.stories as any)[0];
+    const spath = path.join(path.resolve(bpath), 'story.txt');
+    expectStory(story, ['story.txt', 'txt', 'text', spath])
+  });
+
+  test.only("peut être défini dans la donnée :texte", async () => {
+    const bpath = 'books/book_texte_by_texte';
+    let bdata = await Builder.buildBook(bpath, {only_return_data: true});
+    bdata = bdata as BookDataType;
+    const story = (bdata.stories as any)[0];
+    const spath = path.join(path.resolve(bpath), 'story.txt');
+    expectStory(story, ['story.txt', 'txt', 'text', spath])
+  })
+
+  test.only("peut être défini dans la donnée :text", async () => {
+    const bpath = 'books/book_texte_by_text';
+    let bdata = await Builder.buildBook(bpath, {only_return_data: true});
+    bdata = bdata as BookDataType;
+    const story = (bdata.stories as any)[0];
+    const spath = path.join(path.resolve(bpath), 'story.txt');
+    expectStory(story, ['story.txt', 'txt', 'text', spath]);
+  })
 
 });
