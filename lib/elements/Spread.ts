@@ -4,7 +4,6 @@ import { IDML } from "../IDML";
 import { throwError } from "../Messagerie";
 import type { BookDataType, RecType, SpreadType, StoryType, XMLObjet, XMLRootType } from "../types/types";
 import { AbstractElementClass } from "./AbstractElementClass";
-import { Story } from "./Story";
 import { TextFrame } from "./TextFrame";
 
 /**

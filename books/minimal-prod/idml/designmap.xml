@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" version="undefined">
-  <idPkg:Graphics src="Resources/Graphic.xml"/>
+  <idPkg:Graphic src="Resources/Graphic.xml"/>
   <idPkg:Spread src="Spreads/Spread_di7.xml"/>
   <idPkg:Story src="Stories/Story_di6.xml"/>
 </Document>

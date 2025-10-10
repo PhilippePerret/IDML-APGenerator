@@ -37,6 +37,8 @@ export class Builder {
    * -------
    * force_rebuild      Si true, reconstruit tout en détruisant ce qui existe déjà.
    * only_return_data   (mode test) Retourne seulement les donnée DataBookType une fois qu'elles ont été défaultisées.
+   * rebuild            Si False, les fichiers de l'archive en sont pas touchés, seule est produite l'archive elle-même. Ce mode permet de "trafiquer" le code pour essayer des choses et voir tout de suite le résultat. Utiliser le test 'test/sandbox_test.ts' pour faire ces essais, en indiquant le path du livre.
+   * open_in_AP         Si true, après construction l'archive est aussitôt ouverte dans affinity Publisher.
    * 
    */
   public static async buildBook(bookPath: string, options?: RecType): Promise<boolean | BookDataType> {
@@ -89,6 +91,9 @@ export class Builder {
     if (ok) { ok = builder.openInFinder(bookData); }
     console.log("OK après openInFinder", ok);
 
+    if (ok && options && options.open_in_AP){
+      execSync(`open -a "Affinity Publisher" "${bookData.archivePath}"`);
+    }
     if (ok) {
       console.log("\n\nArchive construite avec succès.");
     } else {
@@ -360,7 +365,7 @@ export class Builder {
     }
     // Le seul fichier obligatoire (mais je ne crois même pas qu'il est
     // obligatoire dans la map)
-    addChild({attrs: [['src', 'Resources/Graphic.xml']], tag: 'idPkg:Graphics'});
+    addChild({attrs: [['src', 'Resources/Graphic.xml']], tag: 'idPkg:Graphic'});
 
     if (bookData.backingStories) {
       addChild({attrs: [['src', 'XML/BackingStory.xml']], tag: 'idPkg:BackingStory'}); 

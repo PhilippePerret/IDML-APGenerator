@@ -55,7 +55,7 @@ export class TextFrame extends AbstractElementClass {
 
     // Finalisation
     return c.join("\n").wrapIn('PathPointArray')
-      .wrapIn('GeometryPath', [['PathOpen', 'false']])
+      .wrapIn('GeometryPathType')
       .wrapIn('PathGeometry')
   }
 
