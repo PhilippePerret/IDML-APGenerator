@@ -148,5 +148,14 @@ describe("Les/Le fichier/s texte peut", () => {
     const spath = path.join(path.resolve(bpath), 'story.txt');
     expectStory(story, ['story.txt', 'txt', 'text', spath]);
   })
-
 });
+
+describe("En l'absence de textes", () => {
+  test("La fonction lève une erreur", async => {
+    const bpath = 'books/book_texte_unfound';
+    function tested() {
+      Builder.buildBook(bpath);
+    }
+    expect(tested).toThrowError();
+  })
+})

@@ -22,11 +22,12 @@ export class Story extends AbstractElementClass {
    */
   public static getStories(bookData: BookDataType): StoryType[] {
     let textes: string[] = [];
+    const rootText = this.rootText(bookData);
+    const textFolder = this.textFolder(bookData);
     if (bookData.story || bookData.text || bookData.texte) {textes = [bookData.story || bookData.texte|| bookData.text as any]}
     else if (bookData.texts || bookData.textes || bookData.stories) { textes = bookData.texts || bookData.textes as any}
-    else if (this.rootText(bookData)) { textes = [this.rootText(bookData) as string]; }
-    else if (this.textFolder(bookData)) {
-      const textFolder = this.textFolder(bookData) as string;
+    else if (rootText) { textes = [rootText]; }
+    else if (textFolder) {
       textes = fs.readdirSync(textFolder).map(fn => path.join(textFolder, fn));
     }
     // console.log("Textes trouvés : ", textes);
@@ -65,10 +66,6 @@ export class Story extends AbstractElementClass {
    * @returns 
    */
   private static rootText(bdata: BookDataType): string | undefined {
-    return this._roottext || (this._roottext = this.searchRootText(bdata));
-  }
-  private static _roottext: string | undefined;
-  private static searchRootText(bdata: BookDataType): string | undefined {
     const candNames = ['Texte', 'Text', 'Content', 'Story'];
     const elements = fs.readdirSync(bdata.bookFolder).map(f => path.parse(f));
     for(const candName of candNames) {
@@ -82,17 +79,12 @@ export class Story extends AbstractElementClass {
   }
 
   private static textFolder(bdata: BookDataType): string | undefined {
-    return this._textfolder || (this._textfolder = this.searchTextFolder(bdata)); 
-  }
-  private static searchTextFolder(bdata: BookDataType): string | undefined {
     const candNames: string[] = ['stories', 'texts', 'textes', 'content'];
     for(let candName of candNames){
       const candPath = path.join(bdata.bookFolder, candName);
       if (fs.existsSync(candPath)) { return candPath; }
     }
   }
-  private static _textfolder?: string;
-
 
   constructor(data: RecType, bookData: BookDataType){super(data, bookData);}
 

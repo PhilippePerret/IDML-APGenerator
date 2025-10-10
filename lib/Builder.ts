@@ -47,6 +47,9 @@ export class Builder {
     const recipePath = path.join(bookPath, 'recipe.yaml');
     fs.existsSync(recipePath) || throwError('recipe-unfound', [recipePath]);
 
+    // Instanciation du constructeur qui va produire l'archive
+    const builder = new Builder();
+ 
     // Initialisation des données propriétés
     await DataProps.init();
 
@@ -55,14 +58,13 @@ export class Builder {
     Object.assign(bookData, {
       bookFolder: bookPath,
       recipePath: recipePath,
+      builder: builder
     });
     this.defaultizeBookData(bookData);
     // console.log("bookData (defaultised) = ", bookData);
     if (options && options.only_return_data) { return bookData; }
 
-    // Instanciation du constructeur qui va produire l'archive
-    const builder = new Builder();
-    // Si on doit forcer la reconstruction complète (option 
+   // Si on doit forcer la reconstruction complète (option 
     // force-rebuild), il faut déruire le dossier s'il existe
     if (options && options.force_rebuild) {
       builder.removeIdmlElements(bookData)

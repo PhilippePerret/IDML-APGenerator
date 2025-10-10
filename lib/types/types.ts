@@ -1,3 +1,4 @@
+
 export type RecType = Record<string, any>
 
 export interface MasterSpreadType {
