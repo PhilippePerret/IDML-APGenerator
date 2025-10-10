@@ -4,6 +4,8 @@ const ERRORS = {
   // Recette
   'undef-element-type-in-children': 'Type d’enfant non défini dans : _0_',
   'unknown-element-type': 'Type d’élément inconnu : _0_',
+  // Story/textes
+  'unfound-story': 'Impossible de trouver le texte de path "_0_"…', 
   // Element Text Frame
   'story-undef-in-textframe': "La story (id) n'est pas définie dans le TextFrame _0_…",
   // Builder XML

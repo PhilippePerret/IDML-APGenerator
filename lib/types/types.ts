@@ -14,6 +14,10 @@ export interface SpreadType {
 export interface StoryType {
   type: 'story';
   uuid: string;
+  name: string; // nom du fichier
+  path: string; // chemin d'accès absolu au fichier
+  extension: 'md' | 'text' | 'txt' | 'mmd' | 'markdown' | 'html' | 'htm' | 'xml' | 'rtf';
+  format: 'text' | 'markdown' | 'rft' | 'xml' | 'html';
 }
 
 export interface FontType {
@@ -42,8 +46,13 @@ export interface BookDataType {
   preferences?: RecType;
   styles?: RecType;
   spreads: SpreadType[];
-  // Les textes
   stories: StoryType[];
+  story?: string;
+  texte?: string;
+  text?: string;
+  // Les textes
+  textes?: StoryType[];
+  texts?: StoryType[];
   //
   // --- Propriétés volatiles (i.e. ajoutées au runtime) ---
   pageHeight: number;
@@ -77,6 +86,7 @@ export interface XMLObjet extends XMLTag {
   child?: XMLObjet;
   children?: XMLObjet[];
   items?: RecType[]; // Liste d'attributs
+  properties?: XMLObjet[]; // Ajouté mais pas encore utilisé, c'est pour définir les <Property>
 }
 
 // === FONTES ===

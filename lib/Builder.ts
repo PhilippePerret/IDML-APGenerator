@@ -32,8 +32,14 @@ export class Builder {
    * qui doit contenir tous les éléments nécessaires
    * 
    * @return True en cas de succès, False otherwise
+   * 
+   * OPTIONS
+   * -------
+   * force_rebuild      Si true, reconstruit tout en détruisant ce qui existe déjà.
+   * only_return_data   (mode test) Retourne seulement les donnée DataBookType une fois qu'elles ont été défaultisées.
+   * 
    */
-  public static async buildBook(bookPath: string, options?: RecType): Promise<boolean> {
+  public static async buildBook(bookPath: string, options?: RecType): Promise<boolean | BookDataType> {
     // console.log("Book path à l'entrée", bookPath);
     if (!path.isAbsolute(bookPath)){ bookPath = path.resolve(bookPath); }
     // console.log("Book path finale : ", bookPath);
@@ -51,7 +57,10 @@ export class Builder {
       recipePath: recipePath,
     });
     this.defaultizeBookData(bookData);
-    console.log("bookData (defaultised) = ", bookData);
+    // console.log("bookData (defaultised) = ", bookData);
+    if (options && options.only_return_data) { return bookData; }
+
+    // Instanciation du constructeur qui va produire l'archive
     const builder = new Builder();
     // Si on doit forcer la reconstruction complète (option 
     // force-rebuild), il faut déruire le dossier s'il existe
@@ -110,7 +119,13 @@ export class Builder {
     }
     bdata.idmlFolder || assign('idmlFolder', path.join(bdata.bookFolder, bdata.idmlFolderName || 'idml'));
     bdata.spreads || assign('spreads', []);
-    bdata.stories || assign('stories', []);
+
+    // Définition des textes 
+    // ---------------------
+    // Soit ils sont définis dans l'ordre dans la recette dans une 
+    // propriété 'textes', soit on prend les fichiers (en général un 
+    // seul dans ce cas-là) dans le dossier 'Texte
+    bdata.stories || assign('stories', Story.getStories(bdata));
 
     bdata.archName || assign('archName', 'document.idml')
     assign('archivePath', path.join(bdata.bookFolder, bdata.archName));
@@ -303,6 +318,7 @@ export class Builder {
   }
 
   /**
+   * 
    * Construction du fichier principal designmap
    * 
    */

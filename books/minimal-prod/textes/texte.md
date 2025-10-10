@@ -1,0 +1,1 @@
+Mon tout premier texte dans une archive produite minimale. Il a l'honneur d'être le tout premier à s'ouvrir si tout fonctionne bien.
