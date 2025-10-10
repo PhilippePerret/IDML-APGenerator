@@ -29,10 +29,7 @@ export class Story extends AbstractElementClass {
       const textFolder = this.textFolder(bookData) as string;
       textes = fs.readdirSync(textFolder).map(fn => path.join(textFolder, fn));
     }
-
-    console.log("Textes trouvés : ", textes);
-
-
+    // console.log("Textes trouvés : ", textes);
     let stories: StoryType[] = [];
     if (textes.length) {
       stories = textes.map((f: string): StoryType => {
@@ -56,9 +53,7 @@ export class Story extends AbstractElementClass {
         } as StoryType;
       })
     }
-
-
-
+    stories.length || throwError('none-texte');
     return stories;
   }
 

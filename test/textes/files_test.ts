@@ -97,7 +97,7 @@ describe("Les/Le fichier/s texte peut", () => {
     expect(story.format).toBe(format);
   }
 
-  test.only("peut être défini dans la donnée :textes", async () => {
+  test("peut être défini dans la donnée :textes", async () => {
     let spath;
     const bpath = 'books/book_texte_by_textes';
     let bdata = await Builder.buildBook(bpath, {only_return_data: true});
@@ -110,7 +110,7 @@ describe("Les/Le fichier/s texte peut", () => {
 
   })
   
-  test.only("peut être défini dans la donnée :texts", async () => {
+  test("peut être défini dans la donnée :texts", async () => {
     let spath;
     const bpath = 'books/book_texte_by_texts';
     let bdata = await Builder.buildBook(bpath, {only_return_data: true});
@@ -131,7 +131,7 @@ describe("Les/Le fichier/s texte peut", () => {
     expectStory(story, ['story.txt', 'txt', 'text', spath])
   });
 
-  test.only("peut être défini dans la donnée :texte", async () => {
+  test("peut être défini dans la donnée :texte", async () => {
     const bpath = 'books/book_texte_by_texte';
     let bdata = await Builder.buildBook(bpath, {only_return_data: true});
     bdata = bdata as BookDataType;
@@ -140,7 +140,7 @@ describe("Les/Le fichier/s texte peut", () => {
     expectStory(story, ['story.txt', 'txt', 'text', spath])
   })
 
-  test.only("peut être défini dans la donnée :text", async () => {
+  test("peut être défini dans la donnée :text", async () => {
     const bpath = 'books/book_texte_by_text';
     let bdata = await Builder.buildBook(bpath, {only_return_data: true});
     bdata = bdata as BookDataType;

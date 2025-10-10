@@ -6,6 +6,7 @@ const ERRORS = {
   'unknown-element-type': 'Type d’élément inconnu : _0_',
   // Story/textes
   'unfound-story': 'Impossible de trouver le texte de path "_0_"…', 
+  'none-texte': 'Aucun texte n’est défini, je ne peux rien faire. Pour y remédier, vous pouvez par exemple créer un fichier "story.txt" à la racine du dossier du livre et mettre un court texte dedans.',
   // Element Text Frame
   'story-undef-in-textframe': "La story (id) n'est pas définie dans le TextFrame _0_…",
   // Builder XML
