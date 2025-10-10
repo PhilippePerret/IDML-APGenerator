@@ -7,6 +7,7 @@ const ERRORS = {
   // Story/textes
   'unfound-story': 'Impossible de trouver le texte de path "_0_"…', 
   'none-texte': 'Aucun texte n’est défini, je ne peux rien faire. Pour y remédier, vous pouvez par exemple créer un fichier "story.txt" à la racine du dossier du livre et mettre un court texte dedans.',
+  'unknown-text-format': 'Le format "_0_" est inconnnu. Impossible de traiter le texte (seuls formats connus pour le moment : _1_).',
   // Element Text Frame
   'story-undef-in-textframe': "La story (id) n'est pas définie dans le TextFrame _0_…",
   // Builder XML

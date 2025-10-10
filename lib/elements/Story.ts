@@ -6,6 +6,7 @@ import { BuilderXML } from "../BuilderXML";
 import { IDML } from "../IDML";
 import { AbstractFileClass } from "./AbstractFileClass";
 import { throwError } from "../Messagerie";
+import { MainFormatter } from "../formatters/Formatter";
 
 export class Story extends AbstractElementClass {
 
@@ -86,9 +87,15 @@ export class Story extends AbstractElementClass {
     }
   }
 
-  constructor(data: RecType, bookData: BookDataType){super(data, bookData);}
-
-  buildFile(){
+  constructor(data: StoryType, bookData: BookDataType){super(data, bookData);}
+  /**
+  *  @api
+  * 
+  * Fonction principale construisant le fichier Story_xxx.xml d'une
+  * storie.
+  * 
+  */
+  buildFile() {
     console.log("Construction d'une Story avec : ", this.data);
     const root: XMLRootType = {
       isPackage: true,
@@ -119,23 +126,16 @@ export class Story extends AbstractElementClass {
    * méthodes de formatage de l'utilisateur.
    */
   private formate(str: string){
-    return str.replace(/\n/g, '&#xA;');
-  }
-  /**
-   * Retourne le code String XML à inscrire dans la designmap.xml 
-   */
-  toXml(){
+    const formatter = new MainFormatter(this.text, this.format, this.bookData);
 
-    
+    return formatter.output();
+    return str.replace(/\n/g, '&#xA;');
   }
 
   private get text(): string{
-    if ( this.data.text.path ) {
-      // Texte défini dans un fichier
-      return fs.readFileSync(path.join(this.bookData.bookFolder, this.data.text.path), 'utf-8');
-    } else {
-      return this.data.text || 'Bonjour le monde !'
-    }
-     
+    return fs.readFileSync(this.data.path, 'utf-8');
+  }
+  private get format():string {
+    return this.data.format;
   }
 }
