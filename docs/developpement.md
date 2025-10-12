@@ -14,7 +14,7 @@
 
 ### Fonctionnement par modification de fichiers modèle
 
-Il y a tellement de propriétés pour que le fichier soit valide qu’on a décidé de fonctionner par fichiers modèles qui seront modifiés. Ils sont comme la « configuration d’usine » du document. La recette se contente donc de modifier au besoin les valeurs différentes.
+Il y a tellement de propriétés pour que le fichier soit valide qu’on a décidé de fonctionner par fichiers modèles qui seront modifiés. Ils sont comme la « configuration d’usine » du book. La recette se contente donc de modifier au besoin les valeurs différentes.
 
 Pour accélérer la fabrication des fichiers, on prend les fichiers modèle du dossier `lib/assets/models/` et on les transforme sans les parser intégralement, en streaming, en faisant des recherches sur les balises et les attributs.
 
@@ -165,8 +165,8 @@ Quelques termes utiles à connaitre en anglais pour bien lire la documentation.
 
 ### IDML
 
-Cette section comprend un résumé des généralités relevées dans le document des spécificités IDML.
+Cette section comprend un résumé des généralités relevées dans le book des spécificités IDML.
 
 #### Story
 
-Pour apparaitre sur le document, une « story », donc **un texte** doit appartenir à un `<TextFrame>` (bloc de texte) ou un `<TextPath>` (chemin de texte) contenu par un `<Spread>` (planche).
+Pour apparaitre sur le book, une « story », donc **un texte** doit appartenir à un `<TextFrame>` (bloc de texte) ou un `<TextPath>` (chemin de texte) contenu par un `<Spread>` (planche).

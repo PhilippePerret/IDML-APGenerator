@@ -1,3 +1,0 @@
-Si le text box ne correspond pas aux marges, c'est simplement que dans ce livre, on ne règle pas encore explicitement les marges de la page. Donc ce sont des marges par défaut qui sont affectées.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue iaculis ligula vel blandit. Nam congue massa quis fringilla porta. Pellentesque elementum bibendum ante a viverra. Aenean et lorem vestibulum, auctor lectus vel, euismod libero. Donec lobortis rutrum turpis, eu commodo nulla maximus ut. Phasellus iaculis felis id sollicitudin posuere. Curabitur cursus fringilla risus, eget pretium erat tincidunt quis. Nam feugiat tincidunt augue. Donec vitae velit in urna facilisis faucibus.

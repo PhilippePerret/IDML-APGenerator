@@ -145,11 +145,11 @@ export class Builder {
       bdata.spreads = bdata.stories.map(story => Spread.spreadForStory(story, bdata));
     }
 
-    bdata.archName || assign('archName', 'document.idml')
+    bdata.archName || assign('archName', 'book.idml')
     assign('archivePath', path.join(bdata.bookFolder, bdata.archName));
     // Document par défaut
-    const doc = bdata.document || {};
-    assign('document', {
+    const doc = bdata.book || {};
+    assign('book', {
       width: Calc.any2pt(doc.width || 595),
       height: Calc.any2pt(doc.height || 842),
       bleed: Calc.any2pt(doc.bleed || 8.5),      // 3 mm
@@ -160,8 +160,8 @@ export class Builder {
       Imargin: Calc.any2pt(doc.Imargin || 42.5),
       Emargin: Calc.any2pt(doc.Emargin || 28.3)
     });
-    assign('pageHeight', bdata.document.height);
-    assign('pageWidth', bdata.document.width);
+    assign('pageHeight', bdata.book.height);
+    assign('pageWidth', bdata.book.width);
   }
 
   /**

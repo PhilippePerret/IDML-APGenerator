@@ -23,7 +23,7 @@ describe("Builder", () => {
      */
     const bookPath = 'books/minimal-prod';
     await Builder.buildBook(bookPath, { force_rebuild: true });
-    const imdlfile = path.join(bookPath, 'document.idml');
+    const imdlfile = path.join(bookPath, 'book.idml');
     expectExists(imdlfile);
     expect(false).toBeTrue(); // tant que l'archive ne s'ouvre pas
   });

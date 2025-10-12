@@ -34,8 +34,8 @@ export class TextFrame extends AbstractElementClass {
     //          LeftDirection = idem pour la poignée de Bézier gauche
     //          RightDirection = idem pour la poignée de Bézier droite
     const modele = '<PathPointType Anchor="_PT_" LeftDirection="_LD_" RightDirection="_RD_"/>';
-    // On a besoin des données du document pour les marges et autres
-    const ddoc = this.bookData.document;
+    // On a besoin des données du book pour les marges et autres
+    const ddoc = this.bookData.book;
     // On fait les points en fonction de la définition des coordonnées
     // du textframe. Ces coordonnées peuvent être définies par une 
     // liste de points ou une paire de définitions

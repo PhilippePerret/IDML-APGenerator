@@ -13,8 +13,8 @@ import { Calc } from "../utils_calculs";
 export class Spread extends AbstractElementClass {
 
   public static spreadForStory(story: StoryType, bdata: BookDataType): SpreadType {
-    const width = Calc.any2pt(bdata.document.width || bdata.pageWidth);
-    const height = Calc.any2pt(bdata.document.height || bdata.pageHeight);
+    const width = Calc.any2pt(bdata.book.width || bdata.pageWidth);
+    const height = Calc.any2pt(bdata.book.height || bdata.pageHeight);
     // console.log("width / height = %i / %i", width, height);
     return {
       uuid: IDML.generateId(),
@@ -53,7 +53,7 @@ export class Spread extends AbstractElementClass {
 
   /**
    * Retourne les attributs pour le Spread
-   * Dont, principalement ou pour commencer, les dimensions du document
+   * Dont, principalement ou pour commencer, les dimensions du book
    * si elles sont définies
    */
   private pageAttributes(): [string, any][] {
@@ -63,8 +63,8 @@ export class Spread extends AbstractElementClass {
 
     attrs.push();
 
-    if (bdata.document && bdata.document.height) {
-      attrs.push(['GeometricBounds', `0 0 ${Calc.any2pt(bdata.document.height)} ${Calc.any2pt(bdata.document.width)}`]);
+    if (bdata.book && bdata.book.height) {
+      attrs.push(['GeometricBounds', `0 0 ${Calc.any2pt(bdata.book.height)} ${Calc.any2pt(bdata.book.width)}`]);
       attrs.push(['ItemTransform', '1 0 0 1 0 0']);
     }
 
@@ -72,7 +72,7 @@ export class Spread extends AbstractElementClass {
   }
 
   /**
-   * Retourne le code XML complet à copier dans le document 
+   * Retourne le code XML complet à copier dans le book 
    * Spreads.xml du package IDML
    */
   public XMLContent(): string {

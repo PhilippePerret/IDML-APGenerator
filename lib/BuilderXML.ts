@@ -47,7 +47,7 @@ export class BuilderXML {
     this.write(this.root.start as string);
     // On ajoute tout le contenu
     this.content && this.write(this.buildContent(this.content));
-    // On ferme le document
+    // On ferme le book
     this.write(this.root.end as string);
     // Par défaut, on le formate bien, avec une belle identation, et
     // à l'avenir, si vraiment c'est nécessaire, on pourra avoir une
@@ -73,10 +73,10 @@ export class BuilderXML {
   }
 
   /**
-   * Construction du contenu du document
+   * Construction du contenu du book
    * -----------------------------------
    * C'est la grande méthode construisant l'intégralité du contenu du
-   * document produit à partir de this.content.
+   * book produit à partir de this.content.
    * 
    * Format de this.content
    * C'est un objet de type XMLObjet, c'est-à-dire :

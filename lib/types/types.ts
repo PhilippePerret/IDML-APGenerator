@@ -46,7 +46,7 @@ export interface BookDataType {
   idmlFolderName: string; // on peut aussi ne donner que le nom
   recipePath: string;
   archName: string; // Nom du fichier IDML final (avec son extension)
-  document: RecType; // Toutes les informations sur le format du document, dimension, marges, etc.
+  book: RecType; // Toutes les informations sur le format du book, dimension, marges, etc.
   masterSpreads: MasterSpreadType[];
   fonts: FontFamilyType[]; 
   graphic?: any; // je ne sais pas encore comment les définir

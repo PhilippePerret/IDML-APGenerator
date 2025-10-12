@@ -3,7 +3,7 @@ id: minimal # l'identifiant unique du livre
 idmlFolderName: 'idml'
 archName: 'minimal.idml'
 # folder: idml
-document: # Tout ce qui concerne le document
+book: # Tout ce qui concerne le book
   height: 297 #mm
   width: 210 #mm
   bleed: 3 #mm fond perdu

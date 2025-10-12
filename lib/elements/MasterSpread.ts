@@ -38,7 +38,7 @@ export class MasterSpread extends AbstractElementClass {
     return true
   }
   /**
-   * Retourne le code XML complet à copier dans le document 
+   * Retourne le code XML complet à copier dans le book 
    * MasterSpread_<id>.xml du package IDML
    */
   public XMLContent(): string {

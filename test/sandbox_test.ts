@@ -16,7 +16,7 @@ import { Builder } from "../lib/Builder";
  * Jouer bun test test/sandbox_test.ts chaque fois.
  * 
  */
-const BOOK = 'A4-double-page';
+const BOOK = 'A4-textframes-linked';
 // const BOOK = 'minimal-prod';
 const BUILD = true; 
 // const BUILD = false; 

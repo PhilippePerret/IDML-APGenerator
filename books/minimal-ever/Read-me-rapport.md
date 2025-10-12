@@ -119,7 +119,7 @@ On arrive donc à ce fichier minimum :
 
 * **=> Référencement au fichier Spread obligatoire.**
 
-* Le retrait du référencement de toutes les Stories ne plante pas le fichier, **mais, comme on s’y attend, affiche un document vide**. J’en garde **seulement trois**.
+* Le retrait du référencement de toutes les Stories ne plante pas le fichier, **mais, comme on s’y attend, affiche un book vide**. J’en garde **seulement trois**.
 
   * Si on retire tous les fichiers du dossier `Stories`, ça génère une erreur (et plante)
   * Avec les trois fichiers référencés, ça marche.
@@ -152,7 +152,7 @@ On arrive donc à ce fichier minimum :
 > Remarquer qu’il n’y a pas de capitales au début des noms d’attributs, ici.
 
 * Retrait de `style="50"`
-* Retrait de `type="document"`
+* Retrait de `type="book"`
 * Retrait de `readerVersion="6.0"`
 * Retrait de `featureSet`
 * Retrait de `product`
@@ -319,7 +319,7 @@ Pour finir, je m’attaque au fichier `META-INF/metadata.xml`
 * retrait de son parent `<x:xmpmeta ...>` sans conséquence
 * retrait de son parent (root) `<?xpacket ...>` sans conséquence
 
-En fait, ce document n’a même pas besoin d’exister… Noter que ce document est le seul (?) à ne pas avoir besoin d’être référencé dans la map.
+En fait, ce book n’a même pas besoin d’exister… Noter que ce book est le seul (?) à ne pas avoir besoin d’être référencé dans la map.
 
 ## Finalisation
 
