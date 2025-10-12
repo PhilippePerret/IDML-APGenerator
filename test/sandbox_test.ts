@@ -18,8 +18,8 @@ import { Builder } from "../lib/Builder";
  */
 const BOOK = 'A4-double-page';
 // const BOOK = 'minimal-prod';
-// const BUILD = true; 
-const BUILD = false; 
+const BUILD = true; 
+// const BUILD = false; 
 
 
 test("Pour essayer du code", async () => {

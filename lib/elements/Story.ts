@@ -105,7 +105,7 @@ export class Story extends AbstractElementClass {
 
     const content: XMLObjet = {
       tag: 'Story',
-      text: `<Content>${this.formate(this.text)}</Content>`,
+      text: this.formate(this.text),
       attrs: [['Self', this.self]]
     };
     

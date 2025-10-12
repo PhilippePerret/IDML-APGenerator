@@ -8,8 +8,8 @@ export class Graphic extends AbstractFileClass {
 
   /**
    * Le fichier minimal Graphic.xml comprend la définition de la 
-   * couleur noire. (IL FAUDRAIT LA MÊME CHOSE POUR DES COULEURS DÉFINIES, SAUF
-   * SI NOIRE EST DÉFINIE)
+   * couleur noire. Todo : cette couleur noire doit être définie pour
+   * toutes les archives 
    */
   protected override buildMinimalFile(content?: XMLObjet): void {
     content = {
