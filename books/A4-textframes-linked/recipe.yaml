@@ -8,4 +8,4 @@ book:
   Lmargin: 15mm #mm
   Rmargin: 15mm #mm
   Imargin: 15mm #mm Marge intérieure (si double page)
-  EMargin: 10mm #mm Marge extérieure (si double page)
+  Emargin: 10mm #mm Marge extérieure (si double page)

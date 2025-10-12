@@ -14,15 +14,20 @@ export class TextFrame extends AbstractElementClass {
    */
   toXml(){
     const contenu = this.buildThisContent();
-    return BuilderXML.xmlTag(
-      'TextFrame',
-      `<Properties>\n${contenu}\n</Properties>`,
-      [
+    // Attributs
+    const attrs: [string, any][] = [
         ['Self', this.self], 
         ['ParentStory', this.parentStory], 
         ['ContentType', this.contentType],
         ['ItemTransform', this.itemTransform]
-      ]
+    ];
+    this.next && attrs.push(['NextTextFrame', this.next]);
+    this.previous && attrs.push(['PreviousTextFrame', this.previous]);
+
+    return BuilderXML.xmlTag(
+      'TextFrame',
+      `<Properties>\n${contenu}\n</Properties>`,
+      attrs
     );
   }
 
@@ -36,25 +41,20 @@ export class TextFrame extends AbstractElementClass {
     const modele = '<PathPointType Anchor="_PT_" LeftDirection="_LD_" RightDirection="_RD_"/>';
     // On a besoin des données du book pour les marges et autres
     const ddoc = this.bookData.book;
+    // Dimensions fournies
+    const bounds = this.data.bounds;
     // On fait les points en fonction de la définition des coordonnées
     // du textframe. Ces coordonnées peuvent être définies par une 
     // liste de points ou une paire de définitions
     let points: any[] = [];
-    const xL = ddoc.Lmargin || ddoc.Emargin;
-    const yT = ddoc.Tmargin;
-    const width = this.pageWidth - xL - (ddoc.Rmargin || ddoc.Imargin);
-    const height = this.pageHeight - yT - (ddoc.Bmargin);
+    const xL = bounds.x;
+    const yT = bounds.y;
+    const width = bounds.w; 
+    const height = bounds.h; 
     const yB = yT + height;
     const xR = xL + width;
-    if (this.coordonates[0] === 'top-left') {
-      points.push(...[[xL, yT], [xL, yB]]);
-    }
-    if (this.coordonates[1] === 'bottom-right') {
-      points.push(...[[xR, yB], [xR, yT]]);
-    }
-    if (points.length === 0){
-      points = this.coordonates;
-    }
+    points.push(...[[xL, yT], [xL, yB]]);
+    points.push(...[[xR, yB], [xR, yT]]);
     points.forEach((point: [number, number]) => {
       // console.log("point = ", point);
       const pt = point.join(' ')
@@ -68,6 +68,8 @@ export class TextFrame extends AbstractElementClass {
   }
 
 
+  private get next() { return this.data.next; }
+  private get previous() { return this.data.previous; }
   private get parentStory(){ return this.data.story || this.data.parentStory; }
   private get contentType(){ return this.data.contentType || 'TextType';}
   private get itemTransform(){

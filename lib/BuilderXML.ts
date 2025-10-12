@@ -179,15 +179,14 @@ export class BuilderXML {
     // Traitement des attributs
     let attrsStr = attrs.map(([x, y]) => `${x}="${y}"`).join(' ');
     if (attrsStr) attrsStr = ` ${attrsStr}`; 
+    // console.log("Attributs : ", attrsStr);
     // Traitement de l'espace de nom
     if (spaceName) { tagName = `${spaceName}:${tagName}`}
     // La chaine retourné
     if (content) {
       return `<${tagName}${attrsStr}>${content}</${tagName}>`;
     } else {
-      
       return `<${tagName}${attrsStr}/>`;
-
     }
   }
 }

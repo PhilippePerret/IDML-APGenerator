@@ -7,7 +7,8 @@ import type {
   BookDataType, 
   XMLRootType,
   XMLObjet,
-  RecType
+  RecType,
+  SpreadType
 } from "./types/types";
 import { BuilderXML } from "./BuilderXML";
 import { IDML } from "./IDML";
@@ -57,13 +58,13 @@ export class Builder {
     await DataProps.init();
 
     const yamlcode = fs.readFileSync(recipePath, 'utf-8');
-    const bookData = YAML.parse(yamlcode) || {};
+    let bookData = YAML.parse(yamlcode) || {};
     Object.assign(bookData, {
       bookFolder: bookPath,
       recipePath: recipePath,
       builder: builder
     });
-    this.defaultizeBookData(bookData);
+    /* bookData = */ this.defaultizeBookData(bookData);
     // console.log("bookData (defaultised) = ", bookData);
     if (options && options.only_return_data) { return bookData; }
 
@@ -123,11 +124,50 @@ export class Builder {
     return true; // si ok
   }
 
+  static DEFAULT_BOOK_DATA: RecType = {
+    type: 'book', // book ou magazine
+    width: 595,
+    height: 842,
+    bleed: 8.5, // 3mm
+    Tmargin: 56.7, // 20 mm
+    Bmargin: 56.7,
+    Lmargin: 42.5, // 15 mm
+    Rmargin: 42.5,
+    Imargin: 42.5,
+    Emargin: 28.3,
+  }
+
+  /**
+   * Applique les valeurs par défaut à la recette lorsqu'elles ne
+   * sont pas définies.
+   * 
+   * @param bdata Données initiales de la recette
+   */
   private static defaultizeBookData(bdata: BookDataType){
     function assign(prop: string, value: any) {
       Object.assign(bdata, {[prop]: value});
     }
     bdata.idmlFolder || assign('idmlFolder', path.join(bdata.bookFolder, bdata.idmlFolderName || 'idml'));
+
+    // Dimensions du livre
+    const dbook = bdata.book || {};
+
+    [
+      'width', 'height', 'bleed', 'Tmargin', 'Bmargin', 'Lmargin', 'Rmargin', 'Imargin', 'Emargin'
+    ].forEach( prop => {
+      const value = Calc.any2pt(dbook[prop]) || Builder.DEFAULT_BOOK_DATA[prop];
+      Object.assign(dbook, {[prop]: value});
+    })
+    // On calcul les valeurs utiles
+    Object.assign(dbook, {
+      type: dbook.type || Builder.DEFAULT_BOOK_DATA.type,
+      innerWidth: dbook.width - (dbook.Lmargin + dbook.Rmargin),
+      innerHeight: dbook.height - (dbook.Tmargin + dbook.Bmargin)
+    })
+    assign('book', dbook);
+
+    console.log("recipe.book = ", dbook);
+    console.log("bdata = ", bdata);
 
     // Définition des textes 
     // ---------------------
@@ -136,32 +176,33 @@ export class Builder {
     // seul dans ce cas-là) dans le dossier 'Texte
     bdata.stories || assign('stories', Story.getStories(bdata));
 
+    // Définition des maquettes (MasterSpreads)
+    // ----------------------------------------
+    // Si elles sont définies seulement
+    if (bdata.masterSpreads || bdata.maquettes) {
+
+    }
     // définition des planches (Spreads)
     // ---------------------------------
     // Soit elles sont définies, soit il faut juste en faire pour
     // les textes existants (une planche par story);
     bdata.spreads || assign('spreads', []);
+    const spreads: SpreadType[] = []
     if (bdata.spreads.length === 0) {
-      bdata.spreads = bdata.stories.map(story => Spread.spreadForStory(story, bdata));
+      bdata.stories.forEach(story => {
+        spreads.push(...Spread.spreadsForStory(story, bdata));
+      });
+      bdata.spreads = spreads;
     }
 
     bdata.archName || assign('archName', 'book.idml')
     assign('archivePath', path.join(bdata.bookFolder, bdata.archName));
-    // Document par défaut
-    const doc = bdata.book || {};
-    assign('book', {
-      width: Calc.any2pt(doc.width || 595),
-      height: Calc.any2pt(doc.height || 842),
-      bleed: Calc.any2pt(doc.bleed || 8.5),      // 3 mm
-      Tmargin: Calc.any2pt(doc.Tmargin || 56.7), // 20 mm
-      Bmargin: Calc.any2pt(doc.Bmargin || 56.7),
-      Lmargin: Calc.any2pt(doc.Lmargin || 42.5), // 15 mm
-      Rmargin: Calc.any2pt(doc.Rmargin || 42.5),
-      Imargin: Calc.any2pt(doc.Imargin || 42.5),
-      Emargin: Calc.any2pt(doc.Emargin || 28.3)
-    });
     assign('pageHeight', bdata.book.height);
     assign('pageWidth', bdata.book.width);
+
+    // console.log("bdata à la fin de défautise", bdata);
+    // throw new Error("Pour voir ça");
+    return bdata;
   }
 
   /**

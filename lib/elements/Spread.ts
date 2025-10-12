@@ -1,3 +1,4 @@
+import fs from "fs";
 import path from "path";
 import { BuilderXML } from "../BuilderXML";
 import { IDML } from "../IDML";
@@ -12,17 +13,63 @@ import { Calc } from "../utils_calculs";
  */
 export class Spread extends AbstractElementClass {
 
-  public static spreadForStory(story: StoryType, bdata: BookDataType): SpreadType {
-    const width = Calc.any2pt(bdata.book.width || bdata.pageWidth);
-    const height = Calc.any2pt(bdata.book.height || bdata.pageHeight);
+  /**
+   * Méthode qui détermine les données spreads (planches) quand elles
+   * ne sont pas définies explicitement dans la recette, au moment de
+   * la défautisation de la donnée recette.
+   * 
+   * Elle applique un traitement de type 'book' (book.type) car on ne
+   * doit passer par ici que si ce n'est pas le type 'magazine' dans
+   * lequel cas les spreads devraient être définies explicitement.
+   * 
+   * @param story Donnée de la story
+   * @param bdata Donnée de la recette
+   * @returns Les données spreads pour la recette
+   */
+  public static spreadsForStory(story: StoryType, bdata: BookDataType): SpreadType[] {
+    const width = bdata.book.width;
+    const height = bdata.book.height;
+
+    // Nombre de pages
+    // ----------------
+    // SOIT il est donné explicitement pour tout le livre
+    // SOIT il est donné explicitement pour chaque texte (story)
+    // SOIT il est calculé ici en fonction de la longueur du texte.
+
+    if (undefined === story.pages){
+      // Pour le moment, un calcul vraiment très approximatif
+      const linesPerPage = bdata.book.innerHeight / 12;
+      const charsPerLine = bdata.book.innerWidth / 9;
+      const charsPerPage = charsPerLine * linesPerPage;
+      const textLength = fs.readFileSync(story.path, 'utf8').length;
+      let nbPages = Math.round(textLength / charsPerPage);
+      if ( nbPages < 1 ) nbPages = 1;
+      story.pages = nbPages;
+    }
+
+    // Dimensions de toutes les frames
+    const bounds = {x: bdata.book.Lmargin, y:bdata.book.Tmargin, w: bdata.book.innerWidth, h: bdata.book.innerHeight};
+
     // console.log("width / height = %i / %i", width, height);
-    return {
-      uuid: IDML.generateId(),
-      pageCount: 1,
-      children: [
-        {type: 'TextFrame', story: story.uuid, bounds: {x: 0, y: 0, w: width, h: height}}
-      ]
-    } as SpreadType;
+    const spreads = []
+    let prevTFuuid: string | undefined = undefined; // Pour conserver l'id du text-frame précédent
+    for (var ipage = 0; ipage < story.pages; ++ipage) {
+      const TFuuid = IDML.generateId();
+      if (ipage > 0) {
+        ((spreads[ipage - 1] as SpreadType).children[0] as any).next = TFuuid;
+      }
+      spreads.push({
+        type: 'spread',
+        uuid: IDML.generateId(),
+        pageCount: 1,
+        children: [
+          {type: 'TextFrame', uuid: TFuuid, bounds: bounds, story: story.uuid, next: undefined, previous: prevTFuuid}
+        ]
+      } as SpreadType)
+      prevTFuuid = String(TFuuid);
+    }
+
+    return spreads;
   }
   constructor(data: RecType, bookData: BookDataType){ super(data, bookData); }
 
@@ -59,14 +106,11 @@ export class Spread extends AbstractElementClass {
   private pageAttributes(): [string, any][] {
 
     const bdata = this.bookData;
+    console.log("bookdata: ", this.bookData);
     const attrs: [string, any][] = [['Self', this.self]];
 
-    attrs.push();
-
-    if (bdata.book && bdata.book.height) {
-      attrs.push(['GeometricBounds', `0 0 ${Calc.any2pt(bdata.book.height)} ${Calc.any2pt(bdata.book.width)}`]);
-      attrs.push(['ItemTransform', '1 0 0 1 0 0']);
-    }
+    attrs.push(['GeometricBounds', `0 0 ${bdata.book.height} ${bdata.book.width}`]);
+    attrs.push(['ItemTransform', '1 0 0 1 0 0']);
 
     return attrs;
   }
@@ -87,8 +131,29 @@ export class Spread extends AbstractElementClass {
       }
     })
     // On ajoute la page
-    content.unshift(BuilderXML.xmlTag('Page', undefined, this.pageAttributes()));
-    
+    /*
+    <MarginPreference ColumnCount="1" ColumnGutter="12" Top="36"
+Bottom="36" Left="36"
+Right="36" ColumnDirection="Horizontal" ColumnsPositions="0 540"/>
+    */
+    const marginPrefs = BuilderXML.xmlTag(
+      'MarginPreference',
+      undefined,
+      [
+        ['ColumnCount', 1],
+        ['ColumnDirection', 'Horizontal'], ['ColumnGutter', '12'],
+        ['ColumnPositions', `0, 100`], // Ne doit rien faire
+        ['Top', this.bookData.book.Tmargin],
+        ['Bottom', this.bookData.book.Bmargin],
+        ['Left', this.bookData.book.Lmargin],
+        ['Right', this.bookData.book.Rmargin],
+      ]
+    )
+    let pageContent: string[] | string = []
+    pageContent.push(marginPrefs);
+    pageContent = pageContent.join("\n");
+    content.unshift(BuilderXML.xmlTag('Page', pageContent, this.pageAttributes()));
+  
     return content.join("\n");
   }
 

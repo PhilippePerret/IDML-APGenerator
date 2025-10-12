@@ -24,6 +24,6 @@ const BUILD = true;
 
 test("Pour essayer du code", async () => {
   const bookPath = `books/${BOOK}`;
-  await Builder.buildBook(bookPath, {rebuild: BUILD, open_in_AP: true});
+  await Builder.buildBook(bookPath, {force_rebuild: true, rebuild: BUILD, open_in_AP: true});
   console.log("Le livre doit être prêt et doit être ouvert dans Affinity Publisher.");
 })

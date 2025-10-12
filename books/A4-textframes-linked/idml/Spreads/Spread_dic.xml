@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <idPkg:Spread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
   <Spread PageCount="1">
-    <Page Self="di7" GeometricBounds="0 0 841.89 595.28" ItemTransform="1 0 0 1 0 0"/>
-    <TextFrame Self="di8" ParentStory="di6" ContentType="TextType" ItemTransform="1 0 0 1 0 0">
+    <Page Self="dic" GeometricBounds="0 0 841.89 595.28" ItemTransform="1 0 0 1 0 0">
+      <MarginPreference ColumnCount="1" ColumnDirection="Horizontal" ColumnGutter="12" ColumnPositions="0, 100" Top="56.69" Bottom="56.69" Left="42.52" Right="42.52"/>
+    </Page>
+    <TextFrame Self="dib" ParentStory="di6" ContentType="TextType" ItemTransform="1 0 0 1 0 0" NextTextFrame="did" PreviousTextFrame="di9">
       <Properties>
         <PathGeometry>
           <GeometryPathType>

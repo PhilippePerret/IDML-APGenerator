@@ -13,7 +13,8 @@ export class Calc {
    * Impératif : les deux derniers caractères doivent être l'unité.
    * (par exemple 'mm', 'cm', 'px' etc.)
    */
-  public static any2pt(val: string | number): number {
+  public static any2pt(val: string | number | undefined): number | undefined {
+    if (undefined === val) { return val; }
     if ('number' === typeof val) { return val; }
     const len = val.length;
     const quant = parseFloat(val.substring(0, len - 2));

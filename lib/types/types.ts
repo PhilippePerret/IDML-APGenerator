@@ -9,12 +9,15 @@ export interface MasterSpreadType {
 export interface SpreadType {
   type: 'spread';
   uuid: string;
-  src: string;
+  src?: string;
   pageCount: number; 
   children: {
+    uuid?: string,
     type: string, // TextFrame, Textpath, Rectangle, etc.
-    story: string,
-    bounds: {x: number, y: number, w: number, h: number},
+    story: string, // UUID de la story contenu dans l'élément
+    bounds?: {x: number, y: number, w: number, h: number},
+    next?: string, // UUID suivant (pour textframe seulement ?)
+    previous?: string, // UUID de précédent (pour textframe seulement ?)
   }[]; // TODO DÉVELOPPER !
 }
 
@@ -25,6 +28,7 @@ export interface StoryType {
   path: string; // chemin d'accès absolu au fichier
   extension: 'md' | 'text' | 'txt' | 'mmd' | 'markdown' | 'html' | 'htm' | 'xml' | 'rtf';
   format: 'text' | 'markdown' | 'rft' | 'xml' | 'html';
+  pages?: number; // nombre de pages
 }
 
 export interface FontType {
@@ -47,7 +51,8 @@ export interface BookDataType {
   recipePath: string;
   archName: string; // Nom du fichier IDML final (avec son extension)
   book: RecType; // Toutes les informations sur le format du book, dimension, marges, etc.
-  masterSpreads: MasterSpreadType[];
+  masterSpreads?: MasterSpreadType[];
+  maquettes?: MasterSpreadType[];
   fonts: FontFamilyType[]; 
   graphic?: any; // je ne sais pas encore comment les définir
   preferences?: RecType;
