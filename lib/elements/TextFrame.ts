@@ -40,12 +40,17 @@ export class TextFrame extends AbstractElementClass {
     // du textframe. Ces coordonnées peuvent être définies par une 
     // liste de points ou une paire de définitions
     let points: any[] = [];
-    const xT = ddoc.Lmargin || ddoc.Emargin;
+    const xL = ddoc.Lmargin || ddoc.Emargin;
+    const yT = ddoc.Tmargin;
+    const width = this.pageWidth - xL - (ddoc.Rmargin || ddoc.Imargin);
+    const height = this.pageHeight - yT - (ddoc.Bmargin);
+    const yB = yT + height;
+    const xR = xL + width;
     if (this.coordonates[0] === 'top-left') {
-      points.push(...[[xT, 0], [xT, this.pageHeight]]);
+      points.push(...[[xL, yT], [xL, yB]]);
     }
     if (this.coordonates[1] === 'bottom-right') {
-      points.push(...[[this.pageWidth, this.pageHeight], [this.pageWidth, 0]]);
+      points.push(...[[xR, yB], [xR, yT]]);
     }
     if (points.length === 0){
       points = this.coordonates;

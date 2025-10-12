@@ -15,7 +15,7 @@ export class Spread extends AbstractElementClass {
   public static spreadForStory(story: StoryType, bdata: BookDataType): SpreadType {
     const width = Calc.any2pt(bdata.document.width || bdata.pageWidth);
     const height = Calc.any2pt(bdata.document.height || bdata.pageHeight);
-    console.log("width / height = %i / %i", width, height);
+    // console.log("width / height = %i / %i", width, height);
     return {
       uuid: IDML.generateId(),
       pageCount: 1,
