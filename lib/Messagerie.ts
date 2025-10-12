@@ -4,6 +4,8 @@ const ERRORS = {
   // Recette
   'undef-element-type-in-children': 'Type d’enfant non défini dans : _0_',
   'unknown-element-type': 'Type d’élément inconnu : _0_',
+  // Calculs
+  'unknown-unite': "L'unité _0_ est inconnue…",
   // Story/textes
   'unfound-story': 'Impossible de trouver le texte de path "_0_"…', 
   'none-texte': 'Aucun texte n’est défini, je ne peux rien faire. Pour y remédier, vous pouvez par exemple créer un fichier "story.txt" à la racine du dossier du livre et mettre un court texte dedans.',

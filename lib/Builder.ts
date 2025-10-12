@@ -24,6 +24,7 @@ import { TagsFile } from "./elements/Tags";
 import { Metadata } from "./elements/Metadata";
 import { MasterSpread } from "./elements/MasterSpread";
 import { exec, execSync } from "child_process";
+import { Calc } from "./utils_calculs";
 
 export class Builder {
 
@@ -78,7 +79,9 @@ export class Builder {
      * Sauf si l'option rebuild est mise à false, on construit
      * tous les fichiers IDML
      */
-    if (!(options && options.rebuild === false)) {
+    if (options && options.rebuild === false) {
+      // On ne fait rien
+    } else {
       console.log("Construction de tous les fichiers XML…");
       ok = builder.buildAllIdmlFiles(bookData);
       console.log("ok après buildAllIdmlFiles", ok);
@@ -146,16 +149,16 @@ export class Builder {
     assign('archivePath', path.join(bdata.bookFolder, bdata.archName));
     // Document par défaut
     const doc = bdata.document || {};
-    bdata.document || assign('document', {
-      width: doc.width || 595,
-      height: doc.height || 842,
-      bleed: doc.bleed || 8.5,      // 3 mm
-      Tmargin: doc.Tmargin || 56.7, // 20 mm
-      Bmargin: doc.Bmargin || 56.7,
-      Lmargin: doc.Lmargin || 42.5, // 15 mm
-      Rmargin: doc.Rmargin || 42.5,
-      Imargin: doc.Imargin || 42.5,
-      Emargin: doc.Emargin || 28.3
+    assign('document', {
+      width: Calc.any2pt(doc.width || 595),
+      height: Calc.any2pt(doc.height || 842),
+      bleed: Calc.any2pt(doc.bleed || 8.5),      // 3 mm
+      Tmargin: Calc.any2pt(doc.Tmargin || 56.7), // 20 mm
+      Bmargin: Calc.any2pt(doc.Bmargin || 56.7),
+      Lmargin: Calc.any2pt(doc.Lmargin || 42.5), // 15 mm
+      Rmargin: Calc.any2pt(doc.Rmargin || 42.5),
+      Imargin: Calc.any2pt(doc.Imargin || 42.5),
+      Emargin: Calc.any2pt(doc.Emargin || 28.3)
     });
     assign('pageHeight', bdata.document.height);
     assign('pageWidth', bdata.document.width);

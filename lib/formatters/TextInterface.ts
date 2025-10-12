@@ -11,7 +11,7 @@ export class TextInterface extends AbstractInterfaceClass {
 
   public formate(raw: string): string {
     let c = raw;
-    c = c.replace(/\n/, '&xA;');
+    c = c.replace(/\n/g, '<Br />');
     return c; 
   }
 }

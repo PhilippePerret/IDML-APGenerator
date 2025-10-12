@@ -1,4 +1,3 @@
-import { IDML } from "../IDML";
 import type { XMLObjet } from "../types/types";
 import { AbstractFileClass } from "./AbstractFileClass";
 
@@ -9,12 +8,13 @@ export class Graphic extends AbstractFileClass {
 
   /**
    * Le fichier minimal Graphic.xml comprend la définition de la 
-   * couleur noire.
+   * couleur noire. (IL FAUDRAIT LA MÊME CHOSE POUR DES COULEURS DÉFINIES, SAUF
+   * SI NOIRE EST DÉFINIE)
    */
   protected override buildMinimalFile(content?: XMLObjet): void {
     content = {
       tag: 'Color',
-      attrs: [['Self', IDML.generateId()], ['Space', 'CMYK'], ['ColorValue', '0 0 0 0 100']]
+      attrs: [['Self', 'Color/Black'], ['Space', 'CMYK'], ['ColorValue', '0 0 0 100']]
     } as XMLObjet;
     super.buildMinimalFile(content);
   }

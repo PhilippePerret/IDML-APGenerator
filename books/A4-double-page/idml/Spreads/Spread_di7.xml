@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Spread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
+  <Spread PageCount="1">
+    <Page Self="di7" GeometricBounds="0 0 841.89 595.28" ItemTransform="1 0 0 1 0 0"/>
+    <TextFrame Self="di8" ParentStory="di6" ContentType="TextType" ItemTransform="1 0 0 1 0 0">
+      <Properties>
+        <PathGeometry>
+          <GeometryPathType>
+            <PathPointArray>
+              <PathPointType Anchor="42.52 0" LeftDirection="42.52 0" RightDirection="42.52 0"/>
+              <PathPointType Anchor="42.52 841.89" LeftDirection="42.52 841.89" RightDirection="42.52 841.89"/>
+              <PathPointType Anchor="595.28 841.89" LeftDirection="595.28 841.89" RightDirection="595.28 841.89"/>
+              <PathPointType Anchor="595.28 0" LeftDirection="595.28 0" RightDirection="595.28 0"/>
+            </PathPointArray>
+          </GeometryPathType>
+        </PathGeometry>
+      </Properties>
+    </TextFrame>
+  </Spread>
+</idPkg:Spread>

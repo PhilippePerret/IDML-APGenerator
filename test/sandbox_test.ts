@@ -1,16 +1,29 @@
 import { test, expect } from "bun:test";
 import { Builder } from "../lib/Builder";
+
 /**
  * Ce module n'est pas un test
  * Il permet de faire des essais de modification de code sur un 
  * dossier IDML et de produire l'archive (puis de l'ouvrir dans AP)
  * pour voir le résultat.
  * 
- * Jouer bun test test/sandbox_test.ts
+ * Indiquer ci-dessous le livre à utiliser (BOOK)
+ * Définir ensuite si on veut le construire entièrement (première fois)
+ * en mettant BUILD à true.
+ * Mettre ensuite BUILD à false après avoir modifier le code XML de
+ * l'archive IDML pour voir le résultat.
+ * 
+ * Jouer bun test test/sandbox_test.ts chaque fois.
  * 
  */
+const BOOK = 'A4-double-page';
+// const BOOK = 'minimal-prod';
+// const BUILD = true; 
+const BUILD = false; 
+
+
 test("Pour essayer du code", async () => {
-  const bookPath = 'books/minimal-prod';
-  await Builder.buildBook(bookPath, {rebuild: false, open_in_AP: true});
+  const bookPath = `books/${BOOK}`;
+  await Builder.buildBook(bookPath, {rebuild: BUILD, open_in_AP: true});
   console.log("Le livre doit être prêt et doit être ouvert dans Affinity Publisher.");
 })
