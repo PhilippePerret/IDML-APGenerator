@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" version="undefined">
+  <idPkg:Graphic src="Resources/Graphic.xml"/>
+  <idPkg:Spread src="Spreads/Spread_di8.xml"/>
+  <idPkg:Spread src="Spreads/Spread_dia.xml"/>
+  <idPkg:Spread src="Spreads/Spread_dic.xml"/>
+  <idPkg:Spread src="Spreads/Spread_die.xml"/>
+  <idPkg:Spread src="Spreads/Spread_dig.xml"/>
+  <idPkg:Spread src="Spreads/Spread_dii.xml"/>
+  <idPkg:Spread src="Spreads/Spread_dik.xml"/>
+  <idPkg:Spread src="Spreads/Spread_dim.xml"/>
+  <idPkg:Story src="Stories/Story_di6.xml"/>
+</Document>
