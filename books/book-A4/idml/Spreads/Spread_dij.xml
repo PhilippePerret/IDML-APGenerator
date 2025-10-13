@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <idPkg:Spread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
-  <Spread PageCount="2">
-    <Page Self="dij" GeometricBounds="0 0 841.89 595.28" ItemTransform="1 0 0 1 0 0">
+  <Spread PageCount="2" BindingLocation="1">
+    <Page Self="diq" GeometricBounds="0 0 841.89 595.28" ItemTransform="1 0 0 1 0 0">
       <MarginPreference ColumnCount="1" ColumnDirection="Horizontal" ColumnGutter="12" ColumnPositions="0, 100" Top="56.69" Bottom="56.69" Left="42.52" Right="42.52"/>
     </Page>
-    <Page Self="dij" GeometricBounds="0 0 841.89 595.28" ItemTransform="1 0 0 1 -595.28 0">
+    <Page Self="dip" GeometricBounds="0 0 841.89 595.28" ItemTransform="1 0 0 1 595.28 0">
       <MarginPreference ColumnCount="1" ColumnDirection="Horizontal" ColumnGutter="12" ColumnPositions="0, 100" Top="56.69" Bottom="56.69" Left="42.52" Right="42.52"/>
     </Page>
     <TextFrame Self="dib" ParentStory="di6" ContentType="TextType" ItemTransform="1 0 0 1 0 0" NextTextFrame="dic" PreviousTextFrame="dia">

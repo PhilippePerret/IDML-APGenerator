@@ -38,6 +38,8 @@ export class Recipe {
     // Dimensions du livre
     const dbook = bdata.book || {};
 
+    bdata.book.recto_verso = bdata.book.type !== 'document';
+
     [
       'width', 'height', 'bleed', 'Tmargin', 'Bmargin', 'Lmargin', 'Rmargin', 'Imargin', 'Emargin'
     ].forEach( prop => {
@@ -51,8 +53,12 @@ export class Recipe {
       innerHeight: dbook.height - (dbook.Tmargin + dbook.Bmargin)
     })
     assign('book', dbook);
+    assign('pageHeight', bdata.book.height);
+    assign('pageWidth', bdata.book.width);
+    assign('bookWidth', bdata.book.recto_verso ? arrondis(2 * bdata.book.width) : bdata.book.width);
+    assign('bookHeight', bdata.book.height);
 
-    bdata.book.recto_verso = bdata.book.type !== 'document';
+
 
     // console.log("recipe.book = ", dbook);
     // console.log("bdata = ", bdata);
@@ -63,7 +69,7 @@ export class Recipe {
     Object.assign(prefs, {
       attrs: [
         ['FacingPages', !(bdata.book.type === 'document')],
-        ['PageWidth', bdata.book.width],
+        ['PageWidth', bdata.pageWidth], // double si double-page
         ['PageHeight', bdata.book.height],
         ['PageBinding', 'LeftToRight'],
         ['DocumentBleedTopOffset', bdata.book.bleed],
@@ -109,11 +115,6 @@ export class Recipe {
 
     bdata.archName || assign('archName', 'book.idml')
     assign('archivePath', path.join(bdata.bookFolder, bdata.archName));
-    assign('pageHeight', bdata.book.height);
-    assign('pageWidth', bdata.book.width);
-    assign('bookWidth', bdata.book.recto_verso ? arrondis(2 * bdata.book.width) : bdata.book.width);
-    assign('bookHeight', bdata.book.height);
-
     // console.log("bdata à la fin de défautise", bdata);
     // throw new Error("Pour voir les données recette défautisées à la fin de la fonction");
  

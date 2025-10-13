@@ -147,7 +147,7 @@ export class Spread extends AbstractElementClass {
     const content: XMLObjet = {
       tag: 'Spread',
       text: this.XMLContent(),
-      attrs: [['PageCount', this.pageCount]]
+      attrs: [['PageCount', this.pageCount], ['BindingLocation', '1']]
     }
 
     new BuilderXML({
@@ -166,9 +166,9 @@ export class Spread extends AbstractElementClass {
   private pageAttributes(side: 'left' | 'right'): [string, any][] {
 
     const bdata = this.bookData;
-    const attrs: [string, any][] = [['Self', this.self]];
+    const attrs: [string, any][] = [['Self', IDML.generateId()]];
     attrs.push(['GeometricBounds', `0 0 ${bdata.book.height} ${bdata.book.width}`]);
-    const deltaLeft = side === 'left' ? `-${bdata.book.width}` : '0'
+    const deltaLeft = side === 'left' ? `${bdata.book.width}` : '0'
     attrs.push(['ItemTransform', `1 0 0 1 ${deltaLeft} 0`]);
 
     return attrs;
@@ -212,7 +212,7 @@ Right="36" ColumnDirection="Horizontal" ColumnsPositions="0 540"/>
     let pageContent: string[] | string = []
     pageContent.push(marginPrefs);
     pageContent = pageContent.join("\n");
-    if (bdata.book.recto_verso) {
+    if (bdata.book.recto_verso && this.children.length === 2 ) {
       content.unshift(BuilderXML.xmlTag('Page', pageContent, this.pageAttributes('left')));
     }
     content.unshift(BuilderXML.xmlTag('Page', pageContent, this.pageAttributes('right')));
