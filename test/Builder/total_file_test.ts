@@ -1,9 +1,9 @@
 import { describe, test, expect } from "bun:test";
 import fs from "fs";
-import { createHash } from 'crypto';
 import path from "path";
 import { Builder } from "../../lib/Builder";
 import { execSync } from "child_process";
+import { File } from "../../lib/utils/utils_files";
 
 function expectExists(pth: string){
   const ilexiste = fs.existsSync(pth);
@@ -39,14 +39,11 @@ describe("Builder", () => {
     expectExists(imdlfile);
 
     // Checksum
-    const expected = '0aa7e6992ea25c1ceb2ba4a363df2532';
-    const hash = createHash('md5');
-    const data = fs.readFileSync(imdlfile);
-    hash.update(data);
-    const checksum = hash.digest('hex');
-    expect(checksum).toBe(expected);
+    const expected_checksum = '0aa7e6992ea25c1ceb2ba4a363df2532';
+    const actual_checksum = File.checksum(imdlfile);
+    expect(actual_checksum).toBe(expected_checksum);
     // Pour corriger le checksum
-    // console.log('Checksum : ' + checksum);
+    // console.log('Checksum : ' + actual_checksum);
   });
 
   test("permet de trouver le contenu minimal", async () => {
