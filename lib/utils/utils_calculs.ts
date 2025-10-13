@@ -1,5 +1,5 @@
 import { $ } from "bun";
-import { throwError } from "./Messagerie";
+import { throwError } from "../Messagerie";
 
 /**
  * Pour faire des calculs de dimension
@@ -23,6 +23,7 @@ export class Calc {
       case 'mm': return parseFloat(this.mm2pt(quant));
       case 'cm': return parseFloat(this.mm2pt(10 * quant));
       case 'px': return parseFloat(this.px2pt(quant));
+      case 'po': case 'in': return parseFloat(this.po2pt(quant));
       default: throwError('unknown-unite', [unite]);
     }
     return 0;
@@ -43,6 +44,13 @@ export class Calc {
    */
   public static px2pt(px: number): string {
     return (px * 0.75).toFixed(2); // à 96 ppi
+  }
+
+  /**
+   * Convertit des pouces en points (string)
+   */
+  public static po2pt(po: number): string {
+    return (po * 72).toFixed(2);
   }
 
 }

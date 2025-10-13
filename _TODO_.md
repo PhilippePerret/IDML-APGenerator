@@ -1,6 +1,17 @@
 # TODO
 
-- [ ] Comment gérer les TextFrames successifs ?
+- [ ] Implémenter la préférence pour du double page. Ça se fait de cette manière : 
+
+  ~~~xml
+  <DocumentPreference
+      FacingPages="true"
+  		PageBinding="LeftToRight"
+  		StartPageNumber="1"
+  />
+  ~~~
+
+  
+- [x] Comment gérer les TextFrames successifs ?
 - [ ] Comment définir les marges d'une page ?
 - [ ] [Recette] Comment définir les choses.
 - [ ] Comment définir la grille de référence ?

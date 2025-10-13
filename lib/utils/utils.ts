@@ -1,5 +1,5 @@
 import fs from "fs";
-import { Options } from "./Options";
+import { Options } from "../Options";
 
 /**
  * Fonction qui retourne la valeur de l'option +prop+

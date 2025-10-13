@@ -6,7 +6,6 @@ import { throwError } from "../Messagerie";
 import type { BookDataType, RecType, SpreadType, StoryType, XMLObjet, XMLRootType } from "../types/types";
 import { AbstractElementClass } from "./AbstractElementClass";
 import { TextFrame } from "./TextFrame";
-import { Calc } from "../utils_calculs";
 
 /**
  * Element Spread (maquette/page)

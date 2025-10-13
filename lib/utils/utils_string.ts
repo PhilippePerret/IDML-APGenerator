@@ -1,4 +1,4 @@
-import type { AttrsType } from "./types/types";
+import type { AttrsType } from "../types/types";
 
 export function firstLetterOf(
   str: string,
