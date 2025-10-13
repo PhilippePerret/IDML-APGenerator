@@ -8,9 +8,17 @@
 
 * On ne refait jamais tout. Quand un dossier IDML a déjà été préparé (notamment avec les gros fichiers de ressources), on le laisse intact pour se concentrer uniquement sur ce qui a changé. En général, ce sont les stories, les spreads, les objets.
 
+  > On peut cependant reforcer la construction complète des fichiers avec l’option `force_rebuild: true` envoyée en second argument de la fonction `Builder.buildBook`.
+
 
 
 ## Fonctionnement divers
+
+### Point d’entrée
+
+Le point d’entrée de l’application est la fonction **`Builder.buildBook`** dans le fichier `Builder.ts`.
+
+Elle s’appelle avec en premier argument le chemin d’accès au dossier du livre (contenant en premier lieu sa [recette][]) et en second argument les options de construction.
 
 ### Fonctionnement par modification de fichiers modèle
 

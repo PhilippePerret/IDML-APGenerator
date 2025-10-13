@@ -12,7 +12,7 @@ import type {
 } from "./types/types";
 import { BuilderXML } from "./BuilderXML";
 import { IDML } from "./IDML";
-import { Font, FontClass } from "./elements/Fonts";
+import { Font } from "./elements/Fonts";
 import { throwError } from "./Messagerie";
 import { DataProps } from "./DATA_PROPS";
 import { Styles } from "./elements/Styles";
@@ -24,8 +24,8 @@ import { BackingStory } from "./elements/BackingStory";
 import { TagsFile } from "./elements/Tags";
 import { Metadata } from "./elements/Metadata";
 import { MasterSpread } from "./elements/MasterSpread";
-import { exec, execSync } from "child_process";
-import { Calc } from "./utils_calculs";
+import { execSync } from "child_process";
+import { Calc } from "./utils/utils_calculs";
 
 export class Builder {
 
