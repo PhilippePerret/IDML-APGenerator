@@ -35,6 +35,8 @@ export class Spread extends AbstractElementClass {
     // SOIT il est donné explicitement pour chaque texte (story)
     // SOIT il est calculé ici en fonction de la longueur du texte.
 
+    // Si le nombre de pages n'est pas fourni explicitement par la
+    // story, il faut essayer de le déduire.
     if (undefined === story.pages){
       // Pour le moment, un calcul vraiment très approximatif
       const linesPerPage = bdata.book.innerHeight / 12;
@@ -46,13 +48,21 @@ export class Spread extends AbstractElementClass {
       story.pages = nbPages;
     }
 
+    // console.log("width / height = %i / %i", width, height);
+    if (bdata.book.recto_verso) {
+      return this.SpreadsForDoublePage(story, bdata);
+    } else {
+      return this.SpreadsForSimplePage(story, bdata);
+    }
+  }
+
+  // Définition du Spread pour une page simple
+  private static SpreadsForSimplePage(story: StoryType, bdata: BookDataType): SpreadType[] {
+    const spreads: SpreadType[] = [];
     // Dimensions de toutes les frames
     const bounds = {x: bdata.book.Lmargin, y:bdata.book.Tmargin, w: bdata.book.innerWidth, h: bdata.book.innerHeight};
-
-    // console.log("width / height = %i / %i", width, height);
-    const spreads = []
     let prevTFuuid: string | undefined = undefined; // Pour conserver l'id du text-frame précédent
-    for (var ipage = 0; ipage < story.pages; ++ipage) {
+    for (var ipage = 0; ipage < (story.pages as number); ++ipage) {
       const TFuuid = IDML.generateId();
       if (ipage > 0) {
         ((spreads[ipage - 1] as SpreadType).children[0] as any).next = TFuuid;
@@ -67,9 +77,60 @@ export class Spread extends AbstractElementClass {
       } as SpreadType)
       prevTFuuid = String(TFuuid);
     }
-
     return spreads;
   }
+  
+  // Définition des spreads pour du recto/verso
+  private static SpreadsForDoublePage(story: StoryType, bdata: BookDataType): SpreadType[] {
+    const spreads: SpreadType[] = [];
+    // Dimensions des frames gauche et droite
+    // Note : 'd' pour 'droite' (right)
+    //        'g' pour 'gauche' (left)
+    const gBounds = {x: bdata.book.Lmargin, y:bdata.book.Tmargin, w: bdata.book.innerWidth, h: bdata.book.innerHeight};
+    const dBounds = {x: bdata.book.Lmargin + bdata.book.width, y:bdata.book.Tmargin, w: bdata.book.innerWidth, h: bdata.book.innerHeight};
+    let lastTFuuid: string = IDML.generateId(); // Pour conserver l'id du text-frame précédent
+    // Pour faciliter le travail, on cherche tout de suite les uuid
+    // pour les TextFrames
+    const uuids = [];
+    const pagesCount = story.pages as number;
+    for(var ipage=0; ipage < pagesCount+1; ++ipage){ uuids.push(IDML.generateId())}
+    // La première, seule à droite
+    spreads.push({
+        type: 'spread',
+        uuid: IDML.generateId(),
+        pageCount: 1,
+        children: [
+          {type: 'TextFrame', uuid: uuids[0], bounds: gBounds, story: story.uuid, next: uuids[1], previous: undefined}
+        ]
+      } as SpreadType);
+    // Les pages suivantes
+    for (var ipage = 1; ipage < pagesCount - 1; ipage += 2) {
+      const gTFuuid = uuids[ipage];
+      const dTFuuid = uuids[ipage + 1];
+      spreads.push({
+        type: 'spread',
+        uuid: IDML.generateId(),
+        pageCount: 2,
+        children: [
+          {type: 'TextFrame', uuid: gTFuuid, bounds: gBounds, story: story.uuid, next: dTFuuid, previous: uuids[ipage - 1]},
+          {type: 'TextFrame', uuid: dTFuuid, bounds: dBounds, story: story.uuid, next: uuids[ipage + 2], previous: gTFuuid}
+        ]
+      } as SpreadType)
+    }
+    // Dernière page, qu'elle "existe" ou non, seule à gauche
+    spreads.push({
+      type: 'spread',
+      uuid: IDML.generateId(),
+      pageCount: 1,
+      children: [
+        { type: 'TextFrame', uuid: uuids[pagesCount - 1], bounds: gBounds, story: story.uuid, previous: uuids[pagesCount - 2]}
+      ]
+    } as SpreadType);
+    // console.log("Spreads:", spreads);
+    return spreads;
+  }
+
+
   constructor(data: RecType, bookData: BookDataType){ super(data, bookData); }
 
   /**
@@ -102,14 +163,13 @@ export class Spread extends AbstractElementClass {
    * Dont, principalement ou pour commencer, les dimensions du book
    * si elles sont définies
    */
-  private pageAttributes(): [string, any][] {
+  private pageAttributes(side: 'left' | 'right'): [string, any][] {
 
     const bdata = this.bookData;
-    console.log("bookdata: ", this.bookData);
     const attrs: [string, any][] = [['Self', this.self]];
-
     attrs.push(['GeometricBounds', `0 0 ${bdata.book.height} ${bdata.book.width}`]);
-    attrs.push(['ItemTransform', '1 0 0 1 0 0']);
+    const deltaLeft = side === 'left' ? `-${bdata.book.width}` : '0'
+    attrs.push(['ItemTransform', `1 0 0 1 ${deltaLeft} 0`]);
 
     return attrs;
   }
@@ -119,12 +179,13 @@ export class Spread extends AbstractElementClass {
    * Spreads.xml du package IDML
    */
   public XMLContent(): string {
+    const bdata = this.bookData; 
     // On construit les enfants
-   const content = this.children.map((child: RecType)  => {
+    const content = this.children.map((child: RecType) => {
       child.type || throwError('undef-element-type-in-children', [JSON.stringify(child)]);
       // Construction de l'élément en fonction de son type
       switch(child.type){
-        case 'TextFrame': return new TextFrame(child, this.bookData).toXml();
+        case 'TextFrame': return new TextFrame(child, bdata).toXml();
         default: 
           throwError('unknown-element-type', [child.type]);
       }
@@ -142,22 +203,25 @@ Right="36" ColumnDirection="Horizontal" ColumnsPositions="0 540"/>
         ['ColumnCount', 1],
         ['ColumnDirection', 'Horizontal'], ['ColumnGutter', '12'],
         ['ColumnPositions', `0, 100`], // Ne doit rien faire
-        ['Top', this.bookData.book.Tmargin],
-        ['Bottom', this.bookData.book.Bmargin],
-        ['Left', this.bookData.book.Lmargin],
-        ['Right', this.bookData.book.Rmargin],
+        ['Top', bdata.book.Tmargin],
+        ['Bottom', bdata.book.Bmargin],
+        ['Left', bdata.book.Lmargin],
+        ['Right', bdata.book.Rmargin],
       ]
     )
     let pageContent: string[] | string = []
     pageContent.push(marginPrefs);
     pageContent = pageContent.join("\n");
-    content.unshift(BuilderXML.xmlTag('Page', pageContent, this.pageAttributes()));
+    if (bdata.book.recto_verso) {
+      content.unshift(BuilderXML.xmlTag('Page', pageContent, this.pageAttributes('left')));
+    }
+    content.unshift(BuilderXML.xmlTag('Page', pageContent, this.pageAttributes('right')));
   
     return content.join("\n");
   }
 
  private get pageCount(){
-    return this.data.PageCount || '1';
+    return this.data.pageCount || '1';
   }
 
 }

@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import type { BookDataType, XMLObjet, XMLRootType } from "../types/types";
-import { isOlder } from "../utils";
+import { isOlder } from "../utils/utils";
 import { BuilderXML } from "../BuilderXML";
 import { IDML } from "../IDML";
 
@@ -36,8 +36,13 @@ export abstract class AbstractFileClass {
     new BuilderXML(dataBuilder).output();
   }
   
-  protected buildFile() {
-    throw new Error(`Je dois apprendre à fabriquer le fichier ${this.Name}`);
+  protected buildFile(content?: XMLObjet) {
+    const dataBuilder = {
+      path: this.filePath,
+      root: this.root
+    };
+    if (content) { Object.assign(dataBuilder, { content: content }); }
+    new BuilderXML(dataBuilder).output();
   }
 
   protected get root(){

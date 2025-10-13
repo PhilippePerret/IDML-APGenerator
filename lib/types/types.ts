@@ -72,6 +72,8 @@ export interface BookDataType {
   // --- Propriétés volatiles (i.e. ajoutées au runtime) ---
   pageHeight: number;
   pageWidth: number;
+  bookWidth: number; // largeur du livre (quand double page, par exemple, 2 x
+  bookHeight: number; // hauteur réelle du livre (normalement = pageHeight…)
   archivePath: string;
 }
 

@@ -1,6 +1,6 @@
 ---
 book:
-  type: book # valeur par défaut...
+  type: book # valeur par défaut
   height: 297mm #mm
   width: 210mm #mm
   bleed: 3mm #mm fond perdu

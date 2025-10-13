@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { throwError } from "./Messagerie";
-import { option } from "./utils";
+import { option } from "./utils/utils";
 
 type RecType = {[x: string]: any};
 const AMBIGOUS_PROPS: RecType = {};

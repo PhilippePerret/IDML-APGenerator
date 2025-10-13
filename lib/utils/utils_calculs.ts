@@ -1,6 +1,11 @@
 import { $ } from "bun";
 import { throwError } from "../Messagerie";
 
+// Pour obtenir un nombre arrondi avec deux décimales
+export function arrondis(foo: number): number {
+  return parseFloat(foo.toFixed(2));
+}
+
 /**
  * Pour faire des calculs de dimension
  */

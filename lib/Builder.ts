@@ -2,7 +2,7 @@ import path from "path";
 import fs from "fs";
 import YAML from 'yaml';
 
-import './utils_string';
+import './utils/utils_string';
 import type { 
   BookDataType, 
   XMLRootType,
@@ -25,7 +25,7 @@ import { TagsFile } from "./elements/Tags";
 import { Metadata } from "./elements/Metadata";
 import { MasterSpread } from "./elements/MasterSpread";
 import { execSync } from "child_process";
-import { Calc } from "./utils/utils_calculs";
+import { Recipe } from "./elements/Recipe";
 
 export class Builder {
 
@@ -64,7 +64,7 @@ export class Builder {
       recipePath: recipePath,
       builder: builder
     });
-    /* bookData = */ this.defaultizeBookData(bookData);
+    /* bookData = */ Recipe.defaultize(bookData);
     // console.log("bookData (defaultised) = ", bookData);
     if (options && options.only_return_data) { return bookData; }
 
@@ -122,87 +122,6 @@ export class Builder {
 
   private openInFinder(bookData: BookDataType): boolean {
     return true; // si ok
-  }
-
-  static DEFAULT_BOOK_DATA: RecType = {
-    type: 'book', // book ou magazine
-    width: 595,
-    height: 842,
-    bleed: 8.5, // 3mm
-    Tmargin: 56.7, // 20 mm
-    Bmargin: 56.7,
-    Lmargin: 42.5, // 15 mm
-    Rmargin: 42.5,
-    Imargin: 42.5,
-    Emargin: 28.3,
-  }
-
-  /**
-   * Applique les valeurs par défaut à la recette lorsqu'elles ne
-   * sont pas définies.
-   * 
-   * @param bdata Données initiales de la recette
-   */
-  private static defaultizeBookData(bdata: BookDataType){
-    function assign(prop: string, value: any) {
-      Object.assign(bdata, {[prop]: value});
-    }
-    bdata.idmlFolder || assign('idmlFolder', path.join(bdata.bookFolder, bdata.idmlFolderName || 'idml'));
-
-    // Dimensions du livre
-    const dbook = bdata.book || {};
-
-    [
-      'width', 'height', 'bleed', 'Tmargin', 'Bmargin', 'Lmargin', 'Rmargin', 'Imargin', 'Emargin'
-    ].forEach( prop => {
-      const value = Calc.any2pt(dbook[prop]) || Builder.DEFAULT_BOOK_DATA[prop];
-      Object.assign(dbook, {[prop]: value});
-    })
-    // On calcul les valeurs utiles
-    Object.assign(dbook, {
-      type: dbook.type || Builder.DEFAULT_BOOK_DATA.type,
-      innerWidth: dbook.width - (dbook.Lmargin + dbook.Rmargin),
-      innerHeight: dbook.height - (dbook.Tmargin + dbook.Bmargin)
-    })
-    assign('book', dbook);
-
-    console.log("recipe.book = ", dbook);
-    console.log("bdata = ", bdata);
-
-    // Définition des textes 
-    // ---------------------
-    // Soit ils sont définis dans l'ordre dans la recette dans une 
-    // propriété 'textes', soit on prend les fichiers (en général un 
-    // seul dans ce cas-là) dans le dossier 'Texte
-    bdata.stories || assign('stories', Story.getStories(bdata));
-
-    // Définition des maquettes (MasterSpreads)
-    // ----------------------------------------
-    // Si elles sont définies seulement
-    if (bdata.masterSpreads || bdata.maquettes) {
-
-    }
-    // définition des planches (Spreads)
-    // ---------------------------------
-    // Soit elles sont définies, soit il faut juste en faire pour
-    // les textes existants (une planche par story);
-    bdata.spreads || assign('spreads', []);
-    const spreads: SpreadType[] = []
-    if (bdata.spreads.length === 0) {
-      bdata.stories.forEach(story => {
-        spreads.push(...Spread.spreadsForStory(story, bdata));
-      });
-      bdata.spreads = spreads;
-    }
-
-    bdata.archName || assign('archName', 'book.idml')
-    assign('archivePath', path.join(bdata.bookFolder, bdata.archName));
-    assign('pageHeight', bdata.book.height);
-    assign('pageWidth', bdata.book.width);
-
-    // console.log("bdata à la fin de défautise", bdata);
-    // throw new Error("Pour voir ça");
-    return bdata;
   }
 
   /**

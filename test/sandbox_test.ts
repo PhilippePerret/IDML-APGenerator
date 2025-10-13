@@ -16,14 +16,17 @@ import { Builder } from "../lib/Builder";
  * Jouer bun test test/sandbox_test.ts chaque fois.
  * 
  */
-const BOOK = 'A4-textframes-linked';
+const BOOK = 'book-A4';
 // const BOOK = 'minimal-prod';
 const BUILD = true; 
 // const BUILD = false; 
+const REBUILD = true;
+// const REBUILD = false;
+const OPEN_IN_AFFINITY = true;
+// const OPEN_IN_AFFINITY = false;
 
-
-test("Pour essayer du code", async () => {
+test("Pour essayer un book", async () => {
   const bookPath = `books/${BOOK}`;
-  await Builder.buildBook(bookPath, {force_rebuild: true, rebuild: BUILD, open_in_AP: true});
+  await Builder.buildBook(bookPath, {force_rebuild: REBUILD, rebuild: BUILD, open_in_AP: OPEN_IN_AFFINITY});
   console.log("Le livre doit être prêt et doit être ouvert dans Affinity Publisher.");
 })
