@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Preferences xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="15.0">
+  <DocumentPreference FacingPages="true" PageWidth="595.28" PageHeight="841.89" PageBinding="LeftToRight" DocumentBleedTopOffset="8.5" DocumentBleedUniformSize="true"/>
+</idPkg:Preferences>

@@ -1,6 +1,7 @@
 # Historique de travail - IDML-APGenerator
 
 **IMPORTANT : PROJET POUR AFFINITY PUBLISHER, PAS INDESIGN**
+**NE JAMAIS MENTIONNER INDESIGN - UTILISER SEULEMENT AFFINITY PUBLISHER COMME RÉFÉRENCE**
 
 ## 14 octobre 2025
 
@@ -15,3 +16,6 @@
 - Demande : liste complète des attributs et éléments du nœud <Page>
 - Précision : marquer les éléments hérités du MasterSpread (*) et ceux qui écrasent (!) 
 - Demande explication termes : recouvrement, tabulation, surcharges, mise en page alternative, fusion instantanés, descripteur numérotation
+- Question : modèles de TextFrame - confirmation, définition et application
+- Précision : ObjectStyle s'applique-t-il à d'autres éléments que TextFrame ?
+- Intérêt : ObjectStyle permet modèles pour tous éléments (TextFrame, Rectangle, etc.) - fonctionnalité manquante dans AP
