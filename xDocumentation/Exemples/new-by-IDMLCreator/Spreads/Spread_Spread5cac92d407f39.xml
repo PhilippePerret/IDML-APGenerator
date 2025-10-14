@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Spread xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="8.0">
+  <Spread PageCount="1" Self="Spread5cac92d407f39">
+  <Page Self="Page5cac92d40059a" LayoutRule="UseMaster" OptionalPage="false" GeometricBounds="0 0 841.8897637265 595.27559051368" ItemTransform="1 0 0 1 -297.63779525684 -420.94488186325" OverrideList="" AppliedMaster="n" MasterPageTransform="1 0 0 1 0 0" TabOrder="" UseMasterGrid="true">
+    <MarginPreference ColumnCount="1" ColumnGutter="28.346456691128" Top="56.692913382256" Bottom="56.692913382256" Left="56.692913382256" Right="56.692913382256" ColumnDirection="Horizontal" ColumnsPositions="0 481.88976374917"/>
+  </Page>
+  <TextFrame Self="TextFrame5cac92d400183" ParentStory="Story5cac92d3f3f3b" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" ItemTransform="1 0 0 1 0 0">
+    <Properties>
+      <PathGeometry>
+        <GeometryPathType PathOpen="false">
+          <PathPointArray>
+            <PathPointType Anchor="240.94488187458 -364.25196848099" LeftDirection="240.94488187458 -364.25196848099" RightDirection="240.94488187458 -364.25196848099"/>
+            <PathPointType Anchor="-240.94488187459 -364.25196848099" LeftDirection="-240.94488187459 -364.25196848099" RightDirection="-240.94488187459 -364.25196848099"/>
+            <PathPointType Anchor="-240.94488187459 364.25196848099" LeftDirection="-240.94488187459 364.25196848099" RightDirection="-240.94488187459 364.25196848099"/>
+            <PathPointType Anchor="240.94488187458 364.25196848099" LeftDirection="240.94488187458 364.25196848099" RightDirection="240.94488187458 364.25196848099"/>
+          </PathPointArray>
+        </GeometryPathType>
+      </PathGeometry>
+    </Properties>
+    <TextFramePreference TextColumnCount="1" TextColumnGutter="28.346456691128"/>
+    <BaselineFrameGridOption/>
+    <TextWrapOffset Top="0" Left="0" Bottom="0" Right="0"/>
+    <ObjectExportOption/>
+  </TextFrame>
+</Spread>
+</idPkg:Spread>

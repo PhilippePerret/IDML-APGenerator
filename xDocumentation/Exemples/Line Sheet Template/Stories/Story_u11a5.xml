@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="12.0">
+	<Story Self="u11a5" ECAppliedRuleSetsData="" AppliedTOCStyle="n" UserText="true" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" HyphenationZone="31.600570613398123" RuleAboveLineWeight="0.8777936281499479" RuleBelowLineWeight="0.8777936281499479" SplitColumnInsideGutter="5.266761768899688">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="10.533523537799375" StrokeWeight="0.8777936281499479" MiterLimit="3.5111745125997915" RubyFontSize="-0.8777936281499479" KentenFontSize="-0.8777936281499479">
+				<Properties>
+					<AppliedFont type="string">Roboto</AppliedFont>
+				</Properties>
+				<Table Self="u11a5i11d1" ECTablePopulationData="$ID/" HeaderRowCount="1" FooterRowCount="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" BodyRowCount="2" ColumnCount="9" AppliedTableStyle="TableStyle/$ID/[Basic Table]" TableDirection="LeftToRightDirection" SpaceBefore="14.173228346456694" SpaceAfter="14.173228346456694" GraphicLeftInset="0" GraphicTopInset="0" GraphicRightInset="0" GraphicBottomInset="0" ClipContentToGraphicCell="false">
+					<Properties>
+						<Label>
+							<KeyValuePair Key="Label" Value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&#xa;&lt;ecscript&gt;&#xa;&lt;table isfixedwidth = &quot;true&quot; tablespaceallocation = &quot;proportionally&quot;/&gt;&#xa;&lt;simpletable expansion = &quot;vertically&quot;/&gt;&#xa;&lt;/ecscript&gt;&#xa;" />
+						</Label>
+					</Properties>
+					<Row Self="u11a5i11d1Row0" Name="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleRowHeight="22.67716535433071" MinimumHeight="22.67716535433071" />
+					<Row Self="u11a5i11d1Row1" Name="1" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleRowHeight="57.32283464566945" MinimumHeight="3" AutoGrow="false" />
+					<Row Self="u11a5i11d1Row2" Name="2" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleRowHeight="57.32283464566945" MinimumHeight="3" AutoGrow="false" />
+					<Column Self="u11a5i11d1Column0" Name="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="71.44561489995021" />
+					<Column Self="u11a5i11d1Column1" Name="1" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="42.51968503937008" />
+					<Column Self="u11a5i11d1Column2" Name="2" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="143.5236512554194" />
+					<Column Self="u11a5i11d1Column3" Name="3" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="34.01574803149607" />
+					<Column Self="u11a5i11d1Column4" Name="4" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="50.18359375" />
+					<Column Self="u11a5i11d1Column5" Name="5" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="37.3038330078125" />
+					<Column Self="u11a5i11d1Column6" Name="6" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="40.54170508770266" />
+					<Column Self="u11a5i11d1Column7" Name="7" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" SingleColumnWidth="51.65984931864795" />
+					<Column Self="u11a5i11d1Column8" Name="8" TextTopInset="0" TextLeftInset="0" TextBottomInset="0" TextRightInset="0" ClipContentToTextCell="false" SingleColumnWidth="51.65984931864795" />
+					<Cell Self="u11a5i11d1ib" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="4" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="0" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="0" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Swatch/None" TopEdgeStrokeColor="Swatch/None" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="34" RightEdgeStrokePriority="25" TopEdgeStrokePriority="34" BottomEdgeStrokePriority="25">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="9" ECTableColumnWidthOption="1" ECTableColumnDeleteOption="3" ECTableColumnAlignOption="2">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1ic" Name="1:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="8" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="0" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Swatch/None" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="25" RightEdgeStrokePriority="25" TopEdgeStrokePriority="34" BottomEdgeStrokePriority="25">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8" ECTableColumnWidthOption="3" ECTableColumnDeleteOption="1" ECTableColumnAlignOption="2" ECTableColumnMinimumWidthData="42.51968503937008" ECTableColumnMaximumWidthData="56.69291338582678">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>CODE</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1id" Name="2:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="8" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="0" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Swatch/None" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="25" RightEdgeStrokePriority="25" TopEdgeStrokePriority="34" BottomEdgeStrokePriority="25">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8" ECTableColumnWidthOption="2" ECTableColumnDeleteOption="1" ECTableColumnAlignOption="2">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>DESCRIPTION</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1ie" Name="3:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="8" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="0" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Swatch/None" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="25" RightEdgeStrokePriority="25" TopEdgeStrokePriority="34" BottomEdgeStrokePriority="25">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8" Capitalization="AllCaps" ECTableColumnWidthOption="3" ECTableColumnDeleteOption="2" ECTableColumnAlignOption="2" ECTableColumnMinimumWidthData="34.01574803149607" ECTableColumnMaximumWidthData="56.69291338582678">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8" Capitalization="AllCaps">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>Size</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1if" Name="4:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="8" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="0" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Swatch/None" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="25" RightEdgeStrokePriority="25" TopEdgeStrokePriority="34" BottomEdgeStrokePriority="25">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8" Capitalization="AllCaps" ECTableColumnWidthOption="3" ECTableColumnDeleteOption="2" ECTableColumnAlignOption="2" ECTableColumnMinimumWidthData="34.01574803149607" ECTableColumnMaximumWidthData="56.69291338582678">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8" Capitalization="AllCaps">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>Material</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i10" Name="5:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="8" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="0" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Swatch/None" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="25" RightEdgeStrokePriority="25" TopEdgeStrokePriority="34" BottomEdgeStrokePriority="25">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8" Capitalization="AllCaps" ECTableColumnWidthOption="3" ECTableColumnDeleteOption="2" ECTableColumnAlignOption="2" ECTableColumnMinimumWidthData="34.01574803149607" ECTableColumnMaximumWidthData="56.69291338582678">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8" Capitalization="AllCaps">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>Color</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i13" Name="6:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="8" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="0" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Swatch/None" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="25" RightEdgeStrokePriority="25" TopEdgeStrokePriority="34" BottomEdgeStrokePriority="25">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8" ECTableColumnWidthOption="1" ECTableColumnDeleteOption="2" ECTableColumnAlignOption="2">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>PRICE</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i14" Name="7:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="8" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="0" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Swatch/None" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="25" RightEdgeStrokePriority="51" TopEdgeStrokePriority="34" BottomEdgeStrokePriority="25">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8" ECTableColumnWidthOption="1" ECTableColumnDeleteOption="2" ECTableColumnAlignOption="2">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="8">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>BARCODE</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i15" Name="8:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="0" TextRightInset="0" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="10" LeftInset="0" TopInset="0" RightInset="0" BottomInset="0" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="0" TopEdgeStrokeWeight="0" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Swatch/None" RightEdgeStrokeColor="Swatch/None" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="51" RightEdgeStrokePriority="53" TopEdgeStrokePriority="52" BottomEdgeStrokePriority="56">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" HyphenationZone="31.600570613398123" RuleAboveLineWeight="0.8777936281499479" RuleBelowLineWeight="0.8777936281499479" Justification="CenterAlign" SplitColumnInsideGutter="5.266761768899688">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="7.022349025199583" StrokeWeight="0.8777936281499479" MiterLimit="3.5111745125997915" RubyFontSize="-0.8777936281499479" KentenFontSize="-0.8777936281499479">
+								<Properties>
+									<AppliedFont type="string">Ubuntu</AppliedFont>
+								</Properties>
+								<Content>PAGE</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i21" Name="0:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="15" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="0" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Swatch/None" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="33" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="29">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="1" ECTableColumnDeleteOption="3" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>﻿</Content>
+								<Rectangle Self="u125f" ContentType="GraphicType" StoryTitle="$ID/" ECPageItemData="" ECPaginationPageItemData="1 3 0 ak 0x92100kFittingAttributeValueFrameDepthToContentDepth 0 ay 0x92100kECCStringKey 0 0x92100kWhenBoxIsEmptyStringKey 0x92100kWhenBoxIsEmptyDeleteStringKey" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 141.72000000000003 56.997165354330484">
+									<Properties>
+										<PathGeometry>
+											<GeometryPathType PathOpen="false">
+												<PathPointArray>
+													<PathPointType Anchor="-122.04961042784957 -100.21905775862076" LeftDirection="-122.04961042784957 -100.21905775862076" RightDirection="-122.04961042784957 -100.21905775862076" />
+													<PathPointType Anchor="-122.04961042784957 -63.09810759570965" LeftDirection="-122.04961042784957 -63.09810759570965" RightDirection="-122.04961042784957 -63.09810759570965" />
+													<PathPointType Anchor="-66.31842519666934 -63.09810759570965" LeftDirection="-66.31842519666934 -63.09810759570965" RightDirection="-66.31842519666934 -63.09810759570965" />
+													<PathPointType Anchor="-66.31842519666934 -100.21905775862076" LeftDirection="-66.31842519666934 -100.21905775862076" RightDirection="-66.31842519666934 -100.21905775862076" />
+												</PathPointArray>
+											</GeometryPathType>
+										</PathGeometry>
+									</Properties>
+									<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+										<Properties>
+											<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+										</Properties>
+										<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+									</TextWrapPreference>
+									<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+									<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+										<Properties>
+											<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+											<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+										</Properties>
+									</ObjectExportOption>
+									<Image Self="u1867" Space="$ID/#Links_RGB" ActualPpi="163 163" EffectivePpi="724 724" ImageRenderingIntent="UseColorSettings" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$ID/JPEG" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.22520875033735982 0 0 0.2252087503373598 -122.04961042784957 -100.21905775862078" ECPageItemData="" ECPaginationPageItemData="1 0" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" Visible="true" Name="$ID/">
+										<Properties>
+											<Profile type="string">$ID/Use Document Default</Profile>
+											<GraphicBounds Left="0" Top="0" Right="247.4645640886317" Bottom="164.82907572332076" />
+										</Properties>
+										<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+											<Properties>
+												<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+											</Properties>
+											<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+										</TextWrapPreference>
+										<MetadataPacketPreference>
+											<Properties>
+												<Contents><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c137 79.159768, 2016/08/11-13:24:42        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:aux="http://ns.adobe.com/exif/1.0/aux/"
+            xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#">
+         <xmp:ModifyDate>2016-03-22T10:07:21+01:00</xmp:ModifyDate>
+         <xmp:CreateDate>2013-04-08T09:48:49.14+02:00</xmp:CreateDate>
+         <xmp:MetadataDate>2016-03-22T10:07:21+01:00</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe Photoshop CS5 Windows</xmp:CreatorTool>
+         <aux:SerialNumber>3331605897</aux:SerialNumber>
+         <aux:LensInfo>135/1 135/1 0/0 0/0</aux:LensInfo>
+         <aux:Lens>EF135mm f/2L USM</aux:Lens>
+         <aux:LensID>174</aux:LensID>
+         <aux:ImageNumber>0</aux:ImageNumber>
+         <aux:FlashCompensation>0/1</aux:FlashCompensation>
+         <aux:Firmware>2.0.9</aux:Firmware>
+         <aux:ApproximateFocusDistance>133/100</aux:ApproximateFocusDistance>
+         <photoshop:DateCreated>2013-04-08T09:48:49.014</photoshop:DateCreated>
+         <photoshop:LegacyIPTCDigest>8D18BAFBA5F9F66723509B9E940C6000</photoshop:LegacyIPTCDigest>
+         <photoshop:ColorMode>3</photoshop:ColorMode>
+         <photoshop:ICCProfile>Adobe RGB (1998)</photoshop:ICCProfile>
+         <dc:format>image/jpeg</dc:format>
+         <xmpMM:InstanceID>xmp.iid:C202151F0DF0E511A410A29BBE1B8249</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:D931D5FEF6A0E211977DD29C4DAC3501</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:D931D5FEF6A0E211977DD29C4DAC3501</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:D931D5FEF6A0E211977DD29C4DAC3501</stEvt:instanceID>
+                  <stEvt:when>2013-04-09T11:24:22+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CS5 Windows</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:DA31D5FEF6A0E211977DD29C4DAC3501</stEvt:instanceID>
+                  <stEvt:when>2013-04-09T11:24:22+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CS5 Windows</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:C102151F0DF0E511A410A29BBE1B8249</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T10:07:21+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CS5.1 Windows</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:C202151F0DF0E511A410A29BBE1B8249</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T10:07:21+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CS5.1 Windows</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>]]></Contents>
+											</Properties>
+										</MetadataPacketPreference>
+										<Link Self="u1267" AssetURL="$ID/" AssetID="$ID/" LinkResourceURI="file:C:/Users/SDR1/Desktop/Line%20Sheet%20Template/Links/CODE%203.jpg" LinkResourceFormat="$ID/JPEG" StoredState="Normal" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 131308670670000000 183122" LinkImportModificationTime="2017-02-06T17:04:27" LinkImportTime="2017-04-10T14:26:38" LinkResourceSize="0~2cb52" />
+										<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$ID/" Index="-1" />
+										<ImageIOPreference ApplyPhotoshopClippingPath="true" AllowAutoEmbedding="true" AlphaChannelName="$ID/" />
+									</Image>
+								</Rectangle>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i22" Name="1:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="17" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="29">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="3" ECTableColumnDeleteOption="1" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2" ECTableColumnMinimumWidthData="42.51968503937008" ECTableColumnMaximumWidthData="56.69291338582678">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>﻿CODE 3</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i23" Name="2:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="17" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="29">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="2" ECTableColumnDeleteOption="1" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>Custom code description 7</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i24" Name="3:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="17" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="29">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="3" ECTableColumnDeleteOption="2" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2" ECTableColumnMinimumWidthData="34.01574803149607" ECTableColumnMaximumWidthData="56.69291338582678">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>22-37</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i25" Name="4:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="17" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="29">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="3" ECTableColumnDeleteOption="2" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2" ECTableColumnMinimumWidthData="34.01574803149607" ECTableColumnMaximumWidthData="56.69291338582678">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>Leather</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i26" Name="5:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="17" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="29">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="3" ECTableColumnDeleteOption="2" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2" ECTableColumnMinimumWidthData="34.01574803149607" ECTableColumnMaximumWidthData="56.69291338582678">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>Black</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i29" Name="6:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="17" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="29">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="1" ECTableColumnDeleteOption="2" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>﻿99,99</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i2a" Name="7:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="17" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="40" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="29">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="1" ECTableColumnDeleteOption="2" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Normal" PointSize="14">
+								<Properties>
+									<AppliedFont type="string">EanBwrP36Tt</AppliedFont>
+								</Properties>
+								<Content>,!8HG5E3-cbjfeb!</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i2b" Name="8:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="3.512125984251969" TextLeftInset="4" TextBottomInset="3.512125984251969" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="21" LeftInset="4" TopInset="3.512125984251969" RightInset="4" BottomInset="3.512125984251969" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="0" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="2" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Swatch/None" BottomEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="40" RightEdgeStrokePriority="33" TopEdgeStrokePriority="40" BottomEdgeStrokePriority="40">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" HyphenationZone="31.600570613398123" RuleAboveLineWeight="0.8777936281499479" RuleBelowLineWeight="0.8777936281499479" Justification="CenterAlign" SplitColumnInsideGutter="5.266761768899688">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="6.144555397049635" StrokeWeight="0.8777936281499479" MiterLimit="3.5111745125997915" RubyFontSize="-0.8777936281499479" KentenFontSize="-0.8777936281499479" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableRowDeleteOption="1">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="6.144555397049635" StrokeWeight="0.8777936281499479" MiterLimit="3.5111745125997915" RubyFontSize="-0.8777936281499479" KentenFontSize="-0.8777936281499479">
+								<Content>﻿</Content>
+								<TextFrame Self="u1241" ParentStory="u1244" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" ECPageItemData="" ECPaginationPageItemData="1 0" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" FillColor="Color/C=15 M=100 Y=100 K=0" StrokeWeight="0" StrokeColor="Swatch/None" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Graphics Frame]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -95.24409448818898 -2827.909448818134">
+									<Properties>
+										<PathGeometry>
+											<GeometryPathType PathOpen="false">
+												<PathPointArray>
+													<PathPointType Anchor="95.24409448818898 2815.0866141732286" LeftDirection="95.24409448818898 2815.0866141732286" RightDirection="95.24409448818898 2815.0866141732286" />
+													<PathPointType Anchor="95.24409448818898 2827.909448818134" LeftDirection="95.24409448818898 2827.909448818134" RightDirection="95.24409448818898 2827.909448818134" />
+													<PathPointType Anchor="129.8937007874016 2827.909448818134" LeftDirection="129.8937007874016 2827.909448818134" RightDirection="129.8937007874016 2827.909448818134" />
+													<PathPointType Anchor="129.8937007874016 2815.0866141732286" LeftDirection="129.8937007874016 2815.0866141732286" RightDirection="129.8937007874016 2815.0866141732286" />
+												</PathPointArray>
+											</GeometryPathType>
+										</PathGeometry>
+									</Properties>
+									<TextFramePreference TextColumnCount="1" TextColumnGutter="12" TextColumnFixedWidth="34.64960629921262" UseFixedColumnWidth="false" FirstBaselineOffset="AscentOffset" MinimumFirstBaselineOffset="0" VerticalJustification="CenterAlign" VerticalThreshold="0" IgnoreWrap="false" UseFlexibleColumnWidth="false" TextColumnMaxWidth="0" AutoSizingType="Off" AutoSizingReferencePoint="CenterPoint" UseMinimumHeightForAutoSizing="false" MinimumHeightForAutoSizing="0" UseMinimumWidthForAutoSizing="false" MinimumWidthForAutoSizing="0" UseNoLineBreaksForAutoSizing="false" VerticalBalanceColumns="false">
+										<Properties>
+											<InsetSpacing type="list">
+												<ListItem type="unit">0</ListItem>
+												<ListItem type="unit">0</ListItem>
+												<ListItem type="unit">0</ListItem>
+												<ListItem type="unit">0</ListItem>
+											</InsetSpacing>
+										</Properties>
+									</TextFramePreference>
+									<AnchoredObjectSetting AnchoredPosition="InlinePosition" SpineRelative="false" LockPosition="false" PinPosition="true" AnchorPoint="BottomRightAnchor" HorizontalAlignment="LeftAlign" HorizontalReferencePoint="TextFrame" VerticalAlignment="TopAlign" VerticalReferencePoint="LineBaseline" AnchorXoffset="0" AnchorYoffset="0" AnchorSpaceAbove="0" />
+									<BaselineFrameGridOption UseCustomBaselineFrameGrid="false" StartingOffsetForBaselineFrameGrid="0" BaselineFrameGridRelativeOption="TopOfInset" BaselineFrameGridIncrement="12">
+										<Properties>
+											<BaselineFrameGridColor type="enumeration">LightBlue</BaselineFrameGridColor>
+										</Properties>
+									</BaselineFrameGridOption>
+									<TextFrameFootnoteOptionsObject EnableOverrides="false" SpanFootnotesAcross="false" MinimumSpacingOption="12" SpaceBetweenFootnotes="6" />
+									<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+										<Properties>
+											<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+										</Properties>
+									</TextWrapPreference>
+									<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+										<Properties>
+											<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+											<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+										</Properties>
+									</ObjectExportOption>
+								</TextFrame>
+								<Content> </Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i2c" Name="0:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="26" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="0" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="0" LeftEdgeStrokeColor="Swatch/None" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Swatch/None" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="33" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="35">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="1" ECTableColumnDeleteOption="3" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+								<Content>﻿</Content>
+								<Rectangle Self="u128a" ContentType="GraphicType" StoryTitle="$ID/" ECPageItemData="" ECPaginationPageItemData="1 3 0 ak 0x92100kFittingAttributeValueFrameDepthToContentDepth 0 ay 0x92100kECCStringKey 0 0x92100kWhenBoxIsEmptyStringKey 0x92100kWhenBoxIsEmptyDeleteStringKey" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[None]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 141.72000000000003 56.997165354330484">
+									<Properties>
+										<PathGeometry>
+											<GeometryPathType PathOpen="false">
+												<PathPointArray>
+													<PathPointType Anchor="-122.04961042784957 -100.21905775862076" LeftDirection="-122.04961042784957 -100.21905775862076" RightDirection="-122.04961042784957 -100.21905775862076" />
+													<PathPointType Anchor="-122.04961042784957 -63.09810759570965" LeftDirection="-122.04961042784957 -63.09810759570965" RightDirection="-122.04961042784957 -63.09810759570965" />
+													<PathPointType Anchor="-66.31842519666934 -63.09810759570965" LeftDirection="-66.31842519666934 -63.09810759570965" RightDirection="-66.31842519666934 -63.09810759570965" />
+													<PathPointType Anchor="-66.31842519666934 -100.21905775862076" LeftDirection="-66.31842519666934 -100.21905775862076" RightDirection="-66.31842519666934 -100.21905775862076" />
+												</PathPointArray>
+											</GeometryPathType>
+										</PathGeometry>
+									</Properties>
+									<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+										<Properties>
+											<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+										</Properties>
+										<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+									</TextWrapPreference>
+									<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+									<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+										<Properties>
+											<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+											<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+										</Properties>
+									</ObjectExportOption>
+									<Image Self="u1857" Space="$ID/#Links_RGB" ActualPpi="163 163" EffectivePpi="724 724" ImageRenderingIntent="UseColorSettings" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$ID/JPEG" AppliedObjectStyle="ObjectStyle/$ID/[None]" ItemTransform="0.22520875033735982 0 0 0.2252087503373598 -122.04961042784957 -100.21905775862078" ECPageItemData="" ECPaginationPageItemData="1 0" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" Visible="true" Name="$ID/">
+										<Properties>
+											<Profile type="string">$ID/Use Document Default</Profile>
+											<GraphicBounds Left="0" Top="0" Right="247.4645640886317" Bottom="164.82907572332076" />
+										</Properties>
+										<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+											<Properties>
+												<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+											</Properties>
+											<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$ID/" />
+										</TextWrapPreference>
+										<MetadataPacketPreference>
+											<Properties>
+												<Contents><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c137 79.159768, 2016/08/11-13:24:42        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:aux="http://ns.adobe.com/exif/1.0/aux/"
+            xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#">
+         <xmp:ModifyDate>2016-03-22T10:07:21+01:00</xmp:ModifyDate>
+         <xmp:CreateDate>2013-04-08T09:48:49.14+02:00</xmp:CreateDate>
+         <xmp:MetadataDate>2016-03-22T10:07:21+01:00</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe Photoshop CS5 Windows</xmp:CreatorTool>
+         <aux:SerialNumber>3331605897</aux:SerialNumber>
+         <aux:LensInfo>135/1 135/1 0/0 0/0</aux:LensInfo>
+         <aux:Lens>EF135mm f/2L USM</aux:Lens>
+         <aux:LensID>174</aux:LensID>
+         <aux:ImageNumber>0</aux:ImageNumber>
+         <aux:FlashCompensation>0/1</aux:FlashCompensation>
+         <aux:Firmware>2.0.9</aux:Firmware>
+         <aux:ApproximateFocusDistance>133/100</aux:ApproximateFocusDistance>
+         <photoshop:DateCreated>2013-04-08T09:48:49.014</photoshop:DateCreated>
+         <photoshop:LegacyIPTCDigest>8D18BAFBA5F9F66723509B9E940C6000</photoshop:LegacyIPTCDigest>
+         <photoshop:ColorMode>3</photoshop:ColorMode>
+         <photoshop:ICCProfile>Adobe RGB (1998)</photoshop:ICCProfile>
+         <dc:format>image/jpeg</dc:format>
+         <xmpMM:InstanceID>xmp.iid:C202151F0DF0E511A410A29BBE1B8249</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:D931D5FEF6A0E211977DD29C4DAC3501</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:D931D5FEF6A0E211977DD29C4DAC3501</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:D931D5FEF6A0E211977DD29C4DAC3501</stEvt:instanceID>
+                  <stEvt:when>2013-04-09T11:24:22+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CS5 Windows</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:DA31D5FEF6A0E211977DD29C4DAC3501</stEvt:instanceID>
+                  <stEvt:when>2013-04-09T11:24:22+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CS5 Windows</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:C102151F0DF0E511A410A29BBE1B8249</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T10:07:21+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CS5.1 Windows</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:C202151F0DF0E511A410A29BBE1B8249</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T10:07:21+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CS5.1 Windows</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>]]></Contents>
+											</Properties>
+										</MetadataPacketPreference>
+										<Link Self="u1291" AssetURL="$ID/" AssetID="$ID/" LinkResourceURI="file:C:/Users/SDR1/Desktop/Line%20Sheet%20Template/Links/CODE%204.jpg" LinkResourceFormat="$ID/JPEG" StoredState="Normal" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 131308670680000000 183122" LinkImportModificationTime="2017-02-06T17:04:28" LinkImportTime="2017-04-10T14:26:38" LinkResourceSize="0~2cb52" />
+										<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$ID/" Index="-1" />
+										<ImageIOPreference ApplyPhotoshopClippingPath="true" AllowAutoEmbedding="true" AlphaChannelName="$ID/" />
+									</Image>
+								</Rectangle>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i2d" Name="1:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="28" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="0" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Swatch/None" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="35">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="3" ECTableColumnDeleteOption="1" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2" ECTableColumnMinimumWidthData="42.51968503937008" ECTableColumnMaximumWidthData="56.69291338582678">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>﻿CODE 4</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i2e" Name="2:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="28" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="0" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Swatch/None" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="35">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="2" ECTableColumnDeleteOption="1" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>Custom code description 8</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i2f" Name="3:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="28" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="0" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Swatch/None" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="35">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="3" ECTableColumnDeleteOption="2" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2" ECTableColumnMinimumWidthData="34.01574803149607" ECTableColumnMaximumWidthData="56.69291338582678">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>22-37</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i30" Name="4:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="28" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="0" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Swatch/None" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="35">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="3" ECTableColumnDeleteOption="2" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2" ECTableColumnMinimumWidthData="34.01574803149607" ECTableColumnMaximumWidthData="56.69291338582678">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>Leather</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i31" Name="5:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="28" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="0" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Swatch/None" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="35">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="3" ECTableColumnDeleteOption="2" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2" ECTableColumnMinimumWidthData="34.01574803149607" ECTableColumnMaximumWidthData="56.69291338582678">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>Black</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i34" Name="6:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="28" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="0" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Swatch/None" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="28" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="35">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="1" ECTableColumnDeleteOption="2" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>﻿99,99</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i35" Name="7:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="28" LeftInset="4" TopInset="4" RightInset="4" BottomInset="4" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="2" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="0" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" BottomEdgeStrokeColor="Swatch/None" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="28" RightEdgeStrokePriority="40" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="35">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableColumnWidthOption="1" ECTableColumnDeleteOption="2" ECTableRowDeleteOption="1" ECTableColumnAlignOption="2">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Normal" PointSize="14">
+								<Properties>
+									<AppliedFont type="string">EanBwrP36Tt</AppliedFont>
+								</Properties>
+								<Content>,!8HG5E3-cbjfeb!</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="u11a5i11d1i36" Name="8:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="3.512125984251969" TextLeftInset="4" TextBottomInset="3.512125984251969" TextRightInset="4" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/$ID/[None]" AppliedCellStylePriority="32" LeftInset="4" TopInset="3.512125984251969" RightInset="4" BottomInset="3.512125984251969" LeftEdgeStrokeWeight="2" RightEdgeStrokeWeight="0" TopEdgeStrokeWeight="2" BottomEdgeStrokeWeight="0" LeftEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" TopEdgeStrokeColor="Color/C=0 M=0 Y=0 K=33" RightEdgeStrokeColor="Swatch/None" BottomEdgeStrokeColor="Swatch/None" LeftEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" RightEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" TopEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" BottomEdgeStrokeType="StrokeStyle/$ID/Canned Dotted" VerticalJustification="CenterAlign" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="40" RightEdgeStrokePriority="33" TopEdgeStrokePriority="40" BottomEdgeStrokePriority="35">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" HyphenationZone="31.600570613398123" RuleAboveLineWeight="0.8777936281499479" RuleBelowLineWeight="0.8777936281499479" Justification="CenterAlign" SplitColumnInsideGutter="5.266761768899688">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="6.144555397049635" StrokeWeight="0.8777936281499479" MiterLimit="3.5111745125997915" RubyFontSize="-0.8777936281499479" KentenFontSize="-0.8777936281499479" ECTableRowAttrPopulateWithData="1" ECTableRowAttrRowTypeData="3" ECTableRowDeleteOption="1">
+								<Content>﻿</Content>
+							</CharacterStyleRange>
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="6.144555397049635" StrokeWeight="0.8777936281499479" MiterLimit="3.5111745125997915" RubyFontSize="-0.8777936281499479" KentenFontSize="-0.8777936281499479">
+								<Content>﻿</Content>
+								<TextFrame Self="u126c" ParentStory="u126f" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" ECPageItemData="" ECPaginationPageItemData="1 0" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" FillColor="Color/C=15 M=100 Y=100 K=0" StrokeWeight="0" StrokeColor="Swatch/None" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$ID/[Normal Graphics Frame]" Visible="true" Name="$ID/" ItemTransform="1 0 0 1 -95.24409448818898 -2827.909448818134">
+									<Properties>
+										<PathGeometry>
+											<GeometryPathType PathOpen="false">
+												<PathPointArray>
+													<PathPointType Anchor="95.24409448818898 2815.0866141732286" LeftDirection="95.24409448818898 2815.0866141732286" RightDirection="95.24409448818898 2815.0866141732286" />
+													<PathPointType Anchor="95.24409448818898 2827.909448818134" LeftDirection="95.24409448818898 2827.909448818134" RightDirection="95.24409448818898 2827.909448818134" />
+													<PathPointType Anchor="129.8937007874016 2827.909448818134" LeftDirection="129.8937007874016 2827.909448818134" RightDirection="129.8937007874016 2827.909448818134" />
+													<PathPointType Anchor="129.8937007874016 2815.0866141732286" LeftDirection="129.8937007874016 2815.0866141732286" RightDirection="129.8937007874016 2815.0866141732286" />
+												</PathPointArray>
+											</GeometryPathType>
+										</PathGeometry>
+									</Properties>
+									<TextFramePreference TextColumnCount="1" TextColumnGutter="12" TextColumnFixedWidth="34.64960629921262" UseFixedColumnWidth="false" FirstBaselineOffset="AscentOffset" MinimumFirstBaselineOffset="0" VerticalJustification="CenterAlign" VerticalThreshold="0" IgnoreWrap="false" UseFlexibleColumnWidth="false" TextColumnMaxWidth="0" AutoSizingType="Off" AutoSizingReferencePoint="CenterPoint" UseMinimumHeightForAutoSizing="false" MinimumHeightForAutoSizing="0" UseMinimumWidthForAutoSizing="false" MinimumWidthForAutoSizing="0" UseNoLineBreaksForAutoSizing="false" VerticalBalanceColumns="false">
+										<Properties>
+											<InsetSpacing type="list">
+												<ListItem type="unit">0</ListItem>
+												<ListItem type="unit">0</ListItem>
+												<ListItem type="unit">0</ListItem>
+												<ListItem type="unit">0</ListItem>
+											</InsetSpacing>
+										</Properties>
+									</TextFramePreference>
+									<AnchoredObjectSetting AnchoredPosition="InlinePosition" SpineRelative="false" LockPosition="false" PinPosition="true" AnchorPoint="BottomRightAnchor" HorizontalAlignment="LeftAlign" HorizontalReferencePoint="TextFrame" VerticalAlignment="TopAlign" VerticalReferencePoint="LineBaseline" AnchorXoffset="0" AnchorYoffset="0" AnchorSpaceAbove="0" />
+									<BaselineFrameGridOption UseCustomBaselineFrameGrid="false" StartingOffsetForBaselineFrameGrid="0" BaselineFrameGridRelativeOption="TopOfInset" BaselineFrameGridIncrement="12">
+										<Properties>
+											<BaselineFrameGridColor type="enumeration">LightBlue</BaselineFrameGridColor>
+										</Properties>
+									</BaselineFrameGridOption>
+									<TextFrameFootnoteOptionsObject EnableOverrides="false" SpanFootnotesAcross="false" MinimumSpacingOption="12" SpaceBetweenFootnotes="6" />
+									<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+										<Properties>
+											<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+										</Properties>
+									</TextWrapPreference>
+									<ObjectExportOption EpubType="$ID/" SizeType="DefaultSize" CustomSize="$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault" AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$ID/" CustomActualText="$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing">
+										<Properties>
+											<AltMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+											<ActualMetadataProperty NamespacePrefix="$ID/" PropertyPath="$ID/" />
+										</Properties>
+									</ObjectExportOption>
+								</TextFrame>
+								<Content> </Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+				</Table>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

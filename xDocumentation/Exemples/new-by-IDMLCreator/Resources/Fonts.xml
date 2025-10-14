@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Fonts xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="8.0">
+  <FontFamily Self="Arial" Name="Arial">
+    <Font Self="ArialFontnArial Regular" FontFamily="Arial" Name="Arial Regular" FontStyleName="Regular"/>
+    <Font Self="ArialFontnArial Bold" FontFamily="Arial" Name="Arial Bold" FontStyleName="Bold"/>
+  </FontFamily>
+</idPkg:Fonts>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Graphic xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="8.0">
+  <Color Self="Color/Black" Name="Black" Model="process" ColorValue="0 0 0 100" ColorEditable="true" ColorRemovable="true" Visible="true"/>
+  <Color Self="Color/Red" Name="Red" Model="process" ColorValue="0 100 100 0" ColorEditable="true" ColorRemovable="true" Visible="true"/>
+</idPkg:Graphic>

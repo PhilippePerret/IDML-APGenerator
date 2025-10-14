@@ -1,0 +1,2340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c137 79.159768, 2016/08/11-13:24:42        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:stMfs="http://ns.adobe.com/xap/1.0/sType/ManifestItem#"
+            xmlns:idPriv="http://ns.adobe.com/xmp/InDesign/private"
+            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/"
+            xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#">
+         <dc:format>application/x-indesign</dc:format>
+         <xmp:CreateDate>2016-03-24T16:57:17Z</xmp:CreateDate>
+         <xmp:MetadataDate>2017-04-10T14:29:39+02:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2017-04-10T14:29:39+02:00</xmp:ModifyDate>
+         <xmp:CreatorTool>Adobe InDesign CC 2017 (Windows)</xmp:CreatorTool>
+         <xmp:PageInfo>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpTPg:PageNumber>1</xmpTPg:PageNumber>
+                  <xmpGImg:format>JPEG</xmpGImg:format>
+                  <xmpGImg:width>256</xmpGImg:width>
+                  <xmpGImg:height>256</xmpGImg:height>
+                  <xmpGImg:image>/9j/4AAQSkZJRgABAgEASABIAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA&#xA;AQBIAAAAAQAB/+4AE0Fkb2JlAGQAAAAAAQUAAklE/9sAhAAMCAgICAgMCAgMEAsLCxAUDg0NDhQY&#xA;EhMTExIYFBIUFBQUEhQUGx4eHhsUJCcnJyckMjU1NTI7Ozs7Ozs7Ozs7AQ0LCxAOECIYGCIyKCEo&#xA;MjsyMjIyOzs7Ozs7Ozs7Ozs7Ozs7OztAQEBAQDtAQEBAQEBAQEBAQEBAQEBAQEBAQED/wAARCAEA&#xA;ALQDAREAAhEBAxEB/8QBQgAAAQUBAQEBAQEAAAAAAAAAAwABAgQFBgcICQoLAQABBQEBAQEBAQAA&#xA;AAAAAAABAAIDBAUGBwgJCgsQAAEEAQMCBAIFBwYIBQMMMwEAAhEDBCESMQVBUWETInGBMgYUkaGx&#xA;QiMkFVLBYjM0coLRQwclklPw4fFjczUWorKDJkSTVGRFwqN0NhfSVeJl8rOEw9N14/NGJ5SkhbSV&#xA;xNTk9KW1xdXl9VZmdoaWprbG1ub2N0dXZ3eHl6e3x9fn9xEAAgIBAgQEAwQFBgcHBgI7AQACEQMh&#xA;MRIEQVFhcSITBTKBkRShsUIjwVLR8DMkYuFygpJDUxVjczTxJQYWorKDByY1wtJEk1SjF2RFVTZ0&#xA;ZeLys4TD03Xj80aUpIW0lcTU5PSltcXV5fVWZnaGlqa2xtbm9ic3R1dnd4eXp7fH1+f3/9oADAMB&#xA;AAIRAxEAPwD1VJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSU&#xA;pJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSk&#xA;lKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklIM3MowMW3MyTtqpaXOI&#xA;1PwHmUlPNdP6n9YPrPfYcO1vTcOo7XPa0WWEnUNl2kwkpPlYnXcZvq9O60MixvNOQKgD8CAkpuY/&#xA;UOqHpeXbnMpqycel72PoeLGuIa4g7dY1CSnD6F1Tr/WTc1/VGYvohpl1NZ3bp/q8Qkp1hiddcdre&#xA;vVlx0AGPUTP+ckpq9Y+s2bjZVfROlhuRm+yuy9wgeo4DRrBpPc9gkpts6L9YX177+tPZcdS2upnp&#xA;g+GoBKSmhX9Y+qdJ6j+yvrBte10BuVUA0gO0bZEQR46aeaSl+rX/AFu6LYMlt4zsNpDifTYDH7tg&#xA;Y2R/WCSmXUfrnXbg0s6M1z87J0DNu41HvLY9zvD70lOh0PH+sZjJ61lANI9uK1lc693va38Akp2k&#xA;lKSUpJSklKSUpJSklKSUpJSklKSU1OqYDOqdPvwHuLBc2A4fmkGWn7wkp5fot3UPqpZdh9UxLX4t&#xA;rt7cihptaHRtn2iYIA80lI89n1atpfV0XpD8rKsBDCKbGtYT+cS6OElNron1ayOl9Kz8jJb+tZOM&#xA;+ttLPcWt2uMHby4nwSU4vQ8XEoNp630vJyWuDfRih7tpE7v3edElOzTZ9Wca5mRR0TMZbU4PY4Yr&#xA;5DhwR7klIur9F6jR1Ov6ydIpdeHubkOocIsa4gSC3mCPDUJKdVn1w6f6Y9fHy6ro91JoeSD4AgQk&#xA;pxrundT+tPVB1DLx34WDWA39IIea2kuhreS50pKbPVuu9bznjp/Q8PIpreQz7RZU5jnTppvbDG+Z&#xA;1+CSkGV9Vc/omNT1LpFr7M3HE3taN26efTbGoHh3CSna6H17I6hGN1DDuxciNHmt4qfHg5zfafIp&#xA;KdtJSklKSUpJSklKSUpJSklKSUpJSklNTql78bENtb/TPqVtL9u7a172tcdvfQpKQ4GXbdl2UC45&#xA;FTKw4vcz03NcTAbENkEDw0SUz6lkW0vx667HVNte4PcxnqOhrHOEN2u8PBJSfDc59O51j7ZJ9z2e&#xA;mfhtLWpKaWdlZNN9gda7Fqaxpps9L1K3O/O9VwB2gfLxlJTo1OL6mPdtJc0E7DLZI/NPcJKcivqO&#xA;S5wNeQbbvXdX9mFWm0WFn0wNIaJmUlOnnWvowsi+vR9dT3tJ1EtaSElJWEuY1x5IBKSnFx+p3vFD&#xA;/tPqW22hhoNUMILy1wD4EQ0Tykp2yQASTAGpJSU53S+pOy7rK7Xsd6jRkUBkSKnEt2ugnUQCfikp&#xA;0klKSUpJSklKSUpJSklKSUpJSklKSUiyKG5DAx5IDXssEeNbg8fi1JS32Zn2oZcneKzVHYiQ5JTH&#xA;KxTkOqsZa6l9JLmuaGn6QLTIcHeKSklNdlbNttrrjM7nBoMeHtACSkFuA911ltGRZj+tHqtaGuBI&#xA;G3cN7XbTCSmxTTXj010VCGVNDGjmA0QElMcehuNV6TCSNznSeZe4vP8A1SSl8iluTRZjvJDbWOrJ&#xA;HIDhGn3pKZtG1oaOwj7klNduBU3EZiBztrHNe12ky14sHbxCSkmTQ3Kx7Mdzi1trdri3QweR8wkp&#xA;h9hxxdVfU0VOpmNgDQ5rhBa6BxwfkkpsJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUk&#xA;pi+xlYl5A+KSmrb1THr4Bd+A/FN4gmmrX1+p2Q2mxmxjjt37pgnidEhJXC2OrdRb0/H3TD3AkHwa&#xA;3l34wPNEmlAPFV9ayMnMeK3Gqwhz6bmE7w9o3bXkn3BwEEFMXO99XfrhV1Jww8/bVk8NeNGPPh/J&#xA;KdGVoMXpU5apJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklMX2MrEuMeSSmlfmu1DfaPLUppK4B&#xA;yc/qmPitL8q5tY7biJPwTd07PL5310xSfTwqX3njc72Nn8qcIFbxBufV6jrfXbhdZXXRjNcN74cT&#xA;8GmdXI8IVZbv1syxbk+k0yIDf7LZj73En7k2RTFw8PFtstIY0iA6TxEtKMQol5Oi+yqu58+5xDJ/&#xA;1+Ck6sYOj6b9TPraep1t6fnGcisbW2d3Rp7vNApD16CVJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSk&#xA;FmQBpXqfHsgSkBzs/OxcKk5WdcKqh+c88nwHj8AhunZ4jrP15uyD9n6VX6NbjBusEvI7lreG/NOE&#xA;O63ieYttvysj1bHPscSJe4lx+E9giNkdXqfqr9W8LLqu6nmuP2TEDnWOaJ3loLnNaR4Aawladnpn&#xA;/Wrox6a0dGe11Qbt2sG0t0+htMEHxKbI0oavPVi3qF5vs1Lj7R/r2CaBa8mmz1vNo6B0p1bCHZuU&#xA;0spYPpe72usI8B2UoDES8H6YYK6TyHbnfFIaqIrR3fqhj2i+/LEjVrWEfvuIdp9ybMroPrrZgbuY&#xA;1SUukpSSlJKUkpSSlJKUkpSSlJKUkphZayoS46ngDkpEqprPudbzo3wH8U0ldTgdU+tOHi2nDxHM&#xA;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&#xA;x/tlNXqZVAkMBgWtH5pHfy+5NkLXRLwnqZedYenMr9S53sdWG+yscBjWj878iYNFxp18L/Ffe9rX&#xA;5eY6ku1LGw5wHh2H4qUEsdB28X/F10DHqdW92Rc54hznWEfcGgJKWxv8Wv1Xot9a2u/Kd4X3OI+5&#xA;mxK1U4/18uxOl41PQemUsxqP56xlYDQTwJjnhOitk8ZisYXepYYA1TlrqYWFk9XIFbRVhtkPyHjR&#xA;w8GD84/gmSkAviCXfxMdlVbOmdLrIZM/ynnu97v9YURJJXgAB2cPEZiNLGHfY7+ceO/k3yTwKQTb&#xA;frbCKGzSzc4JKb7G7RCSmSSlJKUkpSSlJKUkpSSlJKUkpSSlJKQMwcKvJdmMorbkP0daGgPPxdyl&#xA;Sk6SlJKUkp5D669Ew8tzc3NrsNYEetSYdWeIfofaULIVQLzGPgfV7FIc1rspw49d0t/zGho+9AzK&#xA;RAO9hdM6l1baWs9DHjSx42tDf5DdCfyIAErrAdd2PjdMq+yYgl7x+ltd9N3+zyTgKWEr0t7oqbLB&#xA;JhJTfx6tokpKbCSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSliA4EESDoQUlNZnTOm1v9&#xA;RmLS1/O4VtB/IlSkt7xXWXHQAJKec9Q33Osd3P4JKbdeoAGqSm/jUfnFJTdAgQkpdJSklKSUpJSk&#xA;lKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSU1s9jn4z2t5LSkp5+ii4v2gFJTs4mGQA56Sm+1oaI&#xA;CSl0lKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklLEA8pKWFdY1DQPkkpeAElLp&#xA;KUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkp&#xA;SSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJ&#xA;KUkpSSlJKUkpSSmL3FrHOHIBP3JKcfD6vl3dOObYWusfWw1VDHtpb6tsNY31LHuDxuP5qSmzV1G5&#xA;7sKtzWh9z7KsgQfa+pr923Xjc37klNijJfbmZWO4ANoNYaRyd7dxnVJTZSUpJSklKSUpJSklKSUp&#xA;JSklKSUpJSklKSUpJSklKSUpJSklNfPzaunYr8y8ONdZbu2QSA4hs6keKSkGT1fArF1e51j6rK6L&#xA;GVj3B12jfpbQkpznZnRRjYWDkiw49N7sVotDCxz6Gmubf5OsjzSUwyH9Pxa7szFryqKsLJeHnGFA&#xA;bW8MZU4tZbOjg7sOUlJxZZTntawZ5yb6xdbSPsnubURXLydBP8lySm1d1zHouuqtpuDcY1i+2GFj&#xA;PVALZ/Sbu+sBJTpJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkppZoxeo4+T0xt1Ztf&#xA;W5rmBwLmEjQlo15SU42B0UvyMXJbl0X+i8v6ga3bt1rC99fA/NL+8JKZDp2Ox2PZm5OKcezJyb4d&#xA;YIsryGlrQyQAT7tUlM7OjW4nQc/Auyah69xfXdc4taGn049RxHPsSUl6nj02Z2P1CwYWRQ6k0MZl&#xA;2BrXPc4ODmE12g6BJTDL6NfdmX5HqVMuvfRbVjusd6bxQ1rbGWM2gOE8Hafkkp3BZWXmrc31AA5z&#xA;ARIB4McxokpmkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpxrmtysu1jKrKbK2XV459Gx&#xA;rXWWN99jrdmyPD3fwSUth4jMx1jbMeyrH+yU472Pa6vc+svdtA9shs88FJSN1Th9XcbCtbkV3Pxt&#xA;m2ulzyfaAa3+x20O+Lfikpu32ZmNjetdWy6AwVUV1Pe6t5gbnOa6wkN8mpKaD8euitno0XX0uxr6&#xA;GzS8O9W1weZrc0Foee8QkpttwXVdRwcgsLrRjvrut1Ilraw0E6gaykpbpuNnUdQssy6qw62oG2+t&#xA;7n737jA91TOBwJ0CSnWSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklONR1jKuyMi&#xA;pza620OyAwkH9IKTtAb7+Ry78ElIK+u57mOyXCj0qhi7qg1we85LK3HY71CNC/QbUlN7Fz8l3UrM&#xA;PLDap3nHaGH3sYQN/q73A86jaISU6SSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUkpSSlJKUk&#xA;pzv2pf8AZ/tYoaabXNZj/pDve57wxm5vpw0GZ+kUlM6uo2G77LkUiu4WNY4Mfvbtex72uDixhP0C&#xA;IgJKY3vxa6cy37LW44b3OAge57q2Pc7RjiCfUg6FJTWocyy2t1HTcduXtLg5+6rYxm2tvufjNs+A&#xA;2RA5SUz9V+HkZVwwMas1s9Wy2t/6R4cX7Z/V26ks11+9JSX9q2b/AFPRH2X7R9l9Xf79+/0p9PZ9&#xA;Hfp9KfJJTPG6ozJsZT6ZZY4ulrjw0TtcNNQ6ElN5JSklKSUpJSklKSUpJSklKSUpJSklKSUpJSkl&#xA;KSUpJTU/ZeFFjdjtln0q/UfsBJ3S1m/a0yJloCSlfsvD9M1hr9X+oX+rZ6hcBtn1d+/jTlJSx6Vh&#xA;kvJ9U+o3a8evbDvaK5I9SJ2tGvKSlHpWGQ0H1i5pJa/17vUG6JHqepu26cTCSkz8WiwWB7Z9Vorf&#xA;qdWtmBz/ACikpH+zcP1/tOw79/qRvds3/v8Ap7tm7ziUlJG4mMx1b2sAdSHNrdrID/pCfNJSZJSk&#xA;lKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSU&#xA;pJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSU/wD/2Q==</xmpGImg:image>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpTPg:PageNumber>2</xmpTPg:PageNumber>
+                  <xmpGImg:format>JPEG</xmpGImg:format>
+                  <xmpGImg:width>256</xmpGImg:width>
+                  <xmpGImg:height>256</xmpGImg:height>
+                  <xmpGImg:image>/9j/4AAQSkZJRgABAgEASABIAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA&#xA;AQBIAAAAAQAB/+4AE0Fkb2JlAGQAAAAAAQUAAklE/9sAhAAMCAgICAgMCAgMEAsLCxAUDg0NDhQY&#xA;EhMTExIYFBIUFBQUEhQUGx4eHhsUJCcnJyckMjU1NTI7Ozs7Ozs7Ozs7AQ0LCxAOECIYGCIyKCEo&#xA;MjsyMjIyOzs7Ozs7Ozs7Ozs7Ozs7OztAQEBAQDtAQEBAQEBAQEBAQEBAQEBAQEBAQED/wAARCAEA&#xA;ALQDAREAAhEBAxEB/8QBQgAAAQUBAQEBAQEAAAAAAAAAAwABAgQFBgcICQoLAQABBQEBAQEBAQAA&#xA;AAAAAAABAAIDBAUGBwgJCgsQAAEEAQMCBAIFBwYIBQMMMwEAAhEDBCESMQVBUWETInGBMgYUkaGx&#xA;QiMkFVLBYjM0coLRQwclklPw4fFjczUWorKDJkSTVGRFwqN0NhfSVeJl8rOEw9N14/NGJ5SkhbSV&#xA;xNTk9KW1xdXl9VZmdoaWprbG1ub2N0dXZ3eHl6e3x9fn9xEAAgIBAgQEAwQFBgcHBgI7AQACEQMh&#xA;MRIEQVFhcSITBTKBkRShsUIjwVLR8DMkYuFygpJDUxVjczTxJQYWorKDByY1wtJEk1SjF2RFVTZ0&#xA;ZeLys4TD03Xj80aUpIW0lcTU5PSltcXV5fVWZnaGlqa2xtbm9ic3R1dnd4eXp7fH1+f3/9oADAMB&#xA;AAIRAxEAPwD1VJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklKSUpJSklOF9Zuv9Q6Oy&#xA;r9k4LOp2vcRbV67KTWIBDjunmUlN3oPUMzqnS6s3PxRg3vLg/HFgt27XFo97YBkCUlOgkpSSmtd1&#xA;Lp2PYab8qmqxsbmPsa1wkSJBKSmePl4uWCcW6u8N0ca3B8T47SUlJklKSUpJSklKSUpJSklKSUpJ&#xA;SklKSUpJSklKSUsXBolxAHiUlLpKUkp5zq3+L/6q9b6hb1TqWI63Jv2+o8W2snY1tbfax4H0WhJT&#xA;rdI6RgdCwK+mdMrNWNUXFjC5z43uL3e55J5KSm6kpSSnnOrf4v8A6q9b6hb1TqWI63Jv2+o8W2sn&#xA;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&#xA;lKSUpJSklKSUpJSklP8A/9k=</xmpGImg:image>
+               </rdf:li>
+            </rdf:Seq>
+         </xmp:PageInfo>
+         <xmpMM:InstanceID>xmp.iid:aa6cf7bd-6d4f-654b-9393-d59a8e2ae3a6</xmpMM:InstanceID>
+         <xmpMM:OriginalDocumentID>xmp.did:8A83D98841EFE5119624BE00937AA015</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>created</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8A83D98841EFE5119624BE00937AA015</stEvt:instanceID>
+                  <stEvt:when>2016-03-21T09:48:14+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8E83D98841EFE5119624BE00937AA015</stEvt:instanceID>
+                  <stEvt:when>2016-03-21T11:29:53+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/;/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8F83D98841EFE5119624BE00937AA015</stEvt:instanceID>
+                  <stEvt:when>2016-03-21T11:29:53+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:A6C9924553EFE5119624BE00937AA015</stEvt:instanceID>
+                  <stEvt:when>2016-03-21T11:54:23+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/;/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:A9C9924553EFE5119624BE00937AA015</stEvt:instanceID>
+                  <stEvt:when>2016-03-21T12:20:14+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/;/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:73AB040A5BEFE5119624BE00937AA015</stEvt:instanceID>
+                  <stEvt:when>2016-03-21T12:49:59+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/;/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:D7040C536DEFE5119624BE00937AA015</stEvt:instanceID>
+                  <stEvt:when>2016-03-21T15:00:52+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/;/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:589C4DDD70EFE5119624BE00937AA015</stEvt:instanceID>
+                  <stEvt:when>2016-03-21T15:26:13+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/;/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:54B75CE674EFE5119624BE00937AA015</stEvt:instanceID>
+                  <stEvt:when>2016-03-21T15:55:06+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/;/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3ECC4FED82EFE5119624BE00937AA015</stEvt:instanceID>
+                  <stEvt:when>2016-03-21T17:35:31+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/;/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:FB9FED2484EFE5119624BE00937AA015</stEvt:instanceID>
+                  <stEvt:when>2016-03-21T17:44:13+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/;/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7A4BE0DB84EFE5119624BE00937AA015</stEvt:instanceID>
+                  <stEvt:when>2016-03-21T17:49:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/;/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5CA46C4407F0E511A2D9E55AC7783781</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T09:22:50+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/;/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5DA46C4407F0E511A2D9E55AC7783781</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T09:24:21+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:DCCB7D7A07F0E511A2D9E55AC7783781</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T09:24:21+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign 7.5</stEvt:softwareAgent>
+                  <stEvt:changed>/;/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4ea1996f-47e9-9548-a8f8-fe2c48f1789a</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T09:49:21+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b3fa8513-1791-5b48-b690-134b5b9166f4</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T09:49:21+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0f4076ac-115d-5447-a205-8856a77a039f</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T09:57:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:bfbc5b8c-2f91-ee47-bf3b-05072a247dca</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T09:57:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5a3abe2a-26b8-e843-9d9d-9f46ab108f2b</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T11:09:37+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2435b309-6d01-2646-9005-0b986d41a902</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T11:09:37+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9fc29c6a-5c4b-1445-be7a-cc34d2324ac3</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T11:10:36+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3874e7ac-f477-9346-8292-6928b29689e5</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T11:11+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:550e94f6-b809-e64a-8034-3a1f3d4760ad</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T11:11+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:cb29a266-3370-f941-9a0a-dd8a469d9c41</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T11:13:02+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e38a5bfd-9277-a04d-8316-a155c745346e</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T11:37:13+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d2c4b2cb-2845-6f48-afc6-8030fa04a3e9</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T11:37:13+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2bf76a86-a4ca-f649-9138-5e3b83c0c8f2</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T11:44:57+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:28c7aff4-f8a7-7840-b38c-4208a921efe3</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:26:16+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ddfaa1ee-1f70-4241-80e3-0d8f4f47cd37</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:26:16+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0b986137-90c7-5244-a7a6-5085094847ad</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:27:06+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d4ab979e-f4b3-7b48-9a5f-307186c4e7a5</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:44:16+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3c0f1dee-7a58-d54b-91c6-58199faa2d45</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:44:16+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f9af5176-bae4-9b4d-87cc-3ccbd8f2fea5</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:45:57+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6e931a68-10ae-544f-b45c-36621df30fb3</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:46:02+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:da2735b7-06d7-2a4d-bd24-ff78aa016da7</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:46:02+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8ccad7fd-5560-c141-9264-0c94c252927f</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:46:52+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:30b08fad-f163-8140-af95-b4403a83a5c2</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:47:02+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:33a1bfd3-5db7-9244-afb4-5db4a25412ec</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:47:02+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b21a230c-ebfc-534a-acec-ffe208473585</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:47:31+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:30829eb6-448a-564b-ac33-b0590e75482f</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:47:31+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:755574e4-919c-044a-b152-d4f97c5f96f8</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:59:10+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c03787db-a4f0-3d4d-9cb8-253acab1ef22</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:59:10+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:df49cea6-6089-8648-a6ac-fd75e51b6894</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:59:18+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7f77d416-9f6c-3043-90ed-602513fc1e63</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T14:59:18+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e89ae239-85fa-b346-8805-3867f097e992</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T15:07:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:930fb26e-4646-8149-87d8-b303fa0fcc9b</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T15:07:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:cc0637a4-8829-1444-8145-62c8269fb528</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T17:15:09+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:88ef2c06-1ed0-af40-8698-3ffcc26cf546</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T17:15:09+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:82ea9c22-aa6e-fb41-97a8-6eb923820f8b</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T17:20:41+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:81b9e463-0718-cc41-be13-ba84c8efa78d</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T17:25:06+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:86c5d376-98fe-574a-b3fa-108c0a98e9f9</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T17:25:06+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2e3943bd-8176-104b-8bae-aea4c71de135</stEvt:instanceID>
+                  <stEvt:when>2016-03-22T17:25:22+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7ef72f51-0787-b14e-8ed7-0f815dde8d87</stEvt:instanceID>
+                  <stEvt:when>2016-03-23T15:19:12+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7dde4977-bfa4-c44a-a277-a59a3c7ba3fb</stEvt:instanceID>
+                  <stEvt:when>2016-03-23T15:19:12+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:50a443ad-e459-0d48-a531-c1186321323c</stEvt:instanceID>
+                  <stEvt:when>2016-03-23T15:40:18+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ec225b2f-9c1b-3f4c-957a-87d0b53eeb8e</stEvt:instanceID>
+                  <stEvt:when>2016-03-23T15:40:22+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:672eee79-a1a2-6247-9649-c38a39190802</stEvt:instanceID>
+                  <stEvt:when>2016-03-23T15:40:22+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9009c2b3-3ccd-6544-8c0a-5d8725bf0a77</stEvt:instanceID>
+                  <stEvt:when>2016-03-23T15:43:46+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:922f45e2-8cd4-4948-9ce9-64924ced5309</stEvt:instanceID>
+                  <stEvt:when>2016-03-23T15:43:46+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4f1f82ba-eea5-834f-9484-a60544863b0a</stEvt:instanceID>
+                  <stEvt:when>2016-03-23T16:31:33+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8be77fea-2b33-9e41-b382-d885775fb35f</stEvt:instanceID>
+                  <stEvt:when>2016-03-23T16:31:33+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:65395393-f25d-7e4e-a457-cb9be5c188c9</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T16:30:29+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:621edc30-2717-ab40-8cfe-963e7d85b57b</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T16:30:29+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:fe8baafe-70df-3042-a56a-9e0e6d420d73</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T16:38:57+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:03fa7347-690d-1341-b9c8-78d9eee8f2f4</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T16:39:02+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:bb92c977-d089-f74c-a3f4-76b8b3fdc0a0</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T16:39:02+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:cb0d7850-0851-994c-a2ce-cad8f8677405</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T16:39:26+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ca1a5bf2-4fe7-c241-a204-a2c190045357</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T17:17:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:51423ba2-bc92-af41-92c3-22ae652bd468</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T17:17:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ddda9203-8963-e247-8430-1195437cb369</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T17:18:01+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3dd880f7-ce44-1b41-9113-f3c4efee06a9</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T17:18:01+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6ed64b23-471c-414b-ad4b-ec52c9ac1690</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T17:26:05+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2d2e5a35-448c-b542-8516-a54127d61924</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T17:26:05+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7eb0a77b-b805-0345-a24f-dc9048b8ecdd</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T17:27:18+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f32e0c93-3413-5f45-b5d0-3c774d27de45</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T17:27:18+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6570880b-93ac-7c40-bdf6-0194706f12d0</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T17:48:09+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1e754f83-f3a6-3e4a-974f-21aad3978c9b</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T17:48:09+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d9acc6bb-ee08-4c4b-90dc-0cfd2ec5dda4</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T17:49:04+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:cbfae025-dfe1-8a43-9c47-8c8edcd6668a</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T17:49:04+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:71604088-af1f-0e41-987e-e49a73110314</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T16:57:28Z</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2014 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1884da9e-4c5e-f14b-a2ac-39c860a9277b</stEvt:instanceID>
+                  <stEvt:when>2016-03-24T16:57:28Z</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2014 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7c37a8c3-2cb7-bf49-b55c-969874e49cde</stEvt:instanceID>
+                  <stEvt:when>2016-04-22T09:17:50+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4f0f86c8-656f-fc43-91dd-2c0bda8f9d2b</stEvt:instanceID>
+                  <stEvt:when>2016-04-22T09:17:50+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f3275850-135a-0c4e-8274-b55040005f2e</stEvt:instanceID>
+                  <stEvt:when>2017-04-10T14:17:10+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2017 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:53fba217-d6f1-d343-8a40-e361ae980b27</stEvt:instanceID>
+                  <stEvt:when>2017-04-10T14:17:11+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2017 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:aa6cf7bd-6d4f-654b-9393-d59a8e2ae3a6</stEvt:instanceID>
+                  <stEvt:when>2017-04-10T14:29:39+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2017 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>xmp.iid:5DA46C4407F0E511A2D9E55AC7783781</stRef:instanceID>
+            <stRef:documentID>xmp.did:8A83D98841EFE5119624BE00937AA015</stRef:documentID>
+            <stRef:originalDocumentID>xmp.did:8A83D98841EFE5119624BE00937AA015</stRef:originalDocumentID>
+            <stRef:renditionClass>default</stRef:renditionClass>
+         </xmpMM:DerivedFrom>
+         <xmpMM:DocumentID>xmp.did:e82832ad-b46a-254c-b946-4559c6adbec2</xmpMM:DocumentID>
+         <xmpMM:RenditionClass>default</xmpMM:RenditionClass>
+         <xmpMM:Manifest>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:lastURL>file:///C:/Dropbox/awsprojects/paginationdata/darksalmon/EmoCore/InDesign/Links/cover%20image.png</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>72.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>72.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:267F071D16F0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>adobe:docid:photoshop:3a454dda-3cbf-11df-b330-98913d195447</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/Geox-kidsB-A4-new.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>167.93</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>167.93</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:F11BB3610BF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:9d6a94d6-8219-43d8-ba3a-9890909e5823</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/19122012-Lavoro_0200.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>300.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>300.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C602151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:F2A428DCFE24E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%201.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>225.77</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>225.77</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>uuid:14fd16cd-5733-43aa-9af5-f3a39b818841</stRef:instanceID>
+                     <stRef:documentID>xmp.did:ABDE43F6D1F0E511A44A983F7BE617A1</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/green%20point.ai</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>72.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>72.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>uuid:320b22d7-55e6-4593-97be-30dee2e739d1</stRef:instanceID>
+                     <stRef:documentID>xmp.did:AADE43F6D1F0E511A44A983F7BE617A1</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/ce.ai</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>72.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>72.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C602151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:F2A428DCFE24E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%202.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>225.77</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>225.77</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>uuid:320b22d7-55e6-4593-97be-30dee2e739d1</stRef:instanceID>
+                     <stRef:documentID>xmp.did:AADE43F6D1F0E511A44A983F7BE617A1</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/ce.ai</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>72.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>72.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C602151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:F2A428DCFE24E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%201.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>225.77</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>225.77</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C602151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:F2A428DCFE24E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%201A.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>225.77</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>225.77</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C602151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:F2A428DCFE24E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%201A.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>225.77</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>225.77</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C602151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:F2A428DCFE24E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%202A.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>225.77</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>225.77</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C402151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:50B0814E0425E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%205.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>167.58</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>167.58</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C402151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:50B0814E0425E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%205.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>167.58</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>167.58</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C402151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:50B0814E0425E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%206.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>167.58</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>167.58</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C202151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:D931D5FEF6A0E211977DD29C4DAC3501</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%203.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>162.93</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>162.93</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C202151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:D931D5FEF6A0E211977DD29C4DAC3501</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%203.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>162.93</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>162.93</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C202151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:D931D5FEF6A0E211977DD29C4DAC3501</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%204.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>162.93</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>162.93</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C002151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:2FE8DCAFCBA4E2119749EAD6EB0E92F8</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%207.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>174.57</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>174.57</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C002151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:2FE8DCAFCBA4E2119749EAD6EB0E92F8</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%207.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>174.57</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>174.57</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C002151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:2FE8DCAFCBA4E2119749EAD6EB0E92F8</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%208.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>174.57</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>174.57</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:1733679EC5F1E511BB49A4AAAD34129C</stRef:instanceID>
+                     <stRef:documentID>xmp.did:0DF40D053DA0E2118A02AD643C479C2D</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%209.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>300.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>300.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:1733679EC5F1E511BB49A4AAAD34129C</stRef:instanceID>
+                     <stRef:documentID>xmp.did:0DF40D053DA0E2118A02AD643C479C2D</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%209.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>300.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>300.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:1733679EC5F1E511BB49A4AAAD34129C</stRef:instanceID>
+                     <stRef:documentID>xmp.did:0DF40D053DA0E2118A02AD643C479C2D</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%2010.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>300.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>300.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C602151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:F2A428DCFE24E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%201.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>225.77</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>225.77</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>uuid:14fd16cd-5733-43aa-9af5-f3a39b818841</stRef:instanceID>
+                     <stRef:documentID>xmp.did:ABDE43F6D1F0E511A44A983F7BE617A1</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/green%20point.ai</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>72.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>72.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>uuid:320b22d7-55e6-4593-97be-30dee2e739d1</stRef:instanceID>
+                     <stRef:documentID>xmp.did:AADE43F6D1F0E511A44A983F7BE617A1</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/ce.ai</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>72.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>72.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C602151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:F2A428DCFE24E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%202.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>225.77</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>225.77</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>uuid:320b22d7-55e6-4593-97be-30dee2e739d1</stRef:instanceID>
+                     <stRef:documentID>xmp.did:AADE43F6D1F0E511A44A983F7BE617A1</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/ce.ai</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>72.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>72.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C602151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:F2A428DCFE24E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%201A.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>225.77</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>225.77</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>uuid:14fd16cd-5733-43aa-9af5-f3a39b818841</stRef:instanceID>
+                     <stRef:documentID>xmp.did:ABDE43F6D1F0E511A44A983F7BE617A1</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/green%20point.ai</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>72.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>72.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C602151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:F2A428DCFE24E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%202A.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>225.77</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>225.77</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>uuid:320b22d7-55e6-4593-97be-30dee2e739d1</stRef:instanceID>
+                     <stRef:documentID>xmp.did:AADE43F6D1F0E511A44A983F7BE617A1</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/ce.ai</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>72.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>72.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C402151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:50B0814E0425E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%205.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>167.58</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>167.58</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C402151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:50B0814E0425E3118CF28A88858DA952</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%206.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>167.58</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>167.58</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C202151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:D931D5FEF6A0E211977DD29C4DAC3501</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%203.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>162.93</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>162.93</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C202151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:D931D5FEF6A0E211977DD29C4DAC3501</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%204.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>162.93</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>162.93</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C002151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:2FE8DCAFCBA4E2119749EAD6EB0E92F8</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%207.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>174.57</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>174.57</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:C002151F0DF0E511A410A29BBE1B8249</stRef:instanceID>
+                     <stRef:documentID>xmp.did:2FE8DCAFCBA4E2119749EAD6EB0E92F8</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%208.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>174.57</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>174.57</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:1733679EC5F1E511BB49A4AAAD34129C</stRef:instanceID>
+                     <stRef:documentID>xmp.did:0DF40D053DA0E2118A02AD643C479C2D</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%209.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>300.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>300.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>ReferenceStream</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:instanceID>xmp.iid:1733679EC5F1E511BB49A4AAAD34129C</stRef:instanceID>
+                     <stRef:documentID>xmp.did:0DF40D053DA0E2118A02AD643C479C2D</stRef:documentID>
+                     <stRef:lastURL>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%2010.jpg</stRef:lastURL>
+                  </stMfs:reference>
+                  <xmpMM:placedXResolution>300.00</xmpMM:placedXResolution>
+                  <xmpMM:placedYResolution>300.00</xmpMM:placedYResolution>
+                  <xmpMM:placedResolutionUnit>Inches</xmpMM:placedResolutionUnit>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpMM:Manifest>
+         <xmpMM:Ingredients>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:026e56d1-04cb-7a4b-9736-84333670ce99</stRef:instanceID>
+                  <stRef:documentID>xmp.did:026e56d1-04cb-7a4b-9736-84333670ce99</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%205.jpg</stRef:filePath>
+                  <stRef:placedXResolution>167.58</stRef:placedXResolution>
+                  <stRef:placedYResolution>167.58</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:0405633e-e506-7b46-b9db-69920e6f2989</stRef:instanceID>
+                  <stRef:documentID>xmp.did:0405633e-e506-7b46-b9db-69920e6f2989</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/green%20point.ai</stRef:filePath>
+                  <stRef:placedXResolution>72.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>72.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:175fc3b7-5d3a-2042-a72b-b6f5799483da</stRef:instanceID>
+                  <stRef:documentID>xmp.did:175fc3b7-5d3a-2042-a72b-b6f5799483da</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%208.jpg</stRef:filePath>
+                  <stRef:placedXResolution>174.57</stRef:placedXResolution>
+                  <stRef:placedYResolution>174.57</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:1c23837f-eeee-fe47-a5cb-78907c489d1d</stRef:instanceID>
+                  <stRef:documentID>xmp.did:1c23837f-eeee-fe47-a5cb-78907c489d1d</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/Geox-kidsB-A4-new.jpg</stRef:filePath>
+                  <stRef:placedXResolution>167.93</stRef:placedXResolution>
+                  <stRef:placedYResolution>167.93</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:1c573bb4-c82b-0646-bf40-f07add4f9e50</stRef:instanceID>
+                  <stRef:documentID>xmp.did:1c573bb4-c82b-0646-bf40-f07add4f9e50</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%201.jpg</stRef:filePath>
+                  <stRef:placedXResolution>225.77</stRef:placedXResolution>
+                  <stRef:placedYResolution>225.77</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:207e9191-5d04-cd4b-ad2f-09733b7cf552</stRef:instanceID>
+                  <stRef:documentID>xmp.did:207e9191-5d04-cd4b-ad2f-09733b7cf552</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%202.jpg</stRef:filePath>
+                  <stRef:placedXResolution>225.77</stRef:placedXResolution>
+                  <stRef:placedYResolution>225.77</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:2bf2b4a3-f917-a047-9571-ecb6ffece5d0</stRef:instanceID>
+                  <stRef:documentID>xmp.did:2bf2b4a3-f917-a047-9571-ecb6ffece5d0</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%201A.jpg</stRef:filePath>
+                  <stRef:placedXResolution>225.77</stRef:placedXResolution>
+                  <stRef:placedYResolution>225.77</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:2ff41adc-e3e3-d143-b492-77e4ac5adf11</stRef:instanceID>
+                  <stRef:documentID>xmp.did:2ff41adc-e3e3-d143-b492-77e4ac5adf11</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%209.jpg</stRef:filePath>
+                  <stRef:placedXResolution>300.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>300.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:370ae549-62a4-0247-80c7-0c1c3d46a019</stRef:instanceID>
+                  <stRef:documentID>xmp.did:370ae549-62a4-0247-80c7-0c1c3d46a019</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%204.jpg</stRef:filePath>
+                  <stRef:placedXResolution>162.93</stRef:placedXResolution>
+                  <stRef:placedYResolution>162.93</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:3bc9b3fd-32d4-4542-8122-b769e3fd06eb</stRef:instanceID>
+                  <stRef:documentID>xmp.did:3bc9b3fd-32d4-4542-8122-b769e3fd06eb</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%206.jpg</stRef:filePath>
+                  <stRef:placedXResolution>167.58</stRef:placedXResolution>
+                  <stRef:placedYResolution>167.58</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:3ef06c63-5836-1f40-8a3b-79505e3af1bd</stRef:instanceID>
+                  <stRef:documentID>xmp.did:3ef06c63-5836-1f40-8a3b-79505e3af1bd</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%202.jpg</stRef:filePath>
+                  <stRef:placedXResolution>225.77</stRef:placedXResolution>
+                  <stRef:placedYResolution>225.77</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:553e0752-dea3-0749-84ab-30a1ac1acdfc</stRef:instanceID>
+                  <stRef:documentID>xmp.did:553e0752-dea3-0749-84ab-30a1ac1acdfc</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/ce.ai</stRef:filePath>
+                  <stRef:placedXResolution>72.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>72.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:592278b6-7a36-7e43-aceb-a8d90bfd31d9</stRef:instanceID>
+                  <stRef:documentID>xmp.did:592278b6-7a36-7e43-aceb-a8d90bfd31d9</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/19122012-Lavoro_0200.jpg</stRef:filePath>
+                  <stRef:placedXResolution>300.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>300.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:616c88db-ebfe-f24a-bea2-c33bcaaa8897</stRef:instanceID>
+                  <stRef:documentID>xmp.did:616c88db-ebfe-f24a-bea2-c33bcaaa8897</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%209.jpg</stRef:filePath>
+                  <stRef:placedXResolution>300.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>300.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:714a8fdd-d369-e248-a253-c71d7b275f72</stRef:instanceID>
+                  <stRef:documentID>xmp.did:714a8fdd-d369-e248-a253-c71d7b275f72</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%202A.jpg</stRef:filePath>
+                  <stRef:placedXResolution>225.77</stRef:placedXResolution>
+                  <stRef:placedYResolution>225.77</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:729cdae4-875e-5649-8b6e-59bfb707e06b</stRef:instanceID>
+                  <stRef:documentID>xmp.did:729cdae4-875e-5649-8b6e-59bfb707e06b</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%203.jpg</stRef:filePath>
+                  <stRef:placedXResolution>162.93</stRef:placedXResolution>
+                  <stRef:placedYResolution>162.93</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:74826d89-8738-2a48-95d0-3697312ad1c4</stRef:instanceID>
+                  <stRef:documentID>xmp.did:74826d89-8738-2a48-95d0-3697312ad1c4</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%201A.jpg</stRef:filePath>
+                  <stRef:placedXResolution>225.77</stRef:placedXResolution>
+                  <stRef:placedYResolution>225.77</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:78fb3fe4-4ae8-8a4d-83d9-b45961aa4bd8</stRef:instanceID>
+                  <stRef:documentID>xmp.did:78fb3fe4-4ae8-8a4d-83d9-b45961aa4bd8</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%209.jpg</stRef:filePath>
+                  <stRef:placedXResolution>300.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>300.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:7a8abd9d-2dc3-8546-9782-6512e68078f0</stRef:instanceID>
+                  <stRef:documentID>xmp.did:7a8abd9d-2dc3-8546-9782-6512e68078f0</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%2010.jpg</stRef:filePath>
+                  <stRef:placedXResolution>300.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>300.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:7c11f803-f7d3-0149-8011-20cd74812166</stRef:instanceID>
+                  <stRef:documentID>xmp.did:7c11f803-f7d3-0149-8011-20cd74812166</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/ce.ai</stRef:filePath>
+                  <stRef:placedXResolution>72.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>72.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:7c59668e-989d-074f-ad9a-2130d05bed2b</stRef:instanceID>
+                  <stRef:documentID>xmp.did:7c59668e-989d-074f-ad9a-2130d05bed2b</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/ce.ai</stRef:filePath>
+                  <stRef:placedXResolution>72.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>72.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:85b710fa-cf88-8648-a37d-c94280175f66</stRef:instanceID>
+                  <stRef:documentID>xmp.did:85b710fa-cf88-8648-a37d-c94280175f66</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/green%20point.ai</stRef:filePath>
+                  <stRef:placedXResolution>72.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>72.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:88c11cec-1b1c-ba4a-8100-1d0f43105660</stRef:instanceID>
+                  <stRef:documentID>xmp.did:88c11cec-1b1c-ba4a-8100-1d0f43105660</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%207.jpg</stRef:filePath>
+                  <stRef:placedXResolution>174.57</stRef:placedXResolution>
+                  <stRef:placedYResolution>174.57</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:93705961-f9fa-d74d-a8b9-d8d69e887ac3</stRef:instanceID>
+                  <stRef:documentID>xmp.did:93705961-f9fa-d74d-a8b9-d8d69e887ac3</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/green%20point.ai</stRef:filePath>
+                  <stRef:placedXResolution>72.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>72.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:968db58c-bb24-9d44-9a47-9c12c0d97f70</stRef:instanceID>
+                  <stRef:documentID>xmp.did:968db58c-bb24-9d44-9a47-9c12c0d97f70</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%2010.jpg</stRef:filePath>
+                  <stRef:placedXResolution>300.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>300.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:a2777e22-ccfa-cb4c-9a5f-8381116a1ac1</stRef:instanceID>
+                  <stRef:documentID>xmp.did:a2777e22-ccfa-cb4c-9a5f-8381116a1ac1</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%205.jpg</stRef:filePath>
+                  <stRef:placedXResolution>167.58</stRef:placedXResolution>
+                  <stRef:placedYResolution>167.58</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:a6422b1c-4985-bd46-8e1e-2aea0dd67954</stRef:instanceID>
+                  <stRef:documentID>xmp.did:a6422b1c-4985-bd46-8e1e-2aea0dd67954</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%207.jpg</stRef:filePath>
+                  <stRef:placedXResolution>174.57</stRef:placedXResolution>
+                  <stRef:placedYResolution>174.57</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:b256b37e-835b-c645-8951-a6bfbdf7a430</stRef:instanceID>
+                  <stRef:documentID>xmp.did:b256b37e-835b-c645-8951-a6bfbdf7a430</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Dropbox/awsprojects/paginationdata/darksalmon/EmoCore/InDesign/Links/cover%20image.png</stRef:filePath>
+                  <stRef:placedXResolution>72.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>72.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:bb3cbe55-10e8-9846-827e-ecaf5ce80b7f</stRef:instanceID>
+                  <stRef:documentID>xmp.did:bb3cbe55-10e8-9846-827e-ecaf5ce80b7f</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%201A.jpg</stRef:filePath>
+                  <stRef:placedXResolution>225.77</stRef:placedXResolution>
+                  <stRef:placedYResolution>225.77</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:cbacd312-7732-4f4b-929a-52eaa425f613</stRef:instanceID>
+                  <stRef:documentID>xmp.did:cbacd312-7732-4f4b-929a-52eaa425f613</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%207.jpg</stRef:filePath>
+                  <stRef:placedXResolution>174.57</stRef:placedXResolution>
+                  <stRef:placedYResolution>174.57</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:cd2f6da5-93c2-d846-9eac-6902b8a5bdac</stRef:instanceID>
+                  <stRef:documentID>xmp.did:cd2f6da5-93c2-d846-9eac-6902b8a5bdac</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%208.jpg</stRef:filePath>
+                  <stRef:placedXResolution>174.57</stRef:placedXResolution>
+                  <stRef:placedYResolution>174.57</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:cfc1e24c-9b3a-a04f-9c96-b31275d2944e</stRef:instanceID>
+                  <stRef:documentID>xmp.did:cfc1e24c-9b3a-a04f-9c96-b31275d2944e</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%202A.jpg</stRef:filePath>
+                  <stRef:placedXResolution>225.77</stRef:placedXResolution>
+                  <stRef:placedYResolution>225.77</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:d013705f-3aed-2547-baad-f73eb9350865</stRef:instanceID>
+                  <stRef:documentID>xmp.did:d013705f-3aed-2547-baad-f73eb9350865</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%205.jpg</stRef:filePath>
+                  <stRef:placedXResolution>167.58</stRef:placedXResolution>
+                  <stRef:placedYResolution>167.58</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:d869e6aa-4ba4-6746-af4c-5d3369e1a3ed</stRef:instanceID>
+                  <stRef:documentID>xmp.did:d869e6aa-4ba4-6746-af4c-5d3369e1a3ed</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/ce.ai</stRef:filePath>
+                  <stRef:placedXResolution>72.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>72.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:dbba8eb6-b373-9841-aebd-10851512f0d3</stRef:instanceID>
+                  <stRef:documentID>xmp.did:dbba8eb6-b373-9841-aebd-10851512f0d3</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/ce.ai</stRef:filePath>
+                  <stRef:placedXResolution>72.00</stRef:placedXResolution>
+                  <stRef:placedYResolution>72.00</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:dd43d9d6-03d3-d843-8515-18636283fd17</stRef:instanceID>
+                  <stRef:documentID>xmp.did:dd43d9d6-03d3-d843-8515-18636283fd17</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%203.jpg</stRef:filePath>
+                  <stRef:placedXResolution>162.93</stRef:placedXResolution>
+                  <stRef:placedYResolution>162.93</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:dd7d888b-068a-304c-b239-e6c3b050d035</stRef:instanceID>
+                  <stRef:documentID>xmp.did:dd7d888b-068a-304c-b239-e6c3b050d035</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%203.jpg</stRef:filePath>
+                  <stRef:placedXResolution>162.93</stRef:placedXResolution>
+                  <stRef:placedYResolution>162.93</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:e1e98231-d98e-c94e-a68b-e9e1974ccb35</stRef:instanceID>
+                  <stRef:documentID>xmp.did:e1e98231-d98e-c94e-a68b-e9e1974ccb35</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%204.jpg</stRef:filePath>
+                  <stRef:placedXResolution>162.93</stRef:placedXResolution>
+                  <stRef:placedYResolution>162.93</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:e819829f-aa1a-6443-8f60-0131528bbf71</stRef:instanceID>
+                  <stRef:documentID>xmp.did:e819829f-aa1a-6443-8f60-0131528bbf71</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%201.jpg</stRef:filePath>
+                  <stRef:placedXResolution>225.77</stRef:placedXResolution>
+                  <stRef:placedYResolution>225.77</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:ecac63ee-f1fe-ea44-8109-b1e6e8df8f05</stRef:instanceID>
+                  <stRef:documentID>xmp.did:ecac63ee-f1fe-ea44-8109-b1e6e8df8f05</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%206.jpg</stRef:filePath>
+                  <stRef:placedXResolution>167.58</stRef:placedXResolution>
+                  <stRef:placedYResolution>167.58</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stRef:instanceID>xmp.iid:f31d899e-3e69-ec48-9de3-332805c2512e</stRef:instanceID>
+                  <stRef:documentID>xmp.did:f31d899e-3e69-ec48-9de3-332805c2512e</stRef:documentID>
+                  <stRef:fromPart>/</stRef:fromPart>
+                  <stRef:toPart>/</stRef:toPart>
+                  <stRef:linkForm>ReferenceStream</stRef:linkForm>
+                  <stRef:linkCategory>Content</stRef:linkCategory>
+                  <stRef:filePath>file:///C:/Users/SDR1/Desktop/MATERIALE%20MARKETING/Templates%20-%20ZIP%20FILES/Sito%20nuovo/Line%20Sheet%20Template/Links/CODE%201.jpg</stRef:filePath>
+                  <stRef:placedXResolution>225.77</stRef:placedXResolution>
+                  <stRef:placedYResolution>225.77</stRef:placedYResolution>
+                  <stRef:placedResolutionUnit>Inches</stRef:placedResolutionUnit>
+                  <stRef:maskMarkers>None</stRef:maskMarkers>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpMM:Ingredients>
+         <idPriv:DocChangeCount>1551</idPriv:DocChangeCount>
+         <idPriv:keyStampMp>AAAAAA==</idPriv:keyStampMp>
+         <xmpTPg:Colorants>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:swatchName>Black</xmpG:swatchName>
+                  <xmpG:mode>CMYK</xmpG:mode>
+                  <xmpG:type>Process</xmpG:type>
+                  <xmpG:cyan>0</xmpG:cyan>
+                  <xmpG:magenta>0</xmpG:magenta>
+                  <xmpG:yellow>0</xmpG:yellow>
+                  <xmpG:black>100</xmpG:black>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:swatchName>C=0 M=0 Y=0 K=33</xmpG:swatchName>
+                  <xmpG:mode>CMYK</xmpG:mode>
+                  <xmpG:type>Process</xmpG:type>
+                  <xmpG:cyan>0</xmpG:cyan>
+                  <xmpG:magenta>0</xmpG:magenta>
+                  <xmpG:yellow>0</xmpG:yellow>
+                  <xmpG:black>33</xmpG:black>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:swatchName>C=15 M=100 Y=100 K=0</xmpG:swatchName>
+                  <xmpG:mode>CMYK</xmpG:mode>
+                  <xmpG:type>Process</xmpG:type>
+                  <xmpG:cyan>15</xmpG:cyan>
+                  <xmpG:magenta>100</xmpG:magenta>
+                  <xmpG:yellow>100</xmpG:yellow>
+                  <xmpG:black>0</xmpG:black>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:swatchName>Paper</xmpG:swatchName>
+                  <xmpG:mode>CMYK</xmpG:mode>
+                  <xmpG:type>Process</xmpG:type>
+                  <xmpG:cyan>0</xmpG:cyan>
+                  <xmpG:magenta>0</xmpG:magenta>
+                  <xmpG:yellow>0</xmpG:yellow>
+                  <xmpG:black>0</xmpG:black>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:swatchName>Registration</xmpG:swatchName>
+                  <xmpG:mode>CMYK</xmpG:mode>
+                  <xmpG:type>Process</xmpG:type>
+                  <xmpG:cyan>100</xmpG:cyan>
+                  <xmpG:magenta>100</xmpG:magenta>
+                  <xmpG:yellow>100</xmpG:yellow>
+                  <xmpG:black>100</xmpG:black>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpTPg:Colorants>
+         <xmpTPg:Fonts>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-Regular</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Regular</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-RegularVersion 2.068;PS 2.000;hotconv 1.0.57;makeotf.lib2.0.21895</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MinionPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-Cn</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Cond</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-CnVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-CnIt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Cond Italic</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-CnItVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldCn</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Cond</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldCnVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldCnIt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Cond Italic</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldCnItVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldCn</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Cond</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldCnVersion 2.068;PS 2.000;hotconv 1.0.57;makeotf.lib2.0.21895</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MinionPro-BoldCn.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldCnIt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Cond Italic</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldCnItVersion 2.068;PS 2.000;hotconv 1.0.57;makeotf.lib2.0.21895</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MinionPro-BoldCnIt.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-It</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Italic</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-ItVersion 2.068;PS 2.000;hotconv 1.0.57;makeotf.lib2.0.21895</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MinionPro-It.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-Medium</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumVersion 2.068;PS 2.000;hotconv 1.0.57;makeotf.lib2.0.21895</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MinionPro-Medium.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumIt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Italic</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumItVersion 2.068;PS 2.000;hotconv 1.0.57;makeotf.lib2.0.21895</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MinionPro-MediumIt.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-Semibold</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldVersion 2.068;PS 2.000;hotconv 1.0.57;makeotf.lib2.0.21895</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MinionPro-Semibold.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldIt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Italic</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldItVersion 2.068;PS 2.000;hotconv 1.0.57;makeotf.lib2.0.21895</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MinionPro-SemiboldIt.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-Bold</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldVersion 2.068;PS 2.000;hotconv 1.0.57;makeotf.lib2.0.21895</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MinionPro-Bold.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldIt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Italic</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldItVersion 2.068;PS 2.000;hotconv 1.0.57;makeotf.lib2.0.21895</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MinionPro-BoldIt.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-CnCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Cond Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-CnCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-CnSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Cond Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-CnSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-CnDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Cond Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-CnDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-CnItCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Cond Italic Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-CnItCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-CnItSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Cond Italic Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-CnItSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-CnItDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Cond Italic Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-CnItDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumCnCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Cond Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumCnCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumCn</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Cond</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumCnVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumCnSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Cond Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumCnSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumCnDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Cond Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumCnDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumCnItCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Cond Italic Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumCnItCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumCnIt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Cond Italic</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumCnItVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumCnItSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Cond Italic Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumCnItSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumCnItDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Cond Italic Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumCnItDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldCnCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Cond Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldCnCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldCnSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Cond Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldCnSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldCnDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Cond Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldCnDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldCnItCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Cond Italic Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldCnItCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldCnItSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Cond Italic Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldCnItSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldCnItDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Cond Italic Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldCnItDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldCnCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Cond Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldCnCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldCnSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Cond Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldCnSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldCnDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Cond Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldCnDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldCnItCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Cond Italic Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldCnItCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldCnItSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Cond Italic Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldCnItSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldCnItDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Cond Italic Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldCnItDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-Capt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-CaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-Subh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-Disp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-DispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-ItCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Italic Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-ItCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-ItSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Italic Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-ItSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-ItDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Italic Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-ItDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumItCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Italic Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumItCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumItSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Italic Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumItSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-MediumItDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Medium Italic Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-MediumItDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldItCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Italic Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldItCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldItSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Italic Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldItSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-SemiboldItDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Semibold Italic Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-SemiboldItDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldItCapt</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Italic Caption</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldItCaptVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldItSubh</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Italic Subhead</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldItSubhVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MinionPro-BoldItDisp</stFnt:fontName>
+                  <stFnt:fontFamily>Minion Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold Italic Display</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeCFF</stFnt:fontType>
+                  <stFnt:versionString>MinionPro-BoldItDispVersion 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>Ubuntu</stFnt:fontName>
+                  <stFnt:fontFamily>Ubuntu</stFnt:fontFamily>
+                  <stFnt:fontFace>Regular</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeTT</stFnt:fontType>
+                  <stFnt:versionString>UbuntuVersion 0.80</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>Ubuntu-R.ttf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>Ubuntu-Bold</stFnt:fontName>
+                  <stFnt:fontFamily>Ubuntu</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold</stFnt:fontFace>
+                  <stFnt:fontType>OpenTypeTT</stFnt:fontType>
+                  <stFnt:versionString>Ubuntu-BoldVersion 0.80</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>Ubuntu-B.ttf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>Roboto-Italic</stFnt:fontName>
+                  <stFnt:fontFamily>Roboto</stFnt:fontFamily>
+                  <stFnt:fontFace>Italic</stFnt:fontFace>
+                  <stFnt:fontType>TrueType</stFnt:fontType>
+                  <stFnt:versionString>Roboto-ItalicVersion 1.100141; 2013</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>Roboto-Italic.ttf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>Roboto-Regular</stFnt:fontName>
+                  <stFnt:fontFamily>Roboto</stFnt:fontFamily>
+                  <stFnt:fontFace>Regular</stFnt:fontFace>
+                  <stFnt:fontType>TrueType</stFnt:fontType>
+                  <stFnt:versionString>Roboto-RegularVersion 1.100141; 2013</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>Roboto-Regular.ttf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>Roboto-Bold</stFnt:fontName>
+                  <stFnt:fontFamily>Roboto</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold</stFnt:fontFace>
+                  <stFnt:fontType>TrueType</stFnt:fontType>
+                  <stFnt:versionString>Roboto-BoldVersion 1.100141; 2013</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>Roboto-Bold.ttf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>EanBwrP36Tt</stFnt:fontName>
+                  <stFnt:fontFamily>EanBwrP36Tt</stFnt:fontFamily>
+                  <stFnt:fontFace>Normal</stFnt:fontFace>
+                  <stFnt:fontType>TrueType</stFnt:fontType>
+                  <stFnt:versionString>EanBwrP36Tt1.0 Tue Jun 01 15:26:07 1993</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>eanbwrp36tt.ttf</stFnt:fontFileName>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpTPg:Fonts>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>

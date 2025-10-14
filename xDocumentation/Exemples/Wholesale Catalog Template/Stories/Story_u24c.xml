@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="12.0">
+	<Story Self="u24c" ECAppliedRuleSetsData="" AppliedTOCStyle="n" UserText="true" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" HyphenationZone="25.483597223812076" RuleAboveLineWeight="0.7078777006614465" RuleBelowLineWeight="0.7078777006614465" SplitColumnInsideGutter="4.247266203968679">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold Italic" PointSize="9.91028780926025" StrokeWeight="0.7078777006614465" MiterLimit="2.831510802645786" RubyFontSize="-0.7078777006614465" KentenFontSize="-0.7078777006614465">
+				<Properties>
+					<AppliedFont type="string">Carlito</AppliedFont>
+				</Properties>
+				<Content>J. Skinner Gourmet </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="9.91028780926025" StrokeWeight="0.7078777006614465" MiterLimit="2.831510802645786" RubyFontSize="-0.7078777006614465" KentenFontSize="-0.7078777006614465">
+				<Properties>
+					<AppliedFont type="string">Carlito</AppliedFont>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="10.618165509921697" StrokeWeight="0.7078777006614465" MiterLimit="2.831510802645786" RubyFontSize="-0.7078777006614465" KentenFontSize="-0.7078777006614465">
+				<Properties>
+					<AppliedFont type="string">Carlito</AppliedFont>
+				</Properties>
+				<Content>Cinnamon Rolls </Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PointSize="7.078777006614465" StrokeWeight="0.7078777006614465" MiterLimit="2.831510802645786" RubyFontSize="-0.7078777006614465" KentenFontSize="-0.7078777006614465">
+				<Properties>
+					<AppliedFont type="string">Carlito</AppliedFont>
+				</Properties>
+				<Content>18 oz.</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

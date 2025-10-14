@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="document" readerVersion="6.0" featureSet="257" product="8.1(419)"?>
+<Document xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" Self="d" DOMVersion="8.0">
+  <Properties>
+    <Label>
+      <KeyValuePair Key="kAdobeDPS_Version" Value="2"/>
+    </Label>
+  </Properties>
+  <Language Self="Language/$ID/English%3a UK" Name="$ID/English: UK" SingleQuotes="‘’" DoubleQuotes="“”" PrimaryLanguageName="$ID/English" SublanguageName="$ID/UK" Id="525" HyphenationVendor="Hunspell" SpellingVendor="Hunspell"/>
+  <idPkg:Graphic src="Resources/Graphic.xml"/>
+  <idPkg:Fonts src="Resources/Fonts.xml"/>
+  <idPkg:Styles src="Resources/Styles.xml"/>
+  <idPkg:Preferences src="Resources/Preferences.xml"/>
+  <idPkg:Tags src="XML/Tags.xml"/>
+  <idPkg:Spread src="Spreads/Spread_Spread5cac92d407f39.xml"/>
+  <idPkg:BackingStory src="XML/BackingStory.xml"/>
+  <idPkg:Story src="Stories/Story_Story5cac92d3f3f3b.xml"/>
+</Document>

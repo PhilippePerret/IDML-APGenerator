@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="8.0">
+  <Story Self="Story5cac92d3f3f3b" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+    <StoryPreference FrameType="TextFrameType" SelfId="Story5cac92d3f3f3b"/>
+    <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Body">
+      <Content>Hello World! We're happy to have you here! This document was created by </Content>
+      <Content>IDML-Creator</Content>
+      <Content>. Get more information about it under www.bitandblack.com </Content>
+    </ParagraphStyleRange>
+  </Story>
+</idPkg:Story>

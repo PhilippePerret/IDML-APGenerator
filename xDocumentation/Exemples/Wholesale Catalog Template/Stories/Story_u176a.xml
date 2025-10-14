@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="12.0">
+	<Story Self="u176a" ECAppliedRuleSetsData="" AppliedTOCStyle="n" UserText="true" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" HyphenationZone="44.01434730570121" RuleAboveLineWeight="1.2226207584917" RuleBelowLineWeight="1.2226207584917" SplitColumnInsideGutter="7.335724550950199">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="48.904830339667996" StrokeWeight="1.2226207584917" MiterLimit="4.8904830339668" RubyFontSize="-1.2226207584917" KentenFontSize="-1.2226207584917">
+				<Properties>
+					<AppliedFont type="string">Carlito</AppliedFont>
+				</Properties>
+				<Content>$4</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="48.904830339667996" Ligatures="false" StrokeWeight="1.2226207584917" Position="OTNumerator" OTFContextualAlternate="false" MiterLimit="4.8904830339668" RubyFontSize="-1.2226207584917" KentenFontSize="-1.2226207584917">
+				<Properties>
+					<AppliedFont type="string">Carlito</AppliedFont>
+				</Properties>
+				<Content>99</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

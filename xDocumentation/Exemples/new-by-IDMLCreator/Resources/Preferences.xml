@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Preferences xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="8.0">
+  <DocumentPreference PageHeight="841.8897637265" PageWidth="595.27559051368" DocumentBleedTopOffset="8.5039370073383" DocumentBleedBottomOffset="8.5039370073383" DocumentBleedOutsideOrRightOffset="8.5039370073383" DocumentBleedInsideOrLeftOffset="8.5039370073383" OverprintBlack="true" PageBinding="LeftToRight" FacingPages="false"/>
+</idPkg:Preferences>

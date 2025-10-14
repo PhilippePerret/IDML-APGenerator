@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Styles xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="8.0">
+  <RootParagraphStyleGroup Self="RootParagraphStyleGroup1">
+    <ParagraphStyle Self="ParagraphStyle/$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle" KeyboardShortcut="0 0" FillColor="Color/Black" HyphenateLadderLimit="3">
+      <Properties>
+        <TabList type="list"/>
+      </Properties>
+    </ParagraphStyle>
+    <ParagraphStyle Self="ParagraphStyle/Body" Name="Body" KeyboardShortcut="0 0" FillColor="Color/Black" FontStyle="Regular" PointSize="12" HyphenateLadderLimit="3">
+      <Properties>
+        <Leading type="unit">18</Leading>
+        <AppliedFont type="string">Arial</AppliedFont>
+        <TabList type="list"/>
+      </Properties>
+    </ParagraphStyle>
+  </RootParagraphStyleGroup>
+  <RootCellStyleGroup Self="RootCellStyleGroup1"/>
+  <RootTableStyleGroup Self="RootTableStyleGroup1"/>
+  <RootObjectStyleGroup Self="RootObjectStyleGroup1"/>
+</idPkg:Styles>

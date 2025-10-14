@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="12.0">
+	<Story Self="u1672" ECAppliedRuleSetsData="" AppliedTOCStyle="n" UserText="true" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" HyphenationZone="22.31137724550002" RuleAboveLineWeight="0.6197604790416672" RuleBelowLineWeight="0.6197604790416672" SplitColumnInsideGutter="3.7185628742500034">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/Paper" FontStyle="Bold" PointSize="27.889221556875025" StrokeWeight="0" MiterLimit="2.479041916166669" StrokeAlignment="CenterAlignment" RubyFontSize="-0.6197604790416672" KentenFontSize="-0.6197604790416672">
+				<Properties>
+					<AppliedFont type="string">Carlito</AppliedFont>
+				</Properties>
+				<Content>MEAT &amp; POULTRY</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

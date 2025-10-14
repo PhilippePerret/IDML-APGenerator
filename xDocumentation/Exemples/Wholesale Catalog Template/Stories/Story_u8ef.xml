@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="12.0">
+	<Story Self="u8ef" ECAppliedRuleSetsData="" AppliedTOCStyle="n" UserText="true" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" HyphenationZone="27.841240813538732" RuleAboveLineWeight="0.9001988938474151" RuleBelowLineWeight="0.9001988938474151" Justification="CenterAlign" SplitColumnInsideGutter="4.640206802256455">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/Paper" FontStyle="Italic" PointSize="22.68" HorizontalScale="85.91076990449655" StrokeWeight="0" MiterLimit="3.337507665155547" StrokeAlignment="CenterAlignment" RubyFontSize="-0.9001988938474151" RubyXScale="85.91076990449655" KentenFontSize="-0.9001988938474151" KentenXScale="85.91076990449655">
+				<Properties>
+					<AppliedFont type="string">Carlito</AppliedFont>
+				</Properties>
+				<Content>Quality &amp; Service at Affordable Prices!</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

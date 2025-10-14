@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="12.0">
+	<Story Self="u13d2" ECAppliedRuleSetsData="" AppliedTOCStyle="n" UserText="true" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" HyphenationZone="31.600570613398123" RuleAboveLineWeight="0.8777936281499479" RuleBelowLineWeight="0.8777936281499479" Justification="CenterAlign" SplitColumnInsideGutter="5.266761768899688">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FontStyle="Bold" PointSize="7" StrokeWeight="0.8777936281499479" FillTint="0" MiterLimit="3.5111745125997915" RubyFontSize="-0.8777936281499479" KentenFontSize="-0.8777936281499479">
+				<Properties>
+					<AppliedFont type="string">Ubuntu</AppliedFont>
+				</Properties>
+				<Content>PAGE 5</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>
